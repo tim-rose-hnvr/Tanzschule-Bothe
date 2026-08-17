@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tanzhaus Hannover – interaktives 3D-Modell</title>
+<meta name="description" content="Interaktives 3D-Modell des Tanzhauses Hannover (Tanzschule Bothe) – rekonstruiert aus den Grundriss-Renderings und Fotos.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d8392a'/%3E%3Cpath d='M8 22V13l8-4 8 4v9z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+
+<div id="app">
+  <canvas id="scene"></canvas>
+
+  <!-- ---------- Kopfzeile ---------- -->
+  <header id="topbar">
+    <button id="btn-menu" class="icon-btn" title="Menü" aria-label="Menü">☰</button>
+    <div class="brand">
+      <span class="brand-mark">BOTHE!</span>
+      <span class="brand-text">
+        <strong>Tanzhaus Hannover</strong>
+        <em>interaktives 3D-Modell</em>
+      </span>
+    </div>
+    <div class="spacer"></div>
+    <div class="level-switch" role="group" aria-label="Etage wählen">
+      <button data-level="all" class="active">Beide</button>
+      <button data-level="0">EG</button>
+      <button data-level="1">1. OG</button>
+    </div>
+    <button id="btn-help" class="icon-btn" title="Hilfe &amp; Quellen" aria-label="Hilfe">?</button>
+  </header>
+
+  <!-- ---------- Seitenleiste ---------- -->
+  <aside id="sidebar">
+    <div class="side-scroll">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Raum oder Highlight suchen…" autocomplete="off">
+      </div>
+      <nav id="room-list"></nav>
+      <div class="side-foot">
+        <button id="btn-sources" class="link-btn">Quellen &amp; Methodik</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ---------- Detailpanel ---------- -->
+  <section id="detail" aria-live="polite">
+    <button id="detail-close" class="icon-btn ghost" aria-label="Schließen">✕</button>
+    <div id="detail-body"></div>
+  </section>
+
+  <!-- ---------- Werkzeugleiste ---------- -->
+  <div id="toolbar">
+    <div class="tool-group" role="group" aria-label="Ansichtsmodus">
+      <button data-mode="orbit" class="active" title="Umkreisen (Maus ziehen)">Umkreisen</button>
+      <button data-mode="walk" title="Begehen (WASD + Maus)">Begehen</button>
+    </div>
+    <div class="tool-group">
+      <button data-toggle="roof" title="Dach ein-/ausblenden">Dach</button>
+      <button data-toggle="walls" title="Wände transparent schalten">Röntgen</button>
+      <button data-toggle="labels" class="active" title="Raumbeschriftungen">Namen</button>
+      <button data-toggle="pois" class="active" title="Highlight-Marker">Highlights</button>
+    </div>
+    <label class="slider" title="Etagen auseinanderziehen">
+      <span>Explosion</span>
+      <input id="explode" type="range" min="0" max="100" value="0">
+    </label>
+    <button id="btn-tour" class="accent" title="Geführte Tour starten">▶ Tour</button>
+  </div>
+
+  <!-- ---------- Tour-Steuerung ---------- -->
+  <div id="tourbar" hidden>
+    <button id="tour-prev" aria-label="Zurück">◀</button>
+    <div id="tour-info"><strong id="tour-title"></strong><span id="tour-step"></span></div>
+    <button id="tour-next" aria-label="Weiter">▶</button>
+    <button id="tour-stop" class="ghost" aria-label="Tour beenden">✕</button>
+  </div>
+
+  <!-- ---------- Overlays ---------- -->
+  <div id="labels"></div>
+  <div id="hint" class="hint">Ziehen zum Drehen · Scrollen zum Zoomen · Raum anklicken für Infos</div>
+  <div id="loader"><div class="spin"></div><span>Modell wird aufgebaut…</span></div>
+
+  <div id="lightbox" hidden>
+    <button id="lb-close" class="icon-btn ghost" aria-label="Schließen">✕</button>
+    <button id="lb-prev" class="lb-nav" aria-label="Vorheriges Bild">◀</button>
+    <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+    <button id="lb-next" class="lb-nav" aria-label="Nächstes Bild">▶</button>
+  </div>
+
+  <div id="modal" hidden>
+    <div class="modal-card">
+      <button id="modal-close" class="icon-btn ghost" aria-label="Schließen">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.min.js" } }
+</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
