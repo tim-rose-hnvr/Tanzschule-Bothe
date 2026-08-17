@@ -1,0 +1,256 @@
+
+/* Marktanalyse Tanzschulen Hannover — neutrales Beraterlayout.
+   Bewusst ohne Bothe-CI: Ein Dokument, das auch den Wettbewerb bewertet,
+   soll nicht aussehen, als käme es von einer der bewerteten Parteien.
+   Ein Akzent (Schieferblau), sonst Grauwerte und Typografie. */
+:root{
+  --grund:#F5F5F4; --flaeche:#fff; --flaeche2:#EFEFED;
+  --tinte:#191B1D; --tinte2:#3C4145; --gedaempft:#5E6367;
+  --linie:rgba(0,0,0,.13); --linie2:rgba(0,0,0,.07);
+  --akzent:#2A4A61; --akzent-hell:#E4EAEF; --akzent-text:#234156;
+  --ok:#2C6A4A; --ok-bg:#E4EFE7; --warn:#7E5A11; --warn-bg:#F6EEDA;
+  --bad:#9B2B33; --bad-bg:#F7E3E4;
+  --display:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+  --text:'Hanken Grotesk',system-ui,-apple-system,"Segoe UI",sans-serif;
+  --daten:'Bricolage Grotesque','Hanken Grotesk',system-ui,sans-serif;
+  --breit:1180px; --schmal:70ch;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --grund:#121315; --flaeche:#1A1C1F; --flaeche2:#212429;
+  --tinte:#EDEEEF; --tinte2:#C3C7CB; --gedaempft:#9BA1A6;
+  --linie:rgba(255,255,255,.15); --linie2:rgba(255,255,255,.08);
+  --akzent:#7FA8C4; --akzent-hell:#1D2A34; --akzent-text:#9DC2DB;
+  --ok:#7FC79C; --ok-bg:#17281D; --warn:#DCB35C; --warn-bg:#2A2312;
+  --bad:#E58A90; --bad-bg:#2C1719;
+}}
+:root[data-theme="dark"]{
+  --grund:#121315; --flaeche:#1A1C1F; --flaeche2:#212429;
+  --tinte:#EDEEEF; --tinte2:#C3C7CB; --gedaempft:#9BA1A6;
+  --linie:rgba(255,255,255,.15); --linie2:rgba(255,255,255,.08);
+  --akzent:#7FA8C4; --akzent-hell:#1D2A34; --akzent-text:#9DC2DB;
+  --ok:#7FC79C; --ok-bg:#17281D; --warn:#DCB35C; --warn-bg:#2A2312;
+  --bad:#E58A90; --bad-bg:#2C1719;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{font-family:var(--text);color:var(--tinte);background:var(--grund);
+  line-height:1.65;font-size:16.5px;-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;line-height:1.18}
+a{color:var(--akzent-text)}
+:focus-visible{outline:2.5px solid var(--akzent);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--akzent);color:#fff;
+  padding:11px 18px;z-index:100}
+.skip:focus{left:10px;top:10px}
+.wrap{max-width:var(--breit);margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+.klein{font-size:.86rem;color:var(--gedaempft)}
+.lead{font-size:1.06rem;color:var(--tinte2);max-width:var(--schmal)}
+p+p{margin-top:12px}
+
+/* Kopf */
+.kopf{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--grund) 94%,transparent);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--linie)}
+.kopfin{display:flex;align-items:center;gap:26px;min-height:64px;flex-wrap:wrap}
+.marke{text-decoration:none;color:var(--tinte);display:flex;flex-direction:column;
+  line-height:1.15;flex:none;padding:8px 0}
+.mtitel{font-family:var(--display);font-size:1.08rem}
+.muntertitel{font-family:var(--daten);font-size:.62rem;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--gedaempft)}
+.nav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+.nav a{font-family:var(--daten);font-weight:500;font-size:.79rem;color:var(--gedaempft);
+  text-decoration:none;padding:7px 11px;border-radius:3px}
+.nav a:hover{background:var(--flaeche2);color:var(--tinte)}
+.nav a[aria-current]{background:var(--akzent-hell);color:var(--akzent-text);font-weight:600}
+
+/* Titelbereich */
+.titel{padding:clamp(42px,5.5vw,74px) 0 clamp(26px,3vw,38px);
+  border-bottom:1px solid var(--linie)}
+.kicker{font-family:var(--daten);font-weight:600;font-size:.7rem;letter-spacing:.19em;
+  text-transform:uppercase;color:var(--akzent-text);margin-bottom:14px}
+.titel h1{font-size:clamp(1.9rem,4.4vw,3.05rem);max-width:20ch;letter-spacing:-.012em}
+.titel .lead{margin-top:16px}
+.kennzahlen{display:flex;flex-wrap:wrap;gap:0;margin-top:28px;padding-top:18px;
+  border-top:1px solid var(--linie)}
+.kennzahlen div{padding-right:28px;margin-right:28px;border-right:1px solid var(--linie);
+  margin-bottom:10px}
+.kennzahlen div:last-child{border:0;margin-right:0;padding-right:0}
+.kennzahlen dt{font-family:var(--daten);font-size:.66rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--gedaempft);order:2;margin-top:4px}
+.kennzahlen div{display:flex;flex-direction:column}
+.kennzahlen dd{font-family:var(--display);font-size:1.75rem;line-height:1;order:1;
+  font-variant-numeric:tabular-nums}
+
+.block{padding:clamp(34px,4.4vw,58px) 0}
+.ueber{font-size:1.45rem;margin:44px 0 10px}
+.ueber+.lead{margin-bottom:18px}
+.hinweis{margin-top:20px;padding:16px 20px;background:var(--flaeche);
+  border:1px solid var(--linie);border-left:3px solid var(--akzent);
+  max-width:var(--schmal);font-size:.97rem}
+.hinweis.stark{border-left-color:var(--bad);background:var(--bad-bg)}
+.text{max-width:var(--schmal)}
+.text h2{font-size:1.35rem;margin:30px 0 8px}
+.text h2:first-child{margin-top:0}
+
+/* Befundkasten */
+.befund{background:var(--flaeche);border:1px solid var(--linie);padding:clamp(22px,3vw,34px);
+  max-width:var(--schmal)}
+.befund h2{font-size:clamp(1.3rem,2.6vw,1.75rem);margin-bottom:14px}
+.befund p{color:var(--tinte2)}
+
+/* Kacheln */
+.kacheln{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));
+  margin-top:34px}
+.kachel{display:block;text-decoration:none;color:inherit;background:var(--flaeche);
+  border:1px solid var(--linie);padding:20px 22px;transition:border-color .18s,transform .18s}
+.kachel:hover{border-color:var(--akzent);transform:translateY(-2px)}
+.kachel.stark{border-left:3px solid var(--akzent)}
+.kn{font-family:var(--daten);font-size:.68rem;letter-spacing:.15em;color:var(--gedaempft)}
+.kachel h3{font-size:1.18rem;margin:7px 0 6px}
+.kachel p{font-size:.9rem;color:var(--gedaempft)}
+
+/* Tabellen */
+.scroll{overflow-x:auto;border:1px solid var(--linie);background:var(--flaeche);margin-top:6px}
+table{border-collapse:collapse;width:100%;font-size:.9rem;min-width:640px}
+th,td{text-align:left;padding:9px 13px;border-bottom:1px solid var(--linie2);vertical-align:top}
+thead th{font-family:var(--daten);font-weight:600;font-size:.65rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--gedaempft);background:var(--flaeche2);
+  border-bottom:1px solid var(--linie);white-space:nowrap;position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+tr.folge td{border-top:0}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap;font-family:var(--daten)}
+tr.us{background:var(--akzent-hell)}
+tr.us td{font-weight:600}
+.leer{color:var(--gedaempft);font-style:italic}
+.mini{display:block;height:7px;background:var(--akzent);opacity:.55;min-width:2px}
+
+.matrix td{text-align:center;padding:7px 5px}
+.matrix td.mname{text-align:left;font-family:var(--daten);font-weight:600;white-space:nowrap}
+.matrix td.mname a{color:inherit;text-decoration:none;border-bottom:1px solid var(--linie)}
+.matrix td.mname a:hover{color:var(--akzent-text);border-color:var(--akzent)}
+.matrix td.ja{color:var(--akzent);font-size:1.05rem}
+.matrix td.nein{color:var(--linie)}
+.matrix thead th{writing-mode:vertical-rl;transform:rotate(180deg);padding:11px 4px;
+  font-size:.6rem;height:120px;position:static}
+.matrix thead th:first-child,.matrix thead th:last-child{writing-mode:horizontal-tb;
+  transform:none;height:auto}
+
+.tag{display:inline-block;font-family:var(--daten);font-weight:600;font-size:.64rem;
+  letter-spacing:.07em;text-transform:uppercase;padding:3px 8px;border-radius:2px;
+  white-space:nowrap}
+.t-ok,.a-kann{background:var(--ok-bg);color:var(--ok)}
+.t-mid,.a-soll{background:var(--warn-bg);color:var(--warn)}
+.t-no,.a-muss{background:var(--bad-bg);color:var(--bad)}
+.q{font-family:var(--daten);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:2px 7px;border-radius:2px;font-weight:600;white-space:nowrap}
+.q-w{background:var(--ok-bg);color:var(--ok)}
+.q-s{background:var(--warn-bg);color:var(--warn)}
+
+/* Preisgrafik */
+.chart{background:var(--flaeche);border:1px solid var(--linie);padding:22px 20px;
+  display:flex;flex-direction:column;margin:0}
+.prow{display:grid;grid-template-columns:1fr;gap:4px 16px;padding:10px 0}
+.prow+.prow{border-top:1px solid var(--linie2)}
+@media(min-width:760px){.prow{grid-template-columns:186px 1fr 164px;align-items:center}}
+.pname{font-family:var(--daten);font-weight:600;font-size:.92rem}
+.pname small{display:block;font-family:var(--text);font-weight:400;color:var(--gedaempft);
+  font-size:.78rem;margin-top:1px}
+.ptrack{display:flex;align-items:center;gap:10px;min-height:20px}
+.pbar{height:13px;background:color-mix(in srgb,var(--tinte) 24%,transparent);
+  border-radius:0 3px 3px 0;flex:none}
+.prow.ist-wir .pbar{background:var(--akzent)}
+.pval{font-family:var(--daten);font-weight:600;font-size:.89rem;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.prow.ist-wir .pval,.prow.ist-wir .pname{color:var(--akzent-text)}
+.pbind{font-size:.79rem;color:var(--gedaempft);font-family:var(--daten)}
+
+/* Suchbegriffe */
+.suchliste{display:flex;flex-direction:column;border-top:1px solid var(--tinte)}
+.such{display:grid;grid-template-columns:1fr;gap:8px 24px;padding:18px 0;
+  border-bottom:1px solid var(--linie)}
+@media(min-width:820px){.such{grid-template-columns:270px 1fr;align-items:start}}
+.such h3{font-size:1.1rem}
+.such-k .tag{margin-top:7px}
+.such-b p{font-size:.94rem}
+.such-b b{color:var(--akzent-text)}
+
+/* SWOT */
+.swotgrid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.swot{background:var(--flaeche);border:1px solid var(--linie);padding:22px 24px;
+  border-top:3px solid var(--akzent)}
+.swot.schwaeche{border-top-color:var(--bad)}
+.swot.chance{border-top-color:var(--ok)}
+.swot.risiko{border-top-color:var(--warn)}
+.swot h2{font-size:1.3rem;margin-bottom:16px}
+.swot ul{list-style:none;display:flex;flex-direction:column;gap:14px}
+.swot li{display:flex;flex-direction:column;gap:3px}
+.swot li b{font-family:var(--daten);font-weight:600;font-size:.94rem}
+.swot li span{color:var(--gedaempft);font-size:.9rem}
+
+/* Anforderungen */
+.anfliste{display:flex;flex-direction:column;border-top:1px solid var(--tinte)}
+.anf{display:grid;grid-template-columns:40px 1fr;gap:18px;padding:20px 0;
+  border-bottom:1px solid var(--linie)}
+.anr{font-family:var(--display);font-size:1.25rem;color:var(--gedaempft);
+  font-variant-numeric:tabular-nums}
+.anh{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
+.anh h3{font-size:1.15rem}
+.anf p{color:var(--tinte2);font-size:.96rem;max-width:var(--schmal)}
+.anfuss{margin-top:8px;font-size:.86rem;color:var(--gedaempft);
+  border-left:2px solid var(--linie);padding-left:11px}
+
+/* Portale */
+.portale{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(275px,1fr));
+  margin-top:8px}
+.portal{background:var(--flaeche);border:1px solid var(--linie);padding:18px 20px}
+.portal h3{font-size:1.05rem}
+.portal p{font-size:.9rem;color:var(--gedaempft);margin-top:6px}
+
+/* Anbieterkacheln */
+.akacheln{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.akachel{display:block;text-decoration:none;color:inherit;background:var(--flaeche);
+  border:1px solid var(--linie);padding:0 0 16px;overflow:hidden;
+  transition:border-color .18s,transform .18s}
+.akachel:hover{border-color:var(--akzent);transform:translateY(-2px)}
+.akachel.ist-wir{border-color:var(--akzent);border-width:2px}
+.astreif{display:block;height:5px;background:var(--c1)}
+.aseg{display:block;font-family:var(--daten);font-size:.64rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--gedaempft);padding:15px 20px 0}
+.akachel h3{font-size:1.1rem;padding:5px 20px 0}
+.adom{display:block;font-family:var(--daten);font-size:.79rem;color:var(--gedaempft);
+  padding:3px 20px 0}
+.amini{display:flex;gap:22px;padding:13px 20px 0;margin-top:11px;
+  border-top:1px solid var(--linie2)}
+.amini dt{font-family:var(--daten);font-size:.62rem;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--gedaempft)}
+.amini dd{font-family:var(--daten);font-weight:600;font-size:.94rem;
+  font-variant-numeric:tabular-nums;margin-top:1px}
+
+/* Anbieterprofil */
+.aprofil{border-bottom:3px solid var(--c1)}
+.adomgross{font-family:var(--daten);font-size:.95rem;color:var(--gedaempft);margin-top:6px}
+.farbleiste{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:20px}
+.sw{font-family:var(--daten);font-size:.66rem;font-weight:600;padding:4px 10px;
+  border-radius:2px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6);letter-spacing:.04em}
+.zweispalt{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.zweispalt h2{font-size:1.15rem;margin-bottom:7px}
+.zweispalt p{color:var(--tinte2);font-size:.96rem}
+.stilliste{display:flex;flex-wrap:wrap;gap:7px}
+.st{font-family:var(--daten);font-size:.8rem;font-weight:600;padding:5px 11px;
+  border:1px solid var(--linie);border-radius:2px;display:inline-flex;gap:7px;
+  align-items:baseline}
+.st small{font-weight:400;color:var(--gedaempft);font-size:.72rem}
+.messwerte{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  background:var(--flaeche);border:1px solid var(--linie);padding:20px}
+.messwerte dt{font-family:var(--daten);font-size:.63rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--gedaempft)}
+.messwerte dd{font-family:var(--daten);font-weight:600;font-size:1.05rem;
+  font-variant-numeric:tabular-nums;margin-top:2px}
+.zurueck{margin-top:34px;padding-top:18px;border-top:1px solid var(--linie)}
+
+/* Fuß */
+.fuss{border-top:1px solid var(--linie);padding:26px 0 54px;margin-top:34px;
+  color:var(--gedaempft);font-size:.85rem}
+.fuss p{max-width:78ch}
+.fuss p+p{margin-top:7px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}}
+@media print{.kopf,.nav{position:static}.kachel,.akachel{break-inside:avoid}}
