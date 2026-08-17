@@ -8,11 +8,12 @@ sind die Anforderungen an die neue Seite.
 """
 import html, pathlib, sys
 from collections import Counter
-sys.path.insert(0, "/tmp/claude-0/-home-user-Tanzschule-Bothe/76620a5d-636d-5dae-843e-8166f0dd9d56/scratchpad")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "analyse"))
 from markt_daten import ANBIETER, SICHTBARKEIT, PORTALE
 
-SP = pathlib.Path("/tmp/claude-0/-home-user-Tanzschule-Bothe/76620a5d-636d-5dae-843e-8166f0dd9d56/scratchpad")
-FONTS = (SP / "fonts-inline.css").read_text(encoding="utf-8")
+WURZEL = pathlib.Path(__file__).resolve().parent.parent
+SP = WURZEL / "quellen"
+FONTS = (SP / "fonts-marke.css").read_text(encoding="utf-8")
 E = lambda s: html.escape(str(s), quote=True)
 WIR = next(a for a in ANBIETER if a["wir"])
 

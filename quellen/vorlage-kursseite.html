@@ -1,0 +1,534 @@
+<title>Discofox Hannover</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Discofox lernen in Hannover — Grundkurs bis Fortgeschritten in drei Häusern. Erste Stunde kostenlos antanzen, danach eine Flatrate für alle Kurse deines Levels.">
+<style>/*FONTS*/</style>
+<style>
+:root{
+  --lime:#9BBE00; --red:#D8063A; --red-text:#CA0636;
+  --ink:#000; --gray:#67665f; --gray-soft:#D9D9D9; --line:rgba(0,0,0,.14);
+  --paper:#fff; --paper-warm:#EFECE3;
+  --grad-warm:linear-gradient(115deg,#FFE9A0 0%,#FFD9AE 46%,#F2EFD4 78%,#E7EDCF 100%);
+  --on-warm:#000; --warm-sub:rgba(0,0,0,.62);
+  --shadow-pop:0 18px 50px -18px rgba(0,0,0,.28);
+  --display:'Anton',Impact,'Arial Black',sans-serif;
+  --sub:'Bricolage Grotesque','Hanken Grotesk',system-ui,sans-serif;
+  --body:'Hanken Grotesk',system-ui,-apple-system,sans-serif;
+  --hand:'Caveat','Segoe Script',cursive;
+  --maxw:1200px;
+  --ease-out:cubic-bezier(.22,.9,.24,1);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --lime:#C9F73C; --red:#FF2E63; --red-text:#FF6B8E;
+    --ink:#F5F5F2; --gray:#9a9a97; --gray-soft:#1C1C1F; --line:rgba(255,255,255,.16);
+    --paper:#0A0A0B; --paper-warm:#0E0E10;
+    --grad-warm:linear-gradient(115deg,#241F14 0%,#2A1E18 46%,#1B1F16 78%,#12140F 100%);
+    --on-warm:#F5F5F2; --warm-sub:rgba(245,245,242,.66);
+    --shadow-pop:0 18px 50px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --lime:#C9F73C; --red:#FF2E63; --red-text:#FF6B8E;
+  --ink:#F5F5F2; --gray:#9a9a97; --gray-soft:#1C1C1F; --line:rgba(255,255,255,.16);
+  --paper:#0A0A0B; --paper-warm:#0E0E10;
+  --grad-warm:linear-gradient(115deg,#241F14 0%,#2A1E18 46%,#1B1F16 78%,#12140F 100%);
+  --on-warm:#F5F5F2; --warm-sub:rgba(245,245,242,.66);
+  --shadow-pop:0 18px 50px -18px rgba(0,0,0,.8);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-weight:400}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+.sec{padding:clamp(58px,7vw,92px) 0}
+.sec.warmbg{background:var(--paper-warm)}
+
+/* ---------- Bausteine aus dem CI ---------- */
+.kicker{display:inline-flex;align-items:center;gap:12px;font-family:var(--sub);font-weight:600;
+  font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gray);margin-bottom:18px}
+.kicker::before{content:'';width:34px;height:10px;background:var(--lime);flex:none}
+.kicker.r::before{background:var(--red)}
+.h-display{font-family:var(--display);text-transform:uppercase;line-height:.98;letter-spacing:.005em;
+  font-size:clamp(2rem,5vw,3.6rem)}
+.h-display em{font-style:normal;color:var(--red-text)}
+.lead{font-size:clamp(1.02rem,1.4vw,1.2rem);color:var(--gray);max-width:640px}
+.btn{font-family:var(--sub);font-weight:600;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:13px 24px;border-radius:999px;display:inline-flex;align-items:center;gap:9px;white-space:nowrap;
+  transition:transform .25s var(--ease-out),box-shadow .25s;cursor:pointer;border:2px solid transparent}
+.btn::after{content:'\2192';font-size:.9em;transition:transform .3s var(--ease-out)}
+.btn:hover{transform:translateY(-2px)}
+.btn:hover::after{transform:translateX(4px)}
+.btn:active{transform:translateY(-1px) scale(.96);transition-duration:.12s}
+.btn-red{background:var(--red);color:#fff;box-shadow:0 10px 26px -10px rgba(216,6,58,.6)}
+.btn-line{border-color:var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{font-family:var(--sub);font-weight:600;font-size:.82rem;letter-spacing:.05em;
+  border:2px solid var(--ink);border-radius:999px;padding:8px 17px;transition:background .25s,color .25s,transform .2s}
+.chip:hover{transform:translateY(-2px);background:var(--ink);color:var(--paper)}
+
+/* ---------- Header ---------- */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:26px;height:72px}
+.logo{font-family:var(--display);font-size:1.5rem;text-transform:uppercase;letter-spacing:.04em;
+  display:flex;align-items:center;gap:9px}
+.logo i{width:11px;height:26px;background:var(--lime);display:block;flex:none}
+.logo i+i{background:var(--red);margin-left:-6px}
+.hd-nav{display:none;gap:26px;margin-left:auto;font-family:var(--sub);font-weight:600;
+  font-size:.84rem;letter-spacing:.06em;text-transform:uppercase}
+.hd-nav a{padding:6px 0;border-bottom:2px solid transparent;transition:border-color .2s,color .2s}
+.hd-nav a:hover,.hd-nav a[aria-current]{border-color:var(--red);color:var(--red-text)}
+.hd .btn{margin-left:auto;padding:10px 19px}
+@media(min-width:960px){.hd-nav{display:flex}.hd .btn{margin-left:0}}
+
+/* ---------- Hero ---------- */
+.hero{background:var(--grad-warm);padding:clamp(52px,8vw,84px) 0 clamp(46px,6vw,70px);position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;right:-90px;top:-90px;width:340px;height:340px;border-radius:50%;
+  border:2px solid var(--red);opacity:.16;pointer-events:none}
+.hero .wrap{position:relative;z-index:2}
+.brd{font-family:var(--sub);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--warm-sub);margin-bottom:26px;display:flex;gap:9px;flex-wrap:wrap}
+.brd span:not(:last-child)::after{content:'/';margin-left:9px;opacity:.5}
+.brd a:hover{color:var(--red-text)}
+.hero h1{font-family:var(--display);text-transform:uppercase;line-height:.96;letter-spacing:.005em;
+  font-size:clamp(2.6rem,8vw,5.6rem);color:var(--on-warm);max-width:15ch}
+.hero h1 em{font-style:normal;color:var(--red)}
+.hero .lead{color:var(--warm-sub);margin-top:24px;font-size:clamp(1.05rem,1.6vw,1.3rem)}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.hero .btn-line{border-color:var(--on-warm);color:var(--on-warm)}
+.hero .btn-line:hover{background:var(--on-warm);color:var(--paper)}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin-top:44px;border-top:1px solid color-mix(in srgb,var(--on-warm) 22%,transparent);padding-top:20px}
+.facts div{padding-right:30px;margin-right:30px;border-right:1px solid color-mix(in srgb,var(--on-warm) 22%,transparent)}
+.facts div:last-child{border:0;margin:0;padding:0}
+.facts b{font-family:var(--display);font-size:1.9rem;display:block;line-height:1;color:var(--on-warm)}
+.facts span{font-family:var(--sub);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--warm-sub)}
+
+/* ---------- Raster ---------- */
+.grid{display:grid;gap:clamp(18px,2.4vw,26px)}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(255px,1fr))}
+.sechead{max-width:720px;margin-bottom:clamp(32px,4vw,48px)}
+.sechead .lead{margin-top:16px}
+
+/* ---------- Karten ---------- */
+.card{border:1.5px solid var(--line);background:var(--paper);padding:28px 26px;
+  display:flex;flex-direction:column;gap:11px;transition:transform .3s var(--ease-out),box-shadow .3s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-pop)}
+.card h3{font-family:var(--display);text-transform:uppercase;font-size:1.32rem;line-height:1.05}
+.card p{color:var(--gray);font-size:.97rem}
+.card .no{font-family:var(--display);font-size:2.4rem;line-height:1;color:var(--lime);
+  -webkit-text-stroke:1px var(--ink)}
+
+/* ---------- Kursliste ---------- */
+.kurse{display:flex;flex-direction:column;gap:0;border-top:1.5px solid var(--ink)}
+.kurs{display:grid;grid-template-columns:1fr;gap:6px 22px;padding:24px 0;border-bottom:1.5px solid var(--line);
+  align-items:center;transition:background .25s}
+.kurs:hover{background:color-mix(in srgb,var(--lime) 9%,transparent)}
+@media(min-width:820px){.kurs{grid-template-columns:2.1fr 1.5fr 1fr auto}}
+.kurs .kn{font-family:var(--display);text-transform:uppercase;font-size:1.28rem;line-height:1.06}
+.kurs .kn small{display:block;font-family:var(--body);text-transform:none;font-size:.9rem;
+  color:var(--gray);letter-spacing:0;margin-top:3px}
+.kurs .kt,.kurs .kp{font-family:var(--sub);font-weight:500;font-size:.94rem;color:var(--gray);
+  font-variant-numeric:tabular-nums}
+.kurs .kp b{font-family:var(--display);font-size:1.28rem;color:var(--ink);display:block;line-height:1.1}
+.kurs .btn{padding:10px 19px;justify-self:start}
+.lvl{font-family:var(--sub);font-weight:600;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  padding:3px 9px;border-radius:3px;background:var(--lime);color:#000;display:inline-block;margin-bottom:8px}
+.lvl.a{background:var(--red);color:#fff}
+.lvl.b{background:var(--ink);color:var(--paper)}
+
+/* ---------- Flatrate ---------- */
+.flat{background:var(--ink);color:var(--paper);padding:clamp(34px,4.6vw,54px);
+  display:grid;gap:32px;grid-template-columns:1fr}
+@media(min-width:820px){.flat{grid-template-columns:1fr 1fr;align-items:center}}
+.flat h2{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.9rem,4.4vw,3.1rem);line-height:.99}
+.flat h2 em{font-style:normal;color:var(--lime)}
+.flat .prc{font-family:var(--display);font-size:clamp(3.2rem,8vw,5rem);line-height:1;color:var(--lime)}
+.flat .prc small{font-family:var(--body);font-size:.9rem;color:color-mix(in srgb,var(--paper) 66%,transparent);
+  display:block;letter-spacing:.05em;margin-top:6px}
+.flat ul{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:22px}
+.flat li{display:flex;gap:12px;align-items:flex-start;color:color-mix(in srgb,var(--paper) 82%,transparent);font-size:1rem}
+.flat li::before{content:'';width:9px;height:9px;background:var(--lime);flex:none;margin-top:9px}
+
+/* ---------- Standorte ---------- */
+.loc{border:1.5px solid var(--line);padding:26px 24px;display:flex;flex-direction:column;gap:9px;background:var(--paper)}
+.loc h3{font-family:var(--display);text-transform:uppercase;font-size:1.2rem}
+.loc address{font-style:normal;color:var(--gray);font-size:.95rem;line-height:1.55}
+.loc .lk{font-family:var(--sub);font-weight:600;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--red-text);margin-top:auto;padding-top:12px;display:inline-flex;gap:7px}
+.loc .lk:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ---------- Stimme ---------- */
+.quote{max-width:760px}
+.quote p{font-family:var(--hand);font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.28;color:var(--ink)}
+.quote cite{font-style:normal;font-family:var(--sub);font-weight:600;font-size:.82rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--gray);margin-top:18px;display:block}
+.stars{color:var(--red);letter-spacing:.14em;font-size:1.1rem;margin-bottom:14px}
+
+/* ---------- FAQ ---------- */
+.faq{border-top:1.5px solid var(--ink);max-width:820px}
+details{border-bottom:1.5px solid var(--line)}
+summary{cursor:pointer;padding:20px 40px 20px 0;position:relative;list-style:none;
+  font-family:var(--sub);font-weight:600;font-size:1.03rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';position:absolute;right:6px;top:50%;transform:translateY(-50%);
+  font-family:var(--display);font-size:1.5rem;color:var(--red-text);transition:transform .3s var(--ease-out)}
+details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+details p{padding:0 0 22px;color:var(--gray);max-width:64ch}
+
+/* ---------- SEO-Text ---------- */
+.prose{max-width:68ch;display:flex;flex-direction:column;gap:16px}
+.prose p{color:var(--gray)}
+.prose strong{color:var(--ink);font-weight:600}
+
+/* ---------- Schluss-CTA ---------- */
+.endcta{background:var(--grad-warm);text-align:center;padding:clamp(58px,8vw,96px) 0}
+.endcta h2{font-family:var(--display);text-transform:uppercase;font-size:clamp(2.2rem,7vw,4.6rem);
+  line-height:.98;color:var(--on-warm)}
+.endcta h2 em{font-style:normal;color:var(--red)}
+.endcta .lead{margin:20px auto 32px;color:var(--warm-sub)}
+
+/* ---------- Footer ---------- */
+footer{background:var(--ink);color:color-mix(in srgb,var(--paper) 74%,transparent);padding:clamp(46px,5vw,64px) 0 30px}
+footer .logo{color:var(--paper);margin-bottom:16px}
+.fgrid{display:grid;gap:34px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+footer h4{font-family:var(--sub);font-weight:600;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--lime);margin-bottom:14px}
+footer ul{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:.95rem}
+footer a:hover{color:var(--paper);text-decoration:underline;text-underline-offset:3px}
+.fbot{border-top:1px solid rgba(255,255,255,.16);margin-top:38px;padding-top:22px;
+  display:flex;gap:18px;flex-wrap:wrap;font-size:.86rem;justify-content:space-between}
+
+/* ---------- Annotation ---------- */
+.note{background:#0A0A0B;color:#F5F5F2;padding:clamp(40px,5vw,64px) 0;border-top:6px solid #C9F73C}
+.note .kicker{color:#9a9a97}
+.note .kicker::before{background:#C9F73C}
+.note h2{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.6rem,3.6vw,2.4rem);
+  line-height:1.02;color:#F5F5F2;max-width:22ch}
+.note .lead{color:#9a9a97;margin-top:14px}
+.ntab{width:100%;border-collapse:collapse;margin-top:30px;font-size:.93rem;min-width:560px}
+.ntab th,.ntab td{text-align:left;padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.14);vertical-align:top}
+.ntab thead th{font-family:var(--sub);font-weight:600;font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;
+  color:#9a9a97;border-bottom:1px solid rgba(255,255,255,.3)}
+.ntab td:first-child{color:#F5F5F2}
+.old{color:#FF6B8E;font-family:var(--sub)}
+.new{color:#C9F73C;font-family:var(--sub)}
+.scroller{overflow-x:auto}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+
+<header>
+  <div class="wrap hd">
+    <a class="logo" href="#"><i></i><i></i>Bothe</a>
+    <nav class="hd-nav">
+      <a href="#kurse" aria-current="page">Kurse</a>
+      <a href="#flatrate">Preise</a>
+      <a href="#standorte">Standorte</a>
+      <a href="#faq">Fragen</a>
+    </nav>
+    <a class="btn btn-red" href="#kurse">Kostenlos antanzen</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="brd">
+      <span><a href="#">Start</a></span><span><a href="#">Kurse</a></span>
+      <span><a href="#">Paartanz</a></span><span>Discofox</span>
+    </div>
+    <h1>Discofox.<br>Der Tanz, den du <em>überall</em> brauchst.</h1>
+    <p class="lead">Hochzeit, Betriebsfeier, Schützenfest — Discofox läuft zu fast jedem Lied im Radio. In vier Abenden kannst du ihn. Danach tanzt du bei uns so oft du willst.</p>
+    <div class="hero-cta">
+      <a class="btn btn-red" href="#kurse">Kurse und Termine</a>
+      <a class="btn btn-line" href="#flatrate">Was kostet das?</a>
+    </div>
+    <div class="facts">
+      <div><b>4</b><span>Abende Grundkurs</span></div>
+      <div><b>3</b><span>Häuser in Hannover</span></div>
+      <div><b>61 €</b><span>Flatrate pro Monat</span></div>
+      <div><b>1954</b><span>Seit drei Generationen</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="warum">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="kicker">Warum Discofox zuerst</div>
+      <h2 class="h-display">Ein Tanz, <em>der immer passt</em></h2>
+      <p class="lead">Wer nur einen Paartanz lernt, sollte diesen lernen. Discofox ist der einzige, den du auf jeder Feier zu fast jedem Lied tanzen kannst.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card">
+        <span class="no">01</span>
+        <h3>Schnell gelernt</h3>
+        <p>Der Grundschritt sitzt am ersten Abend. Nach vier Terminen tanzt ihr sicher durch einen ganzen Abend — ohne mitzuzählen.</p>
+      </div>
+      <div class="card">
+        <span class="no">02</span>
+        <h3>Passt auf jedes Lied</h3>
+        <p>Von Helene Fischer bis Dua Lipa: Discofox läuft im ganzen mittleren Tempobereich. Genau das, was auf Feiern gespielt wird.</p>
+      </div>
+      <div class="card">
+        <span class="no">03</span>
+        <h3>Auch ohne Partner</h3>
+        <p>Wir rotieren in der Gruppe, damit alle mit allen tanzen. Wer allein kommt, steht bei uns nicht am Rand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec warmbg" id="kurse">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="kicker r">Termine ab September 2026</div>
+      <h2 class="h-display">Discofox-Kurse <em>in Hannover</em></h2>
+      <p class="lead">Alle Kurse laufen wöchentlich, 60 Minuten. Die erste Stunde ist kostenlos — du entscheidest danach.</p>
+    </div>
+    <div class="kurse">
+      <div class="kurs">
+        <div class="kn"><span class="lvl">Grundkurs</span><br>Discofox 1<small>Kein Vorwissen nötig, Paare und Einzelpersonen</small></div>
+        <div class="kt">Mittwoch, 19:30 Uhr<br>Tanzhaus Hannover</div>
+        <div class="kp"><b>4×</b>ab 09.09.2026</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+      <div class="kurs">
+        <div class="kn"><span class="lvl">Grundkurs</span><br>Discofox 1<small>Gleicher Inhalt, anderer Standort</small></div>
+        <div class="kt">Donnerstag, 20:00 Uhr<br>Tanzvilla Waldersee</div>
+        <div class="kp"><b>4×</b>ab 10.09.2026</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+      <div class="kurs">
+        <div class="kn"><span class="lvl a">Aufbau</span><br>Discofox 2<small>Drehungen, Wechsel, erste Figurenfolgen</small></div>
+        <div class="kt">Montag, 20:15 Uhr<br>Tanzhaus Hannover</div>
+        <div class="kp"><b>6×</b>ab 07.09.2026</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+      <div class="kurs">
+        <div class="kn"><span class="lvl a">Aufbau</span><br>Discofox 2<small>Drehungen, Wechsel, erste Figurenfolgen</small></div>
+        <div class="kt">Dienstag, 19:00 Uhr<br>Tanzhaus Burgwedel</div>
+        <div class="kp"><b>6×</b>ab 08.09.2026</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+      <div class="kurs">
+        <div class="kn"><span class="lvl b">Fortgeschritten</span><br>Discofox Club<small>Laufender Kurs, Einstieg jederzeit möglich</small></div>
+        <div class="kt">Freitag, 20:30 Uhr<br>Tanzhaus Hannover</div>
+        <div class="kp"><b>∞</b>jede Woche</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+      <div class="kurs">
+        <div class="kn"><span class="lvl b">Kompakt</span><br>Hochzeits-Express<small>Discofox, Langsamer Walzer und Foxtrott an einem Wochenende</small></div>
+        <div class="kt">Sa + So, 11:00 Uhr<br>Tanzvilla Waldersee</div>
+        <div class="kp"><b>2×</b>monatlich</div>
+        <a class="btn btn-red" href="#">Antanzen</a>
+      </div>
+    </div>
+    <div class="chips" style="margin-top:32px">
+      <a class="chip" href="#">Auch beliebt: Langsamer Walzer</a>
+      <a class="chip" href="#">Salsa</a>
+      <a class="chip" href="#">West Coast Swing</a>
+      <a class="chip" href="#">Standard &amp; Latein</a>
+      <a class="chip" href="#">Privatstunden</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="flatrate">
+  <div class="wrap">
+    <div class="flat">
+      <div>
+        <h2>Tanz, so oft <em>du willst</em></h2>
+        <p style="margin-top:18px;color:color-mix(in srgb,#fff 78%,transparent)" class="dark-lead">Bei uns zahlst du nicht pro Kurs, sondern einen Beitrag. Damit stehen dir alle Stunden deines Levels offen — in allen drei Häusern, sieben Tage die Woche.</p>
+        <ul>
+          <li>Alle Kurse deines Levels inklusive</li>
+          <li>Drei Standorte, über 220 Angebote pro Woche</li>
+          <li>Zugang zum Videoportal für zu Hause</li>
+          <li>Monatlich kündbar, keine Kursgebühr obendrauf</li>
+        </ul>
+      </div>
+      <div>
+        <div class="prc">61 €<small>pro Person und Monat</small></div>
+        <a class="btn btn-red" href="#" style="margin-top:26px">Alle Preise ansehen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec warmbg" id="ablauf">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="kicker">So läuft der Einstieg</div>
+      <h2 class="h-display">Drei Schritte, <em>kein Risiko</em></h2>
+    </div>
+    <div class="grid g3">
+      <div class="card"><span class="no">01</span><h3>Kurs finden</h3><p>Termin aussuchen, kurz anmelden. Wir bestätigen dir den Platz per Mail.</p></div>
+      <div class="card"><span class="no">02</span><h3>Einfach antanzen</h3><p>Die erste Stunde kostet nichts. Komm in bequemen Schuhen, alles andere bringen wir mit.</p></div>
+      <div class="card"><span class="no">03</span><h3>In Ruhe entscheiden</h3><p>Hat es dir gefallen, buchst du danach. Wenn nicht, war es ein netter Abend.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="standorte">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="kicker r">Drei Häuser</div>
+      <h2 class="h-display">Wo du <em>Discofox</em> lernst</h2>
+      <p class="lead">Alle drei Standorte haben eigene Parkplätze direkt vor der Tür.</p>
+    </div>
+    <div class="grid g3">
+      <div class="loc">
+        <h3>Tanzhaus Hannover</h3>
+        <address>Podbielskistraße 299B<br>30655 Hannover</address>
+        <p style="color:var(--gray);font-size:.93rem">Unser größtes Haus, 1.800 m². Grundkurs, Aufbau und Discofox Club.</p>
+        <a class="lk" href="#">Route ansehen →</a>
+      </div>
+      <div class="loc">
+        <h3>Tanzvilla Waldersee</h3>
+        <address>Walderseestraße 20<br>30177 Hannover</address>
+        <p style="color:var(--gray);font-size:.93rem">Zentral in der List. Grundkurs und Hochzeits-Express am Wochenende.</p>
+        <a class="lk" href="#">Route ansehen →</a>
+      </div>
+      <div class="loc">
+        <h3>Tanzhaus Burgwedel</h3>
+        <address>Kokenhorststraße 15<br>30938 Burgwedel</address>
+        <p style="color:var(--gray);font-size:.93rem">Für alle nördlich von Hannover. Aufbaukurs am Dienstagabend.</p>
+        <a class="lk" href="#">Route ansehen →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec warmbg">
+  <div class="wrap quote">
+    <div class="stars" aria-label="4,4 von 5 Sternen">★★★★★</div>
+    <p>„Nach dem dritten Abend haben wir auf der Hochzeit meiner Schwester einfach getanzt. Ohne nachzudenken."</p>
+    <cite>4,4 Sterne aus über 300 Google-Bewertungen</cite>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="sechead">
+      <div class="kicker">Häufige Fragen</div>
+      <h2 class="h-display">Noch <em>Fragen?</em></h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>Brauche ich einen Tanzpartner?</summary>
+        <p>Nein. In unseren Discofox-Kursen wird rotiert, dadurch tanzt jede und jeder mit wechselnden Partnern. Wer als Paar kommt, kann selbstverständlich zusammenbleiben.</p>
+      </details>
+      <details>
+        <summary>Wie lange dauert es, bis ich Discofox kann?</summary>
+        <p>Der Grundschritt sitzt meist am ersten Abend. Nach den vier Terminen des Grundkurses tanzt ihr sicher durch einen kompletten Abend. Für Drehungen und Figurenfolgen geht es im Aufbaukurs weiter.</p>
+      </details>
+      <details>
+        <summary>Was kostet ein Discofox-Kurs bei Bothe?</summary>
+        <p>Wir rechnen nicht pro Kurs ab. Für 61 € pro Person und Monat stehen dir alle Kurse deines Levels in allen drei Häusern offen — auch mehrere pro Woche. Die erste Stunde ist immer kostenlos.</p>
+      </details>
+      <details>
+        <summary>Welche Schuhe soll ich mitbringen?</summary>
+        <p>Für die erste Stunde reichen saubere Schuhe mit glatter Sohle, die du nicht draußen getragen hast. Tanzschuhe brauchst du erst, wenn du dabeibleiben möchtest — wir beraten dich dann in Ruhe.</p>
+      </details>
+      <details>
+        <summary>Kann ich mitten im Kurs einsteigen?</summary>
+        <p>Beim Grundkurs empfehlen wir den Start zum ersten Termin. Der Discofox Club läuft dagegen fortlaufend — dort kannst du jede Woche neu dazukommen.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="sec warmbg">
+  <div class="wrap prose">
+    <div class="kicker">Discofox lernen in Hannover</div>
+    <p><strong>Discofox</strong> ist der meistgetanzte Paartanz Deutschlands — und der einzige, mit dem du auf praktisch jeder Feier zurechtkommst. In den <strong>Tanzschulen Familie Bothe</strong> unterrichten wir ihn seit Jahrzehnten an drei Standorten in Hannover und Burgwedel.</p>
+    <p>Im <strong>Grundkurs</strong> lernst du den Grundschritt, die Führung und den ersten Damensolo-Wechsel — vier Abende, ohne Vorkenntnisse. Der <strong>Aufbaukurs</strong> ergänzt Drehungen, Handwechsel und die ersten längeren Figurenfolgen. Wer regelmäßig tanzen möchte, kommt in den <strong>Discofox Club</strong>, der wöchentlich fortlaufend läuft.</p>
+    <p>Für Brautpaare gibt es den <strong>Hochzeits-Express</strong>: An einem Wochenende üben wir Discofox, Langsamen Walzer und Foxtrott — genug für den Eröffnungstanz und den Rest des Abends. Wer es persönlicher möchte, bucht <strong>Privatstunden</strong> nach Terminabsprache.</p>
+    <p>Alle Discofox-Kurse laufen im Rahmen unserer Flatrate: ein Beitrag, alle Stunden deines Levels, drei Häuser. Die erste Stunde ist kostenlos — du kannst also in Ruhe ausprobieren, ob Tanzen etwas für dich ist.</p>
+  </div>
+</section>
+
+<section class="endcta">
+  <div class="wrap">
+    <h2>Worauf <em>wartest</em> du?</h2>
+    <p class="lead">Nächster Grundkurs startet am 9. September. Die erste Stunde kostet nichts.</p>
+    <a class="btn btn-red" href="#kurse">Jetzt Platz sichern</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="#"><i></i><i></i>Bothe</a>
+    <p style="max-width:34ch;margin-bottom:32px">Tanzschulen Familie Bothe — seit 1954 in dritter Generation in Hannover.</p>
+    <div class="fgrid">
+      <div><h4>Kurse</h4><ul>
+        <li><a href="#">Discofox</a></li><li><a href="#">Langsamer Walzer</a></li>
+        <li><a href="#">Salsa</a></li><li><a href="#">Standard &amp; Latein</a></li>
+        <li><a href="#">Kindertanz</a></li></ul></div>
+      <div><h4>Häuser</h4><ul>
+        <li><a href="#">Tanzhaus Hannover</a></li><li><a href="#">Tanzvilla Waldersee</a></li>
+        <li><a href="#">Tanzhaus Burgwedel</a></li></ul></div>
+      <div><h4>Service</h4><ul>
+        <li><a href="#">Kursfinder</a></li><li><a href="#">Preise</a></li>
+        <li><a href="#">Gutscheine</a></li><li><a href="#">Tanzpartnerbörse</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul>
+        <li><a href="#">+49 511 66 37 66</a></li>
+        <li><a href="#">tanzen@tanzschulen-bothe.de</a></li></ul></div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 Tanzschulen Familie Bothe</span>
+      <span><a href="#">Impressum</a> · <a href="#">Datenschutz</a> · <a href="#">AGB</a></span>
+    </div>
+  </div>
+</footer>
+
+<section class="note">
+  <div class="wrap">
+    <div class="kicker">Demo-Notiz — nicht Teil der Seite</div>
+    <h2>Was diese Seite anders macht als /paartanz/</h2>
+    <p class="lead">Dieselbe Marke, dasselbe CI. Der Unterschied liegt in Struktur und Auszeichnung — genau Maßnahme 1, 2, 4, 7 und 8 aus der Analyse.</p>
+    <div class="scroller">
+      <table class="ntab">
+        <thead><tr><th>Signal</th><th>/paartanz/ heute</th><th>Diese Demo</th></tr></thead>
+        <tbody>
+          <tr><td>Seitentitel</td><td class="old">Tanzschule Familie Bothe – Paartanz Erwachsene</td><td class="new">Discofox Hannover — Suchbegriff zuerst</td></tr>
+          <tr><td>Meta-Description</td><td class="old">nicht vorhanden</td><td class="new">160 Zeichen, mit Ort und Angebot</td></tr>
+          <tr><td>H1-Überschriften</td><td class="old">9×</td><td class="new">1×, darunter saubere H2-Ebene</td></tr>
+          <tr><td>Thema der Seite</td><td class="old">alle Paartänze gesammelt</td><td class="new">ein Tanzstil, eine URL</td></tr>
+          <tr><td>Strukturierte Daten</td><td class="old">keine</td><td class="new">Course, FAQPage, DanceSchool, Breadcrumb</td></tr>
+          <tr><td>Preis</td><td class="old">nirgends genannt</td><td class="new">61 € sichtbar, als Flatrate erklärt</td></tr>
+          <tr><td>Termine</td><td class="old">als Fließtext</td><td class="new">Liste mit Ort, Zeit, Startdatum, Level</td></tr>
+          <tr><td>Open Graph</td><td class="old">keine</td><td class="new">Titel, Beschreibung, Typ gesetzt</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="lead" style="margin-top:26px">Kurstermine und Preise sind Platzhalter zur Veranschaulichung. Farben, Schriften und Bausteine stammen 1:1 aus <span style="color:#C9F73C">assets/style.css</span> der Headless-Site.</p>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"DanceSchool","@id":"#schule","name":"Tanzschulen Familie Bothe","foundingDate":"1954",
+ "telephone":"+49-511-663766","email":"tanzen@tanzschulen-bothe.de",
+ "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"300"},
+ "location":[
+  {"@type":"Place","name":"Tanzhaus Hannover","address":{"@type":"PostalAddress","streetAddress":"Podbielskistraße 299B","postalCode":"30655","addressLocality":"Hannover","addressCountry":"DE"}},
+  {"@type":"Place","name":"Tanzvilla Waldersee","address":{"@type":"PostalAddress","streetAddress":"Walderseestraße 20","postalCode":"30177","addressLocality":"Hannover","addressCountry":"DE"}},
+  {"@type":"Place","name":"Tanzhaus Burgwedel","address":{"@type":"PostalAddress","streetAddress":"Kokenhorststraße 15","postalCode":"30938","addressLocality":"Burgwedel","addressCountry":"DE"}}]},
+{"@type":"Course","name":"Discofox Grundkurs Hannover","provider":{"@id":"#schule"},
+ "description":"Discofox von Grund auf lernen — vier Abende, ohne Vorkenntnisse, Paare und Einzelpersonen.",
+ "offers":{"@type":"Offer","price":"61","priceCurrency":"EUR","category":"Monatsbeitrag Flatrate"},
+ "hasCourseInstance":{"@type":"CourseInstance","courseMode":"onsite","startDate":"2026-09-09","courseWorkload":"PT4H"}},
+{"@type":"BreadcrumbList","itemListElement":[
+ {"@type":"ListItem","position":1,"name":"Start"},
+ {"@type":"ListItem","position":2,"name":"Kurse"},
+ {"@type":"ListItem","position":3,"name":"Paartanz"},
+ {"@type":"ListItem","position":4,"name":"Discofox"}]},
+{"@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Brauche ich einen Tanzpartner?","acceptedAnswer":{"@type":"Answer","text":"Nein. In unseren Discofox-Kursen wird rotiert, dadurch tanzt jede und jeder mit wechselnden Partnern."}},
+ {"@type":"Question","name":"Wie lange dauert es, bis ich Discofox kann?","acceptedAnswer":{"@type":"Answer","text":"Der Grundschritt sitzt meist am ersten Abend. Nach vier Terminen tanzt ihr sicher durch einen kompletten Abend."}},
+ {"@type":"Question","name":"Was kostet ein Discofox-Kurs bei Bothe?","acceptedAnswer":{"@type":"Answer","text":"61 Euro pro Person und Monat für alle Kurse deines Levels in allen drei Häusern. Die erste Stunde ist kostenlos."}}]}]}
+</script>

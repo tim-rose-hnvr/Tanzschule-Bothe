@@ -251,6 +251,7 @@ tr.us td{font-weight:600}
   color:var(--gedaempft);font-size:.85rem}
 .fuss p{max-width:78ch}
 .fuss p+p{margin-top:7px}
+.herausgeber{color:var(--tinte2);font-weight:600}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}}
 @media print{.kopf,.nav{position:static}.kachel,.akachel{break-inside:avoid}}

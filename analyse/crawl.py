@@ -2,7 +2,8 @@
 """Vollerhebung Wettbewerb Hannover: Markenfarben, Kurse, Preise, SEO-Signale."""
 import re, json, colorsys, subprocess, concurrent.futures as cf, pathlib
 
-SP = pathlib.Path("/tmp/claude-0/-home-user-Tanzschule-Bothe/76620a5d-636d-5dae-843e-8166f0dd9d56/scratchpad")
+WURZEL = pathlib.Path(__file__).resolve().parent.parent
+SP = WURZEL / "quellen"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121 Safari/537.36"
 
 DOMAINS = {

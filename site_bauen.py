@@ -24,6 +24,13 @@ except ImportError:
     sys.exit("analyse/markt_daten.py fehlt — bitte das vollständige Repository verwenden.")
 
 ZIEL = HIER / "site"
+
+# Wer die Analyse herausgibt. Steht im Fuß jeder Seite. Trägt man hier nichts
+# ein, erscheint dort nur der Titel — das Dokument bleibt dann anonym.
+try:
+    HERAUSGEBER = json.loads((HIER / "herausgeber.json").read_text(encoding="utf-8"))
+except (OSError, ValueError):
+    HERAUSGEBER = {}
 E = lambda s: html.escape(str(s), quote=True)
 WIR = next(a for a in ANBIETER if a["wir"])
 STAND = "17. August 2026"
@@ -84,6 +91,7 @@ def seite(datei, titel, beschreibung, inhalt, tiefe=0):
   <div class="wrap">
     <p><b>Marktanalyse Tanzschulen Familie Bothe</b> · Erhebung {STAND} ·
     16 Anbieter im Raum Hannover</p>
+    {impressum()}
     <p>Alle technischen Werte aus einem eigenen Live-Abruf. Die Nachfrageprüfung ist
     eine Anwesenheitsprüfung, kein Positions-Tracking —
     <a href="{auf}methodik.html">Methodik und Grenzen</a>.</p>
@@ -95,6 +103,16 @@ def seite(datei, titel, beschreibung, inhalt, tiefe=0):
     p = ZIEL / datei
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(doc, encoding="utf-8")
+
+
+def impressum():
+    """Herausgeberzeile aus herausgeber.json — nur was gefüllt ist."""
+    teile = [HERAUSGEBER.get(k, "").strip()
+             for k in ("name", "zusatz", "kontakt", "web")]
+    teile = [E(t) for t in teile if t]
+    if not teile:
+        return ""
+    return '<p class="herausgeber">' + " · ".join(teile) + "</p>"
 
 
 def kopfzeile(kicker, titel, lead, kennzahlen=None):
@@ -518,6 +536,7 @@ tr.us td{font-weight:600}
   color:var(--gedaempft);font-size:.85rem}
 .fuss p{max-width:78ch}
 .fuss p+p{margin-top:7px}
+.herausgeber{color:var(--tinte2);font-weight:600}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}}
 @media print{.kopf,.nav{position:static}.kachel,.akachel{break-inside:avoid}}

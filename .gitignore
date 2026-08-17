@@ -1,0 +1,4 @@
+# Erzeugte Auslieferungspakete — entstehen mit `python3 uebergabe.py --zip`
+uebergabe/
+marktanalyse-hannover.zip
+__pycache__/

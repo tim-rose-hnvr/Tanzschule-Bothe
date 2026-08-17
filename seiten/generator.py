@@ -7,12 +7,13 @@ nur der Inhalt — Struktur, Farben und Schriften bleiben identisch.
 """
 import re, json, html, pathlib
 
-SP = pathlib.Path("/tmp/claude-0/-home-user-Tanzschule-Bothe/76620a5d-636d-5dae-843e-8166f0dd9d56/scratchpad")
+WURZEL = pathlib.Path(__file__).resolve().parent.parent
+SP = WURZEL / "quellen"
 
 # --- gemeinsames Gerüst aus der Discofox-Demo ziehen -----------------------
-demo = (SP / "discofox-body.html").read_text(encoding="utf-8")
+demo = (SP / "vorlage-kursseite.html").read_text(encoding="utf-8")
 SHARED_CSS = re.findall(r"<style>\n(:root\{.*?)</style>", demo, re.S)[0]
-FONTS = (SP / "fonts-inline.css").read_text(encoding="utf-8")
+FONTS = (SP / "fonts-marke.css").read_text(encoding="utf-8")
 
 STANDORTE = [
     ("Tanzhaus Hannover", "Podbielskistraße 299B", "30655 Hannover"),
