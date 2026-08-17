@@ -1,0 +1,124 @@
+{
+ "tanzschule-bothe.de": {
+  "farben": [
+   "#d39e00",
+   "#bd2130",
+   "#003388"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "bothe.de": {
+  "farben": [
+   "#005262",
+   "#ed3e47",
+   "#8cad2d"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "tanzschulemeiners.de": {
+  "farben": [
+   "#007cba",
+   "#20b038",
+   "#7a00df"
+  ],
+  "quelle": "CSS-Variable"
+ },
+ "tanzschule-feeling.de": {
+  "farben": [
+   "#00acad",
+   "#91bd09",
+   "#e62727"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "move-dance.de": {
+  "farben": [
+   "#782842",
+   "#f4a261",
+   "#319fc0"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "tanzschule-graeper.de": {
+  "farben": [
+   "#ff4040",
+   "#7fccf7",
+   "#0f2ccf"
+  ],
+  "quelle": "Komponente"
+ },
+ "jegella.de": {
+  "farben": [
+   "#961643",
+   "#f4a261",
+   "#319fc0"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "happyhours.de": {
+  "farben": [
+   "#007cba",
+   "#7f54b3",
+   "#ff6600"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "salsa-del-alma.de": {
+  "farben": [
+   "#446084",
+   "#f36e18",
+   "#b20000"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "u-dance.de": {
+  "farben": [],
+  "quelle": "nicht erreichbar"
+ },
+ "moveandstyle.de": {
+  "farben": [
+   "#ff8500",
+   "#9bc53d",
+   "#003388"
+  ],
+  "quelle": "Komponente"
+ },
+ "dafunk.dance": {
+  "farben": [
+   "#12c9e4",
+   "#f100ff",
+   "#2e7de0"
+  ],
+  "quelle": "theme-color"
+ },
+ "physicalpark.de": {
+  "farben": [
+   "#007cba",
+   "#d7b398",
+   "#f44236"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ },
+ "ttc-gelb-weiss.de": {
+  "farben": [
+   "#d97706",
+   "#004f9e"
+  ],
+  "quelle": "Grundzählung"
+ },
+ "tanzsport-phoenix.de": {
+  "farben": [
+   "#c4ebf1",
+   "#003399"
+  ],
+  "quelle": "Grundzählung"
+ },
+ "kressler.de": {
+  "farben": [
+   "#007cba",
+   "#398439",
+   "#d58512"
+  ],
+  "quelle": "CSS-Variable, Komponente"
+ }
+}

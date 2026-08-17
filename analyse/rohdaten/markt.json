@@ -1,0 +1,670 @@
+{
+ "tanzschule-bothe.de": {
+  "name": "Tanzschulen Familie Bothe",
+  "segment": "Tanzschule",
+  "ort": "Hannover ×3",
+  "erreichbar": true,
+  "basis": "https://www.tanzschule-bothe.de",
+  "titel": "Tanzschule Familie Bothe | Tanzen in Hannover",
+  "desc": "Hannover tanzt! Als DIE Tanz- und Trendspezialisten in Hannover konnten wir unsere Leistungsfähigkeit seit Jahrzehnten unter Beweis stellen. Unser Team besteht aus absoluten Profis. Sie können sich also voll auf uns verlassen - wir machen Sie fit bis in die Fußspitzen. An sieben Tagen in der Woche bieten wir die unterschiedlichsten Tanzprogramme für die ganze Familie an. Vom Kindertanz über HipHop bis zu Schüler- und Erwachsenenkursen stehen Ihnen allein etwa 220 Tanzangebote in Hannover und Burgwedel zur Verfügung - alle mit ausreichend Parkplätzen vor der Tür. Und das Wichtigste kommt zum Schluss: Sie allein entscheiden bei unserem flexiblen Kurssytem mit Flatrate, wann Sie kommen und wie oft Sie bei uns tanzen möchten. Erleben Sie es!",
+  "desc_len": 747,
+  "h1": 8,
+  "h2": 0,
+  "ld": 0,
+  "og": 0,
+  "webp": 0,
+  "kb": 327,
+  "farben": [
+   "#1863dc",
+   "#dd3333",
+   "#18ce0f"
+  ],
+  "ttfb": 0.9,
+  "geprueft": [
+   "/tanzen/paare"
+  ],
+  "kurse": [
+   "HipHop",
+   "Linedance",
+   "Modern"
+  ],
+  "preise": [],
+  "seiten": 391
+ },
+ "bothe.de": {
+  "name": "Tanzschule Susanne Bothe",
+  "segment": "Tanzschule",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.bothe.de",
+  "titel": "Tanzschule Susanne Bothe – Ihre Tanzschule in Hannover",
+  "desc": "WIR LIEBEN TANZEN! Seit 1993 bieten wir als Tanzschule in Hannover Platz zum tanzen und zum Spaß haben in angenehmen und geselligen Stunden an. → Tanz mit!",
+  "desc_len": 155,
+  "h1": 1,
+  "h2": 3,
+  "ld": 0,
+  "og": 6,
+  "webp": 0,
+  "kb": 93,
+  "farben": [
+   "#005262",
+   "#dc3545",
+   "#28a745"
+  ],
+  "ttfb": 1.96,
+  "geprueft": [
+   "/preise",
+   "/preise.html",
+   "/kurse",
+   "/tanzkurse",
+   "/kurse-und-preise",
+   "/preisliste",
+   "/anmeldung",
+   "/tanzkurse/preise",
+   "/de/tanzkurse-gruppen",
+   "/tanzen/paare"
+  ],
+  "kurse": [
+   "Hip-Hop",
+   "Latein",
+   "Privatstunde",
+   "Standard"
+  ],
+  "preise": [],
+  "seiten": 40
+ },
+ "tanzschulemeiners.de": {
+  "name": "ADTV Tanzschule Meiners",
+  "segment": "Tanzschule",
+  "ort": "Hannover Mitte",
+  "erreichbar": true,
+  "basis": "https://www.tanzschulemeiners.de",
+  "titel": "ADTV Tanzschule Meiners - DIE Tanzschule in Hannover",
+  "desc": "Erleben Sie Tanz in seiner schönsten Form – in der renommierten Tanzschule Meiners in Hannover, gegründet von Weltklassetänzerin Marianne Roscher. Ob für Paare oder Singles, ob Standard oder Latein: Bei uns erwartet Sie erstklassiger Unterricht und ein stilvolles Ambiente, das begeistert.",
+  "desc_len": 289,
+  "h1": 1,
+  "h2": 2,
+  "ld": 1,
+  "og": 6,
+  "webp": 0,
+  "kb": 129,
+  "farben": [
+   "#ff5e1f",
+   "#00d084",
+   "#0693e3"
+  ],
+  "ttfb": 2.32,
+  "geprueft": [
+   "/kurse",
+   "/index.php/kurse"
+  ],
+  "kurse": [
+   "Cha-Cha",
+   "Discofox",
+   "Foxtrott",
+   "Hochzeit",
+   "Jive",
+   "Latein",
+   "Medaillen",
+   "Privatstunde",
+   "Rumba",
+   "Salsa",
+   "Samba",
+   "Standard",
+   "Tango",
+   "Walzer",
+   "Wiener Walzer"
+  ],
+  "preise": [
+   {
+    "betrag": 70.0,
+    "kontext": "Monate 12 Monate Einmal pro Woche ⟨70 €⟩ 65 EUR 60 EUR Flat rate 90 EUR 85 EUR 80 EUR"
+   },
+   {
+    "betrag": 90.0,
+    "kontext": ") rund um die Uhr für Sie erreichbar! Preise Kurssystem 3 x 60 Minuten ⟨90 €⟩ 8 x 60 Minuten 160 EUR Clubsystem Laufzeit 4"
+   },
+   {
+    "betrag": 100.0,
+    "kontext": "nde 60 Minuten ⟨100 €⟩ Rufen Sie uns an unter 0511-14426! Wir berate"
+   }
+  ],
+  "seiten": 3
+ },
+ "tanzschule-feeling.de": {
+  "name": "Tanzschule Feeling",
+  "segment": "Tanzschule",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.tanzschule-feeling.de",
+  "titel": "Die Tanzschule Feeling aus Hannover",
+  "desc": "Tanzkurse für Singles &amp; Paare ✓ Anfänger bis Hobbytänzer ✓ laufend neue Kurse⭐ 16 Jahre Tanzschule Feeling in Hannover ⏩ schau vorbei",
+  "desc_len": 137,
+  "h1": 1,
+  "h2": 3,
+  "ld": 1,
+  "og": 13,
+  "webp": 6,
+  "kb": 186,
+  "farben": [
+   "#003388",
+   "#61a229",
+   "#cc3366"
+  ],
+  "ttfb": 1.81,
+  "geprueft": [],
+  "kurse": [
+   "Cha-Cha",
+   "Discofox",
+   "Hip Hop",
+   "Hochzeit",
+   "Jive",
+   "Kindertanz",
+   "Latein",
+   "Privatstunde",
+   "Rumba",
+   "Salsa",
+   "Samba",
+   "Standard",
+   "Tango",
+   "Walzer",
+   "Wiener Walzer"
+  ],
+  "preise": [],
+  "seiten": 0
+ },
+ "move-dance.de": {
+  "name": "Move & Dance",
+  "segment": "Tanzschule",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.move-dance.de",
+  "titel": "Tanzkurse in und um Hannover - Tanzschule Move &amp; Dance",
+  "desc": "ADTV Tanzschule Move &amp; Dance in Hannover. Tanzkurse für Erwachsene, Jugendliche und Kinder.",
+  "desc_len": 95,
+  "h1": 3,
+  "h2": 3,
+  "ld": 0,
+  "og": 0,
+  "webp": 0,
+  "kb": 40,
+  "farben": [
+   "#782842",
+   "#5cb85c",
+   "#f4a261"
+  ],
+  "ttfb": 0.72,
+  "geprueft": [
+   "/preise",
+   "/tanzkurse"
+  ],
+  "kurse": [
+   "Pilates",
+   "Tai Chi",
+   "Zumba"
+  ],
+  "preise": [],
+  "seiten": 1
+ },
+ "tanzschule-graeper.de": {
+  "name": "ADTV Tanzschule Bernd Gräper",
+  "segment": "Tanzschule",
+  "ort": "Langenhagen",
+  "erreichbar": true,
+  "basis": "https://www.tanzschule-graeper.de",
+  "titel": "ADTV Tanzschule Bernd Gräper",
+  "desc": "Tanzen lernen im CCL in Langenhagen. Bei uns sind alle Generationen willkommen - von Kindern bis Erwachsene im &quot;goldenen Alter&quot;. Schaut gern bei uns herein!",
+  "desc_len": 166,
+  "h1": 0,
+  "h2": 5,
+  "ld": 2,
+  "og": 5,
+  "webp": 30,
+  "kb": 509,
+  "farben": [
+   "#116dff",
+   "#ff4040",
+   "#0d4f3d"
+  ],
+  "ttfb": 0.56,
+  "geprueft": [],
+  "kurse": [],
+  "preise": [],
+  "seiten": 15
+ },
+ "jegella.de": {
+  "name": "Tanzschule Jegella",
+  "segment": "Tanzschule",
+  "ort": "Lehrte",
+  "erreichbar": true,
+  "basis": "https://www.jegella.de",
+  "titel": "jegella.de",
+  "desc": "Herzlich willkommen bei Ihrer ADTV Tanzschule Jegella. Tanzen ist der Luxus unserer Zeit!",
+  "desc_len": 89,
+  "h1": 6,
+  "h2": 13,
+  "ld": 0,
+  "og": 0,
+  "webp": 0,
+  "kb": 81,
+  "farben": [
+   "#961643",
+   "#d9534f",
+   "#5cb85c"
+  ],
+  "ttfb": 0.85,
+  "geprueft": [
+   "/tanzkurse"
+  ],
+  "kurse": [
+   "Hip-Hop",
+   "HipHop",
+   "Hochzeit",
+   "Kindertanz",
+   "Linedance",
+   "Privatstunde"
+  ],
+  "preise": [],
+  "seiten": 1
+ },
+ "happyhours.de": {
+  "name": "Happy Hours",
+  "segment": "Preisführer",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.happyhours.de",
+  "titel": "Happy Hours – Tanzschule und Events &#8211; Discofox, Tanzkurse, Linedance, Zumba, Salzinsel, Party",
+  "desc": "",
+  "desc_len": 0,
+  "h1": 0,
+  "h2": 9,
+  "ld": 0,
+  "og": 0,
+  "webp": 0,
+  "kb": 89,
+  "farben": [
+   "#ff6600",
+   "#003388",
+   "#7f54b3"
+  ],
+  "ttfb": 2.62,
+  "geprueft": [
+   "/index.php/kurse"
+  ],
+  "kurse": [
+   "Bachata",
+   "Discofox",
+   "Foxtrott",
+   "HipHop",
+   "Hochzeit",
+   "Jive",
+   "Latein",
+   "Linedance",
+   "Merengue",
+   "Modern",
+   "Rumba",
+   "Salsa",
+   "Samba",
+   "Standard",
+   "Streetdance",
+   "Tango",
+   "Walzer",
+   "Wiener Walzer",
+   "Yoga",
+   "Zumba"
+  ],
+  "preise": [],
+  "seiten": 98
+ },
+ "salsa-del-alma.de": {
+  "name": "Salsa del Alma",
+  "segment": "Spezialist",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.salsa-del-alma.de",
+  "titel": "Ihre Tanzschule Salsa del alma in Hannover",
+  "desc": "Komm vorbei und besuch uns in unserer Tanzschule Salsa del alma in Hannover. Wir freuen uns auf deinen Besuch!",
+  "desc_len": 110,
+  "h1": 5,
+  "h2": 1,
+  "ld": 2,
+  "og": 10,
+  "webp": 0,
+  "kb": 118,
+  "farben": [
+   "#446084",
+   "#f36e18",
+   "#b20000"
+  ],
+  "ttfb": 1.19,
+  "geprueft": [
+   "/anmeldung"
+  ],
+  "kurse": [
+   "Bachata",
+   "Hochzeit",
+   "Kizomba",
+   "Merengue",
+   "Salsa"
+  ],
+  "preise": [],
+  "seiten": 42
+ },
+ "u-dance.de": {
+  "name": "U-Dance",
+  "segment": "Spezialist",
+  "ort": "Hannover",
+  "erreichbar": false
+ },
+ "moveandstyle.de": {
+  "name": "Move & Style Dance Academy",
+  "segment": "Urban",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.moveandstyle.de",
+  "titel": "Move &amp; Style - Dance Academy - Die beste Tanzschule in Hannover",
+  "desc": "Du suchst die beste Tanzschule in Hannover? Du hast sie gefunden! 2 Tanzflächen, 600qm, 19 Trainer und 40 Kurse pro Woche. Let´s dance! Tel. 0511 – 33651032",
+  "desc_len": 156,
+  "h1": 5,
+  "h2": 0,
+  "ld": 1,
+  "og": 0,
+  "webp": 0,
+  "kb": 76,
+  "farben": [
+   "#003388",
+   "#f09433",
+   "#f74425"
+  ],
+  "ttfb": 2.62,
+  "geprueft": [],
+  "kurse": [
+   "Ballett",
+   "Breakdance",
+   "Burlesque",
+   "Contemporary",
+   "Dancehall",
+   "Hip Hop",
+   "Hochzeit",
+   "Jazz",
+   "Kindertanz",
+   "Modern",
+   "Pilates",
+   "Salsa",
+   "Twerk",
+   "Yoga",
+   "Zumba"
+  ],
+  "preise": [],
+  "seiten": 0
+ },
+ "dafunk.dance": {
+  "name": "Da Funk",
+  "segment": "Urban",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.dafunk.dance",
+  "titel": "Deine HipHop Streetdance Tanzschule - 30 x in Deutschland",
+  "desc": "DA F.U.N.K. – Hip-Hop & Streetdance Tanzschule. Online und 30 x in Deutschland. Jetzt Probestunde sichern.",
+  "desc_len": 106,
+  "h1": 1,
+  "h2": 5,
+  "ld": 1,
+  "og": 4,
+  "webp": 0,
+  "kb": 51,
+  "farben": [
+   "#f100ff",
+   "#12c9e4",
+   "#2e7de0"
+  ],
+  "ttfb": 0.71,
+  "geprueft": [
+   "/preise",
+   "/preise.html",
+   "/tanzkurse",
+   "/tanzkurse/preise"
+  ],
+  "kurse": [
+   "Breakdance",
+   "Dancehall",
+   "Hip Hop",
+   "Hip-Hop",
+   "HipHop",
+   "Jazz",
+   "Modern",
+   "Streetdance"
+  ],
+  "preise": [
+   {
+    "betrag": 9.0,
+    "kontext": "osten – finde das Abo, das zu dir passt, und tanz los. Probestunde für ⟨9 €⟩ sichern Abos ansehen Preise &amp; Abos Unsere"
+   },
+   {
+    "betrag": 29.0,
+    "kontext": "e Level willkommen Kurzer Einstieg – flexibel Einmalige Anmeldegebühr: ⟨29 €⟩ Abo direkt buchen ★ Beliebt Dance Class Pro €"
+   }
+  ],
+  "seiten": 0
+ },
+ "physicalpark.de": {
+  "name": "Physicalpark",
+  "segment": "Urban",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.physicalpark.de",
+  "titel": "Herzlich Willkommen im Physicalpark - dein Fitnessstudio Hannover-List",
+  "desc": "Der Physicalpark ist dein Fitnessstudio Hannover und steht für Sport &amp; Balance, Medical Fitness und Ambiente. Mit über 70 Mitarbeitern kümmern wir uns um Dein Wohl. Auf der Gerätefläche findest Du immer einen Ansprechpartner für dein Training in Deinem Gym Hannover. Mit über 30 Kursleitern bieten wir Dir ein hochwertiges Kursprogramm.",
+  "desc_len": 340,
+  "h1": 4,
+  "h2": 1,
+  "ld": 4,
+  "og": 6,
+  "webp": 0,
+  "kb": 241,
+  "farben": [
+   "#15779b",
+   "#00d084",
+   "#b9b7ff"
+  ],
+  "ttfb": 1.05,
+  "geprueft": [
+   "/preise",
+   "/tanzkurse/preise"
+  ],
+  "kurse": [
+   "Modern",
+   "Pilates",
+   "Yoga"
+  ],
+  "preise": [],
+  "seiten": 497
+ },
+ "ttc-gelb-weiss.de": {
+  "name": "TTC Gelb-Weiss",
+  "segment": "Verein",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.ttc-gelb-weiss.de",
+  "titel": "Tanzturnier Club Gelb-Weiss Hannover – Tanzsportverein seit 1961",
+  "desc": "TTC Gelb-Weiss Hannover – Tanzverein seit 1961. Tanzkurse für Anfänger &amp; Fortgeschrittene: Gesellschaftstanz, Discofox, West Coast Swing &amp; mehr!",
+  "desc_len": 152,
+  "h1": 1,
+  "h2": 7,
+  "ld": 1,
+  "og": 6,
+  "webp": 6,
+  "kb": 88,
+  "farben": [
+   "#d97706",
+   "#004f9e"
+  ],
+  "ttfb": 0.67,
+  "geprueft": [
+   "/tanzkurse",
+   "/anmeldung"
+  ],
+  "kurse": [
+   "Discofox",
+   "Latein",
+   "Modern",
+   "Standard",
+   "West Coast Swing"
+  ],
+  "preise": [
+   {
+    "betrag": 15.5,
+    "kontext": "in den Standard- und Lateintänzen gemeinsam mit deinem Tanzpartner. ab ⟨15,50 €⟩ /Monat Mehr erfahren Turniersport Turniertanz"
+   },
+   {
+    "betrag": 18.0,
+    "kontext": "Training für Standard und Latein, von Einsteigern bis zur S-Klasse. ab ⟨18 €⟩ /Monat Mehr erfahren Fortgeschritten bis Ambi"
+   },
+   {
+    "betrag": 40.0,
+    "kontext": "n wollen Der vielseitige Partytanz für jede Disco und jeden Anlass. ab ⟨40 €⟩ /Kurs Mehr erfahren Einsteiger bis Fortgeschr"
+   },
+   {
+    "betrag": 55.0,
+    "kontext": "e oder erweitere deine Kenntnisse gemeinsam mit deinem Tanzpartner. ab ⟨55 €⟩ /Kurs · als Mitglied ab 15,50 €/Monat Mehr er"
+   }
+  ],
+  "seiten": 693
+ },
+ "tanzsport-phoenix.de": {
+  "name": "TSC Phoenix",
+  "segment": "Verein",
+  "ort": "Hannover",
+  "erreichbar": true,
+  "basis": "https://www.tanzsport-phoenix.de",
+  "titel": "Tanzsportclub Phoenix Hannover e.V. - Tanzsportclub Phoenix Hannover e.V.",
+  "desc": "",
+  "desc_len": 0,
+  "h1": 2,
+  "h2": 16,
+  "ld": 0,
+  "og": 3,
+  "webp": 5,
+  "kb": 59,
+  "farben": [
+   "#c4ebf1",
+   "#003399"
+  ],
+  "ttfb": 0.77,
+  "geprueft": [],
+  "kurse": [
+   "Ballett",
+   "Discofox",
+   "Kindertanz",
+   "Latein",
+   "Line Dance",
+   "Linedance",
+   "Modern",
+   "Standard"
+  ],
+  "preise": [],
+  "seiten": 39
+ },
+ "kressler.de": {
+  "name": "Tanzschule Kressler",
+  "segment": "Tanzschule",
+  "ort": "Region",
+  "erreichbar": true,
+  "basis": "https://www.kressler.de",
+  "titel": "Startseite",
+  "desc": "",
+  "desc_len": 0,
+  "h1": 1,
+  "h2": 71,
+  "ld": 0,
+  "og": 4,
+  "webp": 66,
+  "kb": 193,
+  "farben": [
+   "#337ab7",
+   "#3c763d",
+   "#8a6d3b"
+  ],
+  "ttfb": 2.05,
+  "geprueft": [
+   "/tanzen/paare"
+  ],
+  "kurse": [
+   "Bachata",
+   "Boogie",
+   "Breakdance",
+   "Cha-Cha",
+   "Contemporary",
+   "Discofox",
+   "Foxtrott",
+   "Hip Hop",
+   "Hochzeit",
+   "Latein",
+   "Line Dance",
+   "Rumba",
+   "Salsa",
+   "Standard",
+   "Streetdance",
+   "Tango",
+   "Walzer",
+   "West Coast Swing",
+   "Wiener Walzer",
+   "Zumba"
+  ],
+  "preise": [
+   {
+    "betrag": 5.0,
+    "kontext": "n im Alter von 5-8 Jahren ein. INFOS &AMP; TICKETS 19.09.2026 15:00 ab ⟨5,00 €⟩ Erwachsene | Gehrden XXL Probe-Workshop für P"
+   },
+   {
+    "betrag": 6.0,
+    "kontext": "nz- und Cocktailparty in Garbsen! INFOS &AMP; TICKETS 28.08.2026 21:00 ⟨6,00 €⟩ Erwachsene | Neustadt Neustädter Tanznacht 4"
+   },
+   {
+    "betrag": 8.0,
+    "kontext": "e Glitzer, Tanz, Spiele und Spaß. INFOS &AMP; TICKETS 19.09.2026 19:00 ⟨8,00 €⟩ Kinder | Garbsen Prinzessintag (2-5 J.) Wir f"
+   },
+   {
+    "betrag": 10.0,
+    "kontext": "tränken und viel Zeit zum Tanzen. INFOS &AMP; TICKETS 10.10.2026 20:00 ⟨10,00 €⟩ Erwachsene | Garbsen Late Night So macht der"
+   },
+   {
+    "betrag": 12.0,
+    "kontext": "g und deinem individuellen Style. INFOS &AMP; TICKETS 27.08.2026 20:45 ⟨12,00 €⟩ Erwachsene | Garbsen Late Night So macht der"
+   },
+   {
+    "betrag": 18.0,
+    "kontext": "len Trainer*innen aus der Region. INFOS &AMP; TICKETS 06.09.2026 14:00 ⟨18,00 €⟩ Erwachsene | Garbsen Solo Class: Salsa Body M"
+   },
+   {
+    "betrag": 20.0,
+    "kontext": "chungen und viel Zeit zum Tanzen! INFOS &AMP; TICKETS 12.09.2026 20:00 ⟨20,00 €⟩ Erwachsene | Garbsen Solo Class: Latin Solo I"
+   },
+   {
+    "betrag": 30.0,
+    "kontext": "Body Balance ist alles mit dabei! INFOS &AMP; TICKETS 04.10.2026 10:00 ⟨30,00 €⟩ Erwachsene | Garbsen Solo Class: Salsa Lady S"
+   },
+   {
+    "betrag": 35.0,
+    "kontext": "Live-Musik von „The High Fives“. INFOS &AMP; TICKETS 31.10.2026 20:15 ⟨35,00 €⟩ Kinder | Garbsen Familientag Wir feiern unser"
+   },
+   {
+    "betrag": 55.0,
+    "kontext": "inschließlich 25 Jahre gibt es außerdem unser Young-Dance-Abo. Für nur ⟨55 €⟩ pro Monat und Monat könnt ihr damit unser reg"
+   },
+   {
+    "betrag": 58.0,
+    "kontext": "& All-Inclusive-Getränkepaket! INFOS &AMP; TICKETS 31.12.2026 20:30 ab ⟨58,00 €⟩ ALLE VERANSTALTUNGEN ANZEIGEN EURE FEIER BEI"
+   },
+   {
+    "betrag": 59.0,
+    "kontext": "uns Unser Team Kressler-Blog Shop Kundenportal Tanzkurse für Paare ab ⟨59 €⟩ im Monat JETZT ANMELDEN DISCOFOX, WALZER, SAL"
+   },
+   {
+    "betrag": 79.0,
+    "kontext": "onat • 1 Monat: ⟨79 €⟩ pro Person und Monat Tanz-Einsteigern empfehl"
+   }
+  ],
+  "seiten": 410
+ }
+}
