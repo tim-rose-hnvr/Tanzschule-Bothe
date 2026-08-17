@@ -16,8 +16,10 @@ python3 serve.py 8080     # anderer Port
 
 Hilfe bei Problemen: `START-HIER.md` im Hauptverzeichnis.
 
-Der Server ist rein lesend und nur auf der eigenen Maschine erreichbar
-(127.0.0.1). Ist `site/` noch nicht vorhanden, wird es automatisch erzeugt.
+Der Server ist rein lesend. Ohne Zusatz lauscht er nur auf 127.0.0.1 und ist
+von außen unerreichbar; mit `--netz` auf allen Schnittstellen, sodass Geräte im
+selben WLAN die Analyse aufrufen können. Ist `site/` noch nicht vorhanden, wird
+es automatisch erzeugt.
 
 Ohne Python geht auch jeder andere statische Server, etwa
 `npx serve site` — oder `site/index.html` direkt im Browser öffnen. Beim

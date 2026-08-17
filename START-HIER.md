@@ -17,6 +17,32 @@ Wer lieber selbst tippt:
 python3 serve.py        # oder: python serve.py  /  py serve.py
 ```
 
+## Im eigenen Netzwerk zeigen
+
+Damit Handy, Tablet oder ein fremder Laptop im selben WLAN die Analyse
+aufrufen können:
+
+```
+./start.sh --netz          # macOS / Linux
+start.cmd --netz           # Windows
+python3 serve.py --netz    # direkt
+```
+
+Die Ausgabe nennt dann zwei Adressen — die zweite (`http://192.168.x.x:8000/`)
+ist die für die anderen Geräte. Beim ersten Start fragt die Firewall von macOS
+oder Windows nach; die Verbindung muss erlaubt werden, sonst bleibt der Server
+für andere unsichtbar.
+
+Zu beachten:
+
+- Alle Geräte müssen im **selben** Netz sein. Gäste-WLAN ist meist getrennt und
+  funktioniert nicht.
+- Der Server ist während der Laufzeit für jeden im Netz sichtbar. Er liefert nur
+  die Dateien aus `site/` aus und nimmt nichts entgegen — nach dem Termin
+  trotzdem mit `Strg+C` beenden.
+- Wird keine Adresse angezeigt, die eigene IP nachsehen: `ipconfig` unter
+  Windows, `ip addr` oder `ifconfig` unter macOS und Linux.
+
 ## Wenn nichts passiert
 
 **„python3: command not found" / „Python wurde nicht gefunden"**
