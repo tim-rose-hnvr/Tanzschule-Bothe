@@ -1,0 +1,433 @@
+<title>Wertungsbogen Hannover</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --ground:#F6F3F2; --surface:#FFFFFF; --surface-2:#F0EAE9;
+  --ink:#241A1C; --ink-2:#4C3F42; --muted:#77686C; --hair:#DFD5D4; --hair-2:#EDE5E4;
+  --claret:#8E1F3C; --claret-soft:#F3E2E7; --brass:#9C7128; --brass-soft:#F3EBDC;
+  --bad:#A3251B; --bad-soft:#F8E3E0; --warn:#8E5D06; --warn-soft:#F8EEDA;
+  --good:#2A6247; --good-soft:#E1EFE7;
+  --display:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#151013; --surface:#1E1719; --surface-2:#271E21;
+    --ink:#F1E9EA; --ink-2:#D3C4C7; --muted:#9E8D91; --hair:#3A2E31; --hair-2:#2C2225;
+    --claret:#E37E97; --claret-soft:#3A1F27; --brass:#D2A45C; --brass-soft:#332715;
+    --bad:#EC8375; --bad-soft:#3B1F1B; --warn:#DCA847; --warn-soft:#33270F;
+    --good:#6FBE93; --good-soft:#17301F;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#151013; --surface:#1E1719; --surface-2:#271E21;
+  --ink:#F1E9EA; --ink-2:#D3C4C7; --muted:#9E8D91; --hair:#3A2E31; --hair-2:#2C2225;
+  --claret:#E37E97; --claret-soft:#3A1F27; --brass:#D2A45C; --brass-soft:#332715;
+  --bad:#EC8375; --bad-soft:#3B1F1B; --warn:#DCA847; --warn-soft:#33270F;
+  --good:#6FBE93; --good-soft:#17301F;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--sans); font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px 96px}
+.col{max-width:68ch}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:var(--claret)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--claret);outline-offset:3px;border-radius:2px}
+
+/* ---------- Kopf ---------- */
+header{padding:76px 0 44px;border-bottom:3px double var(--hair)}
+.eyebrow{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--brass);display:flex;gap:12px;align-items:baseline;flex-wrap:wrap
+}
+h1{font-size:clamp(2.5rem,6.2vw,4.1rem);line-height:1.02;letter-spacing:-.018em;margin:20px 0 0}
+h1 em{font-style:italic;color:var(--claret)}
+.standfirst{font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin-top:22px;max-width:60ch}
+.docmeta{
+  display:flex;gap:0;flex-wrap:wrap;margin-top:34px;
+  border-top:1px solid var(--hair);padding-top:16px;font-family:var(--mono);font-size:12px
+}
+.docmeta div{padding-right:34px;margin-right:34px;border-right:1px solid var(--hair)}
+.docmeta div:last-child{border-right:0;margin-right:0;padding-right:0}
+.docmeta dt{color:var(--muted);letter-spacing:.08em;text-transform:uppercase;font-size:10.5px}
+.docmeta dd{margin:4px 0 0;color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* ---------- Sektionen ---------- */
+section{padding-top:68px}
+.sechead{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--hair);padding-bottom:12px;margin-bottom:30px}
+.secnum{font-family:var(--mono);font-size:12px;color:var(--brass);letter-spacing:.1em;flex:none;padding-top:5px}
+h2{font-size:clamp(1.6rem,3.4vw,2.15rem);line-height:1.15;letter-spacing:-.012em}
+h3{font-size:1.22rem;line-height:1.3;margin:0 0 10px}
+.lede{color:var(--ink-2);margin-bottom:26px}
+.stack{display:flex;flex-direction:column;gap:20px}
+
+/* ---------- Urteil ---------- */
+.verdict{
+  background:var(--surface);border:1px solid var(--hair);border-left:5px solid var(--claret);
+  padding:30px 32px;display:flex;flex-direction:column;gap:20px;margin-top:44px
+}
+.vhead{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--claret)}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:26px}
+.vitem{display:flex;flex-direction:column;gap:7px}
+.vnum{font-family:var(--display);font-size:2.5rem;line-height:1;color:var(--claret);font-variant-numeric:tabular-nums}
+.vlabel{font-size:14.5px;color:var(--ink-2);line-height:1.45}
+
+/* ---------- Tabellen ---------- */
+.tablewrap{overflow-x:auto;border:1px solid var(--hair);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th,td{text-align:left;padding:11px 15px;border-bottom:1px solid var(--hair-2);vertical-align:top}
+thead th{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);font-weight:400;background:var(--surface-2);border-bottom:1px solid var(--hair);
+  white-space:nowrap
+}
+tbody tr:last-child td{border-bottom:0}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.us{background:var(--claret-soft)}
+.us td{font-weight:600}
+.chip{
+  display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;
+  padding:2px 8px;border-radius:2px;white-space:nowrap;text-transform:uppercase
+}
+.c-bad{background:var(--bad-soft);color:var(--bad)}
+.c-warn{background:var(--warn-soft);color:var(--warn)}
+.c-good{background:var(--good-soft);color:var(--good)}
+
+/* ---------- Erfüllungs-Balken ---------- */
+.scores{display:flex;flex-direction:column;gap:2px;border:1px solid var(--hair);background:var(--surface);padding:22px}
+.srow{display:grid;grid-template-columns:1fr 132px 44px;gap:16px;align-items:center;padding:9px 0}
+.srow+.srow{border-top:1px solid var(--hair-2)}
+.sname{font-size:14.5px;line-height:1.3}
+.sname small{display:block;color:var(--muted);font-size:12px;font-family:var(--mono)}
+.bar{height:9px;background:var(--surface-2);position:relative;overflow:hidden}
+.bar i{position:absolute;inset:0 auto 0 0;background:var(--brass);display:block}
+.srow.us-row .bar i{background:var(--claret)}
+.sval{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;text-align:right;color:var(--ink-2)}
+.srow.us-row .sname{font-weight:700;color:var(--claret)}
+
+/* ---------- Silo-Vergleich ---------- */
+.silo{display:grid;grid-template-columns:repeat(auto-fit,minmax(298px,1fr));gap:20px}
+.silobox{border:1px solid var(--hair);background:var(--surface);padding:22px 24px}
+.silobox.mine{border-color:var(--claret);border-width:1px 1px 1px 4px}
+.silotag{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.silobox.mine .silotag{color:var(--claret)}
+.urllist{list-style:none;margin:0;padding:0;font-family:var(--mono);font-size:12.5px;line-height:1.9}
+.urllist li{color:var(--ink-2);word-break:break-word}
+.urllist .lvl2{padding-left:15px;border-left:1px solid var(--hair)}
+.urllist .lvl3{padding-left:30px;border-left:1px solid var(--hair)}
+.urllist .dead{color:var(--bad)}
+
+/* ---------- Maßnahmen ---------- */
+.action{display:grid;grid-template-columns:52px 1fr;gap:22px;padding:24px 0;border-bottom:1px solid var(--hair)}
+.action:first-of-type{border-top:1px solid var(--hair)}
+.rank{font-family:var(--display);font-size:2rem;line-height:.9;color:var(--claret);font-variant-numeric:tabular-nums;padding-top:3px}
+.abody{display:flex;flex-direction:column;gap:9px}
+.ameta{display:flex;gap:8px;flex-wrap:wrap;margin-top:3px}
+.atext{color:var(--ink-2);font-size:15.5px}
+.atext b{color:var(--ink);font-weight:600}
+
+/* ---------- Wächter-Schichten ---------- */
+.layers{display:flex;flex-direction:column;gap:0;border:1px solid var(--hair);background:var(--surface)}
+.layer{display:grid;grid-template-columns:auto 1fr;gap:22px;padding:24px 26px;align-items:start}
+.layer+.layer{border-top:1px solid var(--hair)}
+.ltag{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  writing-mode:vertical-rl;transform:rotate(180deg);color:var(--brass);
+  border-right:2px solid var(--brass);padding:0 10px 0 0;align-self:stretch;text-align:center
+}
+.callout{border:1px solid var(--warn);background:var(--warn-soft);padding:20px 24px;display:flex;flex-direction:column;gap:9px}
+.callout .ct{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--warn)}
+.callout p{font-size:15.5px;color:var(--ink-2)}
+.callout b{color:var(--ink)}
+
+ul.plain{margin:0;padding-left:1.15em;color:var(--ink-2);font-size:15.5px}
+ul.plain li{margin-bottom:7px}
+ul.plain b{color:var(--ink);font-weight:600}
+
+footer{margin-top:76px;padding-top:26px;border-top:3px double var(--hair);color:var(--muted);font-size:13.5px}
+footer h3{font-size:1rem;margin-bottom:9px;color:var(--ink)}
+footer p{margin-bottom:10px;max-width:70ch}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 18px 64px}
+  .docmeta div{border-right:0;margin-right:0;padding-right:22px}
+  .srow{grid-template-columns:1fr 78px 40px;gap:10px}
+  .ltag{writing-mode:horizontal-tb;transform:none;border-right:0;border-bottom:2px solid var(--brass);padding:0 0 7px}
+  .layer{grid-template-columns:1fr;gap:12px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow"><span>Wertungsbogen</span><span>·</span><span>Sichtbarkeit Hannover</span><span>·</span><span>August 2026</span></div>
+  <h1>Wir tanzen gut.<br>Wir <em>ranken</em> nicht.</h1>
+  <p class="standfirst">Eine gemessene Bestandsaufnahme von tanzschule-bothe.de im Vergleich zu sechs Wettbewerbern im Raum Hannover — und die Antwort auf die Frage nach dem automatischen SEO-Wächter.</p>
+  <dl class="docmeta">
+    <div><dt>Erhebung</dt><dd>17.08.2026</dd></div>
+    <div><dt>Geprüfte Seiten</dt><dd>26</dd></div>
+    <div><dt>Wettbewerber</dt><dd>6</dd></div>
+    <div><dt>Methode</dt><dd>Live-Crawl</dd></div>
+  </dl>
+</header>
+
+<div class="verdict">
+  <div class="vhead">Kurzurteil</div>
+  <div class="vgrid">
+    <div class="vitem"><div class="vnum">0</div><div class="vlabel">Meta-Descriptions auf den Unterseiten. Google schreibt sich die Suchergebnis-Texte für alle Kursseiten selbst zusammen.</div></div>
+    <div class="vitem"><div class="vnum">0</div><div class="vlabel">Strukturierte Daten. Bei 24 gepflegten Events, 3 Standorten und einem vollen Kursprogramm — keine einzige Rich-Result-Auszeichnung.</div></div>
+    <div class="vitem"><div class="vnum">15</div><div class="vlabel">Test- und Altseiten stehen live, indexierbar und in der Sitemap — darunter „XXX_Start2“ und „Dongsineu“.</div></div>
+  </div>
+  <p class="atext" style="border-top:1px solid var(--hair);padding-top:18px">Die Tanzschule ist inhaltlich die breiteste in Hannover: drei Standorte, sieben Tage die Woche, rund 220 Angebote. Technisch ist sie die schwächste im Testfeld. <b>Der Wettbewerb gewinnt nicht mit besseren Kursen, sondern mit besser gebauten Seiten.</b></p>
+</div>
+
+<!-- 01 -->
+<section>
+  <div class="sechead"><span class="secnum">01</span><h2>Was die eigene Website tatsächlich sendet</h2></div>
+  <div class="col lede">Gemessen wurde die ausgelieferte Seite, nicht das Backend: HTTP-Header, HTML-Quelltext, Sitemaps und Antwortzeiten von zehn zentralen Kursseiten.</div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Signal</th><th>Befund</th><th>Soll</th><th>Bewertung</th></tr></thead>
+      <tbody>
+        <tr><td>Meta-Description Startseite</td><td class="num">748 Zeichen</td><td class="num">≤ 165</td><td><span class="chip c-bad">abgeschnitten</span></td></tr>
+        <tr><td>Meta-Description Unterseiten</td><td class="num">0 von 10</td><td class="num">10 von 10</td><td><span class="chip c-bad">kritisch</span></td></tr>
+        <tr><td>H1-Überschriften Startseite</td><td class="num">8×</td><td class="num">1×</td><td><span class="chip c-bad">kritisch</span></td></tr>
+        <tr><td>H2-Ebene Startseite</td><td class="num">0×</td><td>vorhanden</td><td><span class="chip c-bad">fehlt</span></td></tr>
+        <tr><td>JSON-LD strukturierte Daten</td><td class="num">0 Blöcke</td><td>LocalBusiness, Event, Course</td><td><span class="chip c-bad">fehlt</span></td></tr>
+        <tr><td>Open-Graph-Tags</td><td class="num">0</td><td class="num">4–6</td><td><span class="chip c-bad">fehlt</span></td></tr>
+        <tr><td>Bilder ohne Alt-Text (Startseite)</td><td class="num">10 von 15</td><td class="num">0</td><td><span class="chip c-bad">kritisch</span></td></tr>
+        <tr><td>WebP-Bilder</td><td class="num">0</td><td>durchgängig</td><td><span class="chip c-warn">veraltet</span></td></tr>
+        <tr><td>HTML-Gewicht Startseite</td><td class="num">327 kB</td><td class="num">&lt; 150 kB</td><td><span class="chip c-warn">schwer</span></td></tr>
+        <tr><td>Sichtbarer Text Startseite</td><td class="num">424 Wörter</td><td class="num">&gt; 600</td><td><span class="chip c-warn">dünn</span></td></tr>
+        <tr><td>Inline-CSS im HTML</td><td class="num">223 kB</td><td>ausgelagert</td><td><span class="chip c-warn">blockiert</span></td></tr>
+        <tr><td>Eingebundene CSS- / JS-Dateien</td><td class="num">20 / 33</td><td class="num">&lt; 10 / &lt; 12</td><td><span class="chip c-warn">aufgebläht</span></td></tr>
+        <tr><td>Antwortzeit <span class="num">/kids2bis11/</span></td><td class="num">2,89 s</td><td class="num">&lt; 1,0 s</td><td><span class="chip c-bad">kritisch</span></td></tr>
+        <tr><td>Antwortzeit <span class="num">/hiphopundco/</span></td><td class="num">3,08 s</td><td class="num">&lt; 1,0 s</td><td><span class="chip c-bad">kritisch</span></td></tr>
+        <tr><td>Test-/Altseiten indexierbar</td><td class="num">15 von 15</td><td class="num">0</td><td><span class="chip c-bad">Index-Müll</span></td></tr>
+        <tr><td>Preise auf der Website</td><td>nicht auffindbar</td><td>eigene Seite</td><td><span class="chip c-warn">Lücke</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col stack" style="margin-top:28px">
+    <p class="atext">Zwei Zahlen erklären den Rest: <b>327 kB HTML für 424 sichtbare Wörter.</b> Über 99 Prozent der ausgelieferten Startseite ist Divi-Gerüst und Inline-CSS. Und die beiden langsamsten Seiten im ganzen Test sind ausgerechnet die Kinder- und Teenager-Seiten — die Seiten, die Eltern mobil und nebenbei aufrufen.</p>
+    <p class="atext">Die drei langsamsten Antwortzeiten liegen alle bei Seiten mit Kursbuchung. Die schnellsten liegen bei Impressum und Kontakt. Der Cache greift dort, wo es nicht zählt.</p>
+  </div>
+</section>
+
+<!-- 02 -->
+<section>
+  <div class="sechead"><span class="secnum">02</span><h2>Das Wettbewerbsfeld, technisch vermessen</h2></div>
+  <div class="col lede">Alle Startseiten am selben Tag mit identischer Methode gecrawlt. Die Spalten sind die Signale, die Google direkt aus dem Quelltext liest.</div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Anbieter</th><th>Standort</th><th>System</th><th>Desc.</th><th>H1</th><th>H2</th><th>JSON-LD</th><th>OG</th><th>TTFB</th><th>kB</th></tr></thead>
+      <tbody>
+        <tr class="us"><td>tanzschule-bothe.de</td><td>Hannover ×3</td><td>WordPress / Divi</td><td class="num">748*</td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0,73 s</td><td class="num">327</td></tr>
+        <tr><td>bothe.de <span class="chip c-bad">Namensgleich</span></td><td>Hannover</td><td>TYPO3</td><td class="num">155</td><td class="num">1</td><td class="num">3</td><td class="num">0</td><td class="num">6</td><td class="num">2,32 s</td><td class="num">93</td></tr>
+        <tr><td>tanzschulemeiners.de</td><td>Hannover Mitte</td><td>WordPress</td><td class="num">289</td><td class="num">1</td><td class="num">2</td><td class="num">1</td><td class="num">6</td><td class="num">1,86 s</td><td class="num">129</td></tr>
+        <tr><td>move-dance.de</td><td>Hannover</td><td>WordPress</td><td class="num">95</td><td class="num">3</td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0,99 s</td><td class="num">40</td></tr>
+        <tr><td>tanzschule-graeper.de</td><td>Langenhagen</td><td>Baukasten</td><td class="num">166</td><td class="num">0</td><td class="num">5</td><td class="num">2</td><td class="num">5</td><td class="num">0,31 s</td><td class="num">509</td></tr>
+        <tr><td>jegella.de</td><td>Lehrte</td><td>WordPress</td><td class="num">89</td><td class="num">6</td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num">1,02 s</td><td class="num">81</td></tr>
+        <tr><td>happyhours.de</td><td>Hannover</td><td>Joomla</td><td colspan="6" style="color:var(--muted)">Preisführer-Positionierung — „Hannovers günstigste Tanzkurs-Preise“</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:12.5px;color:var(--muted);margin-top:10px;font-family:var(--mono)">* Nur Startseite. Auf allen zehn geprüften Unterseiten: 0 Zeichen.</p>
+
+  <h3 style="margin-top:40px">Erfüllte Basiskriterien</h3>
+  <p class="col lede" style="margin-bottom:18px">Zehn objektiv prüfbare Kriterien: Description vorhanden und in Länge, Description auf Unterseiten, genau eine H1, H2-Ebene, JSON-LD, Open Graph, TTFB unter 1 s, HTML unter 150 kB, WebP, thematische URL-Struktur.</p>
+  <div class="scores">
+    <div class="srow"><div class="sname">tanzschulemeiners.de<small>Bestes technisches Fundament im Feld</small></div><div class="bar"><i style="width:70%"></i></div><div class="sval">7/10</div></div>
+    <div class="srow"><div class="sname">bothe.de<small>Schwächere Technik, stärkste Struktur</small></div><div class="bar"><i style="width:70%"></i></div><div class="sval">7/10</div></div>
+    <div class="srow"><div class="sname">tanzschule-graeper.de<small>Schnell und modern, aber sehr schwer</small></div><div class="bar"><i style="width:60%"></i></div><div class="sval">6/10</div></div>
+    <div class="srow"><div class="sname">move-dance.de<small>Schlank und schnell, aber inhaltlich dünn</small></div><div class="bar"><i style="width:50%"></i></div><div class="sval">5/10</div></div>
+    <div class="srow"><div class="sname">jegella.de<small>Titel nur 10 Zeichen lang</small></div><div class="bar"><i style="width:30%"></i></div><div class="sval">3/10</div></div>
+    <div class="srow us-row"><div class="sname">tanzschule-bothe.de<small>Letzter Platz — bei größtem Angebot</small></div><div class="bar"><i style="width:10%"></i></div><div class="sval">1/10</div></div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section>
+  <div class="sechead"><span class="secnum">03</span><h2>Warum ausgerechnet bothe.de vor uns steht</h2></div>
+  <div class="col lede">Das ist der eigentliche Befund. Susanne Bothe hat schlechtere Technik als wir an mehreren Stellen — langsamer, älteres CMS, ebenfalls kein JSON-LD. Und rankt trotzdem für die Kurs-Suchbegriffe. Der Grund ist die Seitenarchitektur.</div>
+
+  <div class="silo">
+    <div class="silobox">
+      <div class="silotag">bothe.de — thematisches Silo, 12 Kurs-Landingpages</div>
+      <ul class="urllist">
+        <li>/tanzkurse/</li>
+        <li class="lvl2">/tanzkurse-fuer-erwachsene/</li>
+        <li class="lvl3">/discofox/</li>
+        <li class="lvl3">/salsa/</li>
+        <li class="lvl3">/baelle-und-hochzeiten/</li>
+        <li class="lvl3">/solo-tanz/</li>
+        <li class="lvl3">/tanzfit-60-plus/</li>
+        <li class="lvl3">/bestager60plus/</li>
+        <li class="lvl2">/tanzkurse-fuer-jugendliche/</li>
+        <li class="lvl3">/hip-hop-und-contemporary/</li>
+        <li class="lvl3">/gesellschaftszertifikat/</li>
+        <li class="lvl2">/tanzkurse-fuer-kinder/</li>
+        <li class="lvl3">/windellini/</li>
+        <li class="lvl3">/dance4kids-ab-6-jahre/</li>
+      </ul>
+    </div>
+    <div class="silobox mine">
+      <div class="silotag">tanzschule-bothe.de — flach, kryptisch, mit Leichen</div>
+      <ul class="urllist">
+        <li>/paartanz/ <span style="color:var(--muted)">— alle Paartänze auf einer Seite</span></li>
+        <li>/kids2bis11/</li>
+        <li>/hiphopundco/</li>
+        <li>/danceandfitness/</li>
+        <li>/tanzfit/</li>
+        <li>/bwpaartanz/</li>
+        <li>/bwkids/</li>
+        <li class="dead">/dd/ — Titel „Dongsineu“</li>
+        <li class="dead">/gw/</li>
+        <li class="dead">/xxx_start2/</li>
+        <li class="dead">/testseite/ — „222 Testseite“</li>
+        <li class="dead">/_blog/ /_style/ /_links/</li>
+        <li class="dead">/_menufinder/</li>
+        <li class="dead">/bwschuelerkursealt/</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col stack" style="margin-top:32px">
+    <p class="atext">Wer in Hannover „Discofox Kurs“ sucht, findet bei bothe.de eine Seite, die genau so heißt: <b>„Discofox tanzen lernen in unserer Tanzschule in Hannover“</b> — mit eigener URL, eigener 153-Zeichen-Beschreibung und einer sauberen H1. Bei uns führt derselbe Suchbegriff bestenfalls auf <span class="num">/paartanz/</span> — eine Sammelseite mit neun H1-Überschriften, ohne Beschreibung, deren Titel mit dem Markennamen beginnt statt mit dem Suchbegriff.</p>
+    <p class="atext">Dazu kommt ein Problem, das keine andere Tanzschule in Hannover hat: <b>Es gibt zwei Bothes.</b> Beide in Hannover, beide seit demselben Gründungsstammbaum, beide mit „Bothe“ in Domain und Markenname. Jede unspezifische Marken­suche wird zwischen beiden aufgeteilt — und aktuell gewinnt die Seite mit der besseren Struktur. Susanne Bothe baut zusätzlich bis 2027 das „Bothe Loft“ mit 1.600 m² und dokumentiert den Bau seit September 2025 laufend auf einer eigenen Domain. Das ist eine Content-Maschine, die kontinuierlich frische Signale erzeugt.</p>
+    <p class="atext">Am unteren Ende drückt gleichzeitig der Preis: <b>happyhours.de</b> positioniert sich offensiv als „Hannovers günstigste Tanzkurs-Preise“, der <b>TTC Gelb-Weiss</b> bietet Discofox-Anfängerkurse als Verein deutlich unter Tanzschul-Niveau an. Auf unserer Website steht zu Preisen — nichts. Wer nicht preist, überlässt die Preisdiskussion dem Wettbewerb.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section>
+  <div class="sechead"><span class="secnum">04</span><h2>Wo wir uns besser platzieren müssen</h2></div>
+  <div class="col lede">Sortiert nach Wirkung pro Aufwand. Die ersten drei Punkte sind in wenigen Tagen umsetzbar und heben mehr als alles danach.</div>
+
+  <div class="action"><div class="rank">1</div><div class="abody">
+    <h3>Titles und Descriptions für jede Kursseite</h3>
+    <div class="ameta"><span class="chip c-good">Aufwand gering</span><span class="chip c-bad">Wirkung sehr hoch</span></div>
+    <p class="atext">Aktuell null Descriptions auf allen Unterseiten und Titel, die mit dem Markennamen beginnen. Muster umdrehen: <b>Suchbegriff + Hannover + Marke.</b> Aus „Tanzschule Familie Bothe – Paartanz Erwachsene“ wird „Paartanzkurse für Erwachsene in Hannover | Tanzschule Bothe“. Dazu ein SEO-Plugin (RankMath oder Yoast), das leere Descriptions künftig gar nicht erst zulässt.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">2</div><div class="abody">
+    <h3>Eine Landingpage pro Tanzstil statt einer Sammelseite</h3>
+    <div class="ameta"><span class="chip c-warn">Aufwand mittel</span><span class="chip c-bad">Wirkung sehr hoch</span></div>
+    <p class="atext">Der strukturelle Grund für den Rückstand. Eigene Seiten für <b>Discofox, Hochzeitstanz, Salsa, Standard &amp; Latein, West Coast Swing, Kindertanz, Hip Hop, 60+</b> — jeweils mit Terminen, Preis, Trainer, Standort und FAQ. Das sind die Suchbegriffe, mit denen Menschen tatsächlich suchen; „Paartanz“ ist Branchensprache.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">3</div><div class="abody">
+    <h3>Index-Müll entfernen</h3>
+    <div class="ameta"><span class="chip c-good">Aufwand gering</span><span class="chip c-warn">Wirkung hoch</span></div>
+    <p class="atext">15 Test- und Altseiten auf <span class="num">noindex</span> oder Status 410 setzen und aus der Sitemap nehmen. Eine Seite mit dem Titel „XXX_Start2“ im Google-Index beschädigt die Wahrnehmung der ganzen Domain — und verteilt Crawl-Budget auf Seiten, die niemand sehen soll.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">4</div><div class="abody">
+    <h3>Strukturierte Daten — der größte ungenutzte Hebel</h3>
+    <div class="ameta"><span class="chip c-warn">Aufwand mittel</span><span class="chip c-bad">Wirkung sehr hoch</span></div>
+    <p class="atext">Aktuell null. Dabei liegt das Material fertig vor: <b>LocalBusiness</b> für alle drei Standorte, <b>Event</b> für die 24 gepflegten Kalendereinträge, <b>Course</b> für jede Kursseite, <b>FAQPage</b> für die bestehende FAQ. Event-Markup bringt Termine direkt mit Datum und Ort in die Suchergebnisse — dort ist derzeit kein einziger Wettbewerber aus Hannover vertreten. Das ist freies Feld.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">5</div><div class="abody">
+    <h3>Ladezeit der Kursseiten</h3>
+    <div class="ameta"><span class="chip c-warn">Aufwand mittel</span><span class="chip c-warn">Wirkung hoch</span></div>
+    <p class="atext">2,89 s und 3,08 s auf den Kinder- und Teen-Seiten sind Absprünge, bevor die Seite erscheint. Caching auf die Kursseiten ausweiten, Bilder auf WebP, die 223 kB Inline-CSS auslagern, 20 CSS- und 33 JS-Dateien zusammenfassen.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">6</div><div class="abody">
+    <h3>Lokale Sichtbarkeit für drei Standorte</h3>
+    <div class="ameta"><span class="chip c-good">Aufwand gering</span><span class="chip c-warn">Wirkung hoch</span></div>
+    <p class="atext">Tanzvilla Waldersee, Tanzhaus Hannover und Tanzhaus Burgwedel brauchen je ein gepflegtes Google-Unternehmensprofil, je eine eigene Standortseite mit Anfahrt und Parkplätzen, identische Schreibweise von Name, Adresse und Telefon überall. Drei Standorte sind ein Vorteil, den außer uns niemand im Feld hat — aktuell liegen sie auf einer gemeinsamen Seite <span class="num">/locations/</span>.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">7</div><div class="abody">
+    <h3>Preise sichtbar machen</h3>
+    <div class="ameta"><span class="chip c-good">Aufwand gering</span><span class="chip c-warn">Wirkung mittel</span></div>
+    <p class="atext">„Tanzkurs Hannover Preise“ ist eine der häufigsten Suchvarianten und wir beantworten sie nicht. Solange happyhours.de mit „günstigste Preise“ wirbt, sollte die Antwort nicht Schweigen sein, sondern die <b>Flatrate</b> — sieben Tage, drei Standorte, 220 Angebote, ein Beitrag. Das ist ein Wert-Argument, kein Preis-Argument.</p>
+  </div></div>
+
+  <div class="action"><div class="rank">8</div><div class="abody">
+    <h3>Überschriften und Social-Vorschau</h3>
+    <div class="ameta"><span class="chip c-good">Aufwand gering</span><span class="chip c-warn">Wirkung mittel</span></div>
+    <p class="atext">Genau eine H1 pro Seite, darunter eine echte H2-Ebene. Dazu Open-Graph-Tags: Instagram, TikTok, Facebook und YouTube sind verlinkt, aber jeder geteilte Link erscheint dort ohne Bild und ohne Text.</p>
+  </div></div>
+</section>
+
+<!-- 05 -->
+<section>
+  <div class="sechead"><span class="secnum">05</span><h2>Gibt es den SEO-Wächter?</h2></div>
+  <div class="col lede">Ja — aber nicht ganz so, wie die Frage gemeint ist. Ein Tool, das die Website eigenständig immer weiter umschreibt, um oben zu bleiben, gibt es. Es ist nur die falsche Wahl. Der Grund steht weiter unten.</div>
+
+  <div class="col stack" style="margin-bottom:30px">
+    <p class="atext">Es existieren drei Kategorien, und sie machen sehr Unterschiedliches:</p>
+  </div>
+
+  <div class="layers">
+    <div class="layer">
+      <div class="ltag">Beobachten</div>
+      <div>
+        <h3>Monitoring — meldet, ändert nichts</h3>
+        <p class="atext"><b>Sistrix</b> und <b>Ahrefs</b> für Rankings und Backlinks, die <b>Google Search Console</b> als einzige Quelle echter Klick- und Positionsdaten, <b>Screaming Frog</b> für geplante Crawls. Diese Tools sagen euch, was kaputt ist. Sie reparieren nichts.</p>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="ltag">Eingreifen</div>
+      <div>
+        <h3>Auto-Optimierer — ändern die Seite wirklich</h3>
+        <p class="atext">Das ist der „Wächter“, den ihr meint. <b>SearchPilot</b>, <b>Alli AI</b> und ähnliche schalten sich als Schicht vor die Website und schreiben Titel, Descriptions, Schema und Links im Ausliefern um — ohne dass jemand WordPress anfasst. SearchPilot testet dabei sogar A/B: Die Hälfte der Kursseiten bekommt Variante A, die andere B, und nach ein paar Wochen steht messbar fest, welche mehr Klicks bringt. Kostet allerdings im vierstelligen Bereich pro Monat und lohnt sich ab ein paar tausend Seiten — ihr habt gut sechzig.</p>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="ltag">Erzwingen</div>
+      <div>
+        <h3>Im CMS — Regeln, die Fehler verhindern</h3>
+        <p class="atext"><b>RankMath</b> oder <b>Yoast Premium</b> direkt in WordPress: automatische Titel-Muster für alle Kursseiten, Schema-Generierung, Redirect-Verwaltung, 404-Überwachung. Sie schreiben keine Texte, aber sie lassen eine Seite ohne Description gar nicht erst live gehen. Für eure Größe ist das der wirtschaftlich richtige Hebel — und er würde allein Punkt 1, 4 und 8 der Maßnahmenliste weitgehend erschlagen.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:28px">
+    <div class="ct">Wichtige Einschränkung</div>
+    <p>Ein Wächter, der <b>eigenständig Inhalte umschreibt</b>, um Rankings zu jagen, ist seit Googles Richtlinie gegen „Scaled Content Abuse“ (März 2024) ein echtes Risiko. Automatisch in Masse erzeugte oder umgeschriebene Texte können zu einer manuellen Abstrafung führen — und die kostet mehr, als jedes Ranking wert ist.</p>
+    <p>Die belastbare Trennlinie: <b>Technik darf automatisch laufen</b> — Descriptions aus vorhandenem Seiteninhalt, Schema.org, Alt-Texte, Sitemaps, Redirects, Broken-Link-Prüfung, Ladezeit-Überwachung. <b>Inhalt, Positionierung und Preise gehören unter menschliche Freigabe.</b> Ein Wächter, der das nicht trennt, ist kein Wächter, sondern ein Risiko.</p>
+  </div>
+
+  <h3 style="margin-top:44px">Der Wächter, den ich für euch bauen würde</h3>
+  <div class="col stack" style="margin-bottom:22px">
+    <p class="atext">Statt vierstellig im Monat für ein Enterprise-Werkzeug: ein eigener Wächter in diesem Repository, der täglich läuft und in drei Stufen arbeitet.</p>
+  </div>
+  <div class="layers">
+    <div class="layer"><div class="ltag">Stufe 1</div><div>
+      <h3>Sensor</h3>
+      <p class="atext">Täglicher Crawl aller Seiten plus Abruf der Search-Console-API und der Core-Web-Vitals. Ergebnis wird als Snapshot in Git abgelegt — damit ist jede Veränderung der Website rückwirkend nachvollziehbar.</p>
+    </div></div>
+    <div class="layer"><div class="ltag">Stufe 2</div><div>
+      <h3>Diff und Alarm</h3>
+      <p class="atext">Vergleich mit dem Vortag gegen einen festen Regelsatz: Description fehlt, mehr als eine H1, TTFB über 1 s, neue 404, Seite aus dem Index gefallen, Wettbewerber hat eine neue Kursseite veröffentlicht. Bei Verstoß eine Meldung — per Mail oder Slack.</p>
+    </div></div>
+    <div class="layer"><div class="ltag">Stufe 3</div><div>
+      <h3>Auto-Fix mit Freigabe</h3>
+      <p class="atext">Für die technischen Punkte erzeugt der Wächter den Fix selbst und legt ihn als Pull Request vor — fertige Description, fertiges Schema, fertiger Alt-Text. Ein Mensch schaut drauf und klickt Merge. Damit läuft die Optimierung dauerhaft im Hintergrund, ohne dass irgendwann unkontrolliert Text auf der Website steht.</p>
+    </div></div>
+  </div>
+
+  <div class="col stack" style="margin-top:28px">
+    <p class="atext">Ein Hinweis noch zum Wix-Prototypen, der bereits im Konto liegt: Dort ist die App <b>Promote SEO</b> aktiv, und die Struktur enthält bereits <span class="num">Kurse &amp; Angebote</span>, <span class="num">Preise</span> und einen <span class="num">Kursfinder</span> — also genau die Seiten, die auf der Live-Website fehlen. Falls ein Relaunch ohnehin ansteht, würden die Maßnahmen 1, 2, 7 und 8 dort direkt mitgebaut statt zweimal gemacht.</p>
+  </div>
+</section>
+
+<footer>
+  <h3>Methodik und Grenzen</h3>
+  <p>Alle Zahlen stammen aus einem eigenen Live-Crawl am 17.08.2026: HTTP-Header, HTML-Quelltext, robots.txt und XML-Sitemaps von tanzschule-bothe.de sowie den Startseiten und je einer Unterseite der Wettbewerber. Antwortzeiten sind Einzelmessungen (Time to First Byte) aus einer Messung pro URL und schwanken tageszeitabhängig.</p>
+  <p><b>Was hier nicht drinsteht:</b> echte Ranking-Positionen, Suchvolumen und Klickzahlen. Dafür braucht es Zugriff auf die Google Search Console des Kontos oder ein Sistrix-/Ahrefs-Abo — beides lag für diese Auswertung nicht vor. Die Analyse bewertet daher, was Google an Signalen ausgeliefert bekommt, nicht, wie Google darauf reagiert. Die Marktbeobachtungen zu Preispositionierung und Bauvorhaben stammen aus öffentlichen Websites und Suchergebnissen.</p>
+</footer>
+</div>
