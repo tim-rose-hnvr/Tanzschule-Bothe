@@ -38,6 +38,28 @@ npx serve .
 Browser aus Sicherheitsgründen nicht über `file://` laden. Und die
 eingebettete Google-Karte im Standortfenster kommt nur über `http(s)` an.
 
+### Wenn localhost nicht lädt
+
+Der Server schreibt beim Start den ausgelieferten Ordner und die
+Node-Version in die Konsole und protokolliert jede Anfrage mit Statuscode.
+Diese Ausgabe beantwortet die meisten Fälle unmittelbar:
+
+| Beobachtung | Ursache | Abhilfe |
+| --- | --- | --- |
+| Gar keine Serverausgabe, `node` unbekannt | Node.js fehlt | [nodejs.org](https://nodejs.org) installieren – oder ganz ohne Node: `dist/tanzhaus-3d.html` doppelklicken |
+| „in … liegt keine index.html“ | falscher Ordner | im Projektordner starten, dort wo `index.html` liegt |
+| Browser zeigt „nicht erreichbar“ | anderer Port als erwartet | die in der Konsole genannte Adresse verwenden – bei belegtem Port zählt der Server hoch |
+| Seite bleibt weiß, Konsole meldet 404 | Dateien fehlen | `git status` prüfen, ggf. `git pull` |
+| Zugriff von Handy/Tablet scheitert | Server hört nur auf 127.0.0.1 | mit `node tools/serve.mjs --host` starten und die IP des Rechners aufrufen |
+
+Ohne Node.js tut es jeder statische Server:
+
+```bash
+python3 -m http.server 8000    # Python 3
+php -S localhost:8000          # PHP
+npx serve .                    # Node vorhanden, aber ohne Projektinstallation
+```
+
 ### Einzeldatei ohne Server
 
 Wenn es keine Rolle spielt, dass die Live-Karte fehlt, tut es auch die

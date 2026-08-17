@@ -8,9 +8,11 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { build } from 'esbuild';
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+// fileURLToPath: unter Windows liefert new URL(...).pathname "/C:/…"
+const ROOT = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const ZIEL = process.argv[2] || path.join(ROOT, 'dist', 'tanzhaus-3d.html');
 
 /* 1 – Module inklusive three.js zu einem Bundle zusammenfassen */

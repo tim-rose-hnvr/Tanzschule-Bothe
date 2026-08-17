@@ -6,9 +6,11 @@
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+// fileURLToPath: unter Windows liefert new URL(...).pathname "/C:/…"
+const ROOT = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const OUT = process.argv[2] || path.join(ROOT, '.shots');
 const TYPES = {
   '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript',
