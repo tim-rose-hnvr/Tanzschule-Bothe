@@ -9,60 +9,54 @@ import { buildBuilding } from './building.js';
 import { buildSite } from './site.js';
 import { Steuerung } from './controls.js';
 import { initUI, flaeche } from './ui.js';
+import { baueHimmel, sonnenRichtung, Bildkette, Leistungswaechter } from './render.js';
 
 /* ------------------------------------------------------------- Renderer */
 
 const canvas = document.getElementById('scene');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
-renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+// Auf 1x-Displays leicht überabtasten: das Gebäude besteht aus vielen
+// aneinanderstoßenden Quadern, deren Stoßkanten sonst als feine helle
+// Striche im Putz aliasen. Auf hochauflösenden Displays reicht 2x.
+const PIXELRATIO = Math.min(Math.max(devicePixelRatio, 1.5), 2);
+renderer.setPixelRatio(PIXELRATIO);
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.02;
+renderer.toneMappingExposure = 0.82;
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x9fb6cc);
-scene.fog = new THREE.Fog(0x9fb6cc, 95, 260);
+scene.fog = new THREE.FogExp2(0xc6d6e4, 0.0013);
 
-const camera = new THREE.PerspectiveCamera(48, 1, 0.15, 800);
+const camera = new THREE.PerspectiveCamera(48, 1, 0.25, 700);
 
-/* Umgebungsreflexion aus einem Farbverlauf (kein externes HDRI nötig) */
-function umgebung() {
-  const c = document.createElement('canvas');
-  c.width = 256; c.height = 128;
-  const ctx = c.getContext('2d');
-  const g = ctx.createLinearGradient(0, 0, 0, 128);
-  g.addColorStop(0.00, '#6f9fd6');
-  g.addColorStop(0.48, '#cfe0f0');
-  g.addColorStop(0.52, '#b4b0a4');
-  g.addColorStop(1.00, '#5d6154');
-  ctx.fillStyle = g; ctx.fillRect(0, 0, 256, 128);
-  const t = new THREE.CanvasTexture(c);
-  t.mapping = THREE.EquirectangularReflectionMapping;
-  t.colorSpace = THREE.SRGBColorSpace;
-  const pmrem = new THREE.PMREMGenerator(renderer);
-  const env = pmrem.fromEquirectangular(t).texture;
-  pmrem.dispose(); t.dispose();
-  return env;
-}
-scene.environment = umgebung();
+baueHimmel(scene, renderer);
 
 /* ---------------------------------------------------------- Beleuchtung */
 
-scene.add(new THREE.HemisphereLight(0xdcecff, 0x6a6a58, 1.15));
-const sonne = new THREE.DirectionalLight(0xfff2df, 2.35);
-sonne.position.set(-42, 58, 46);
+// Himmelslicht schwächer als früher: die Umgebungsreflexion aus der
+// Himmels-Cubemap übernimmt jetzt den größten Teil der diffusen Aufhellung.
+scene.add(new THREE.HemisphereLight(0xcfe3ff, 0x6b6a55, 0.38));
+
+const sonne = new THREE.DirectionalLight(0xfff1d9, 2.6);
+sonne.position.copy(sonnenRichtung(95)).add(new THREE.Vector3(15, 0, -15));
 sonne.castShadow = true;
-sonne.shadow.mapSize.set(2048, 2048);
-sonne.shadow.camera.left = -46; sonne.shadow.camera.right = 62;
-sonne.shadow.camera.top = 60;   sonne.shadow.camera.bottom = -46;
-sonne.shadow.camera.near = 10;  sonne.shadow.camera.far = 180;
-sonne.shadow.bias = -0.0009;
-sonne.shadow.normalBias = 0.035;
-sonne.target.position.set(18, 2, -14);
+sonne.shadow.mapSize.set(4096, 4096);
+sonne.shadow.camera.left = -34; sonne.shadow.camera.right = 46;
+sonne.shadow.camera.top = 44;   sonne.shadow.camera.bottom = -38;
+sonne.shadow.camera.near = 20;  sonne.shadow.camera.far = 190;
+sonne.shadow.bias = -0.0006;
+sonne.shadow.normalBias = 0.03;
+sonne.shadow.radius = 2.2;
+sonne.target.position.set(15, 2, -15);
 scene.add(sonne, sonne.target);
-scene.add(new THREE.DirectionalLight(0xcfe0ff, 0.42).translateX(50).translateY(20).translateZ(-60));
+
+// Schwaches Gegenlicht aus Nordost, damit die Schattenseiten nicht
+// vollständig in der Umgebungsfarbe absaufen.
+const fuell = new THREE.DirectionalLight(0xbfd6f5, 0.45);
+fuell.position.set(70, 26, -70);
+scene.add(fuell);
 
 /* -------------------------------------------------------------- Aufbau */
 
@@ -78,6 +72,17 @@ bau.root.traverse(o => {
   o.geometry.computeBoundingBox();
   o.geometry.boundingBox.getSize(_size);
   if (Math.max(_size.x, _size.y, _size.z) < 0.9) o.castShadow = false;
+});
+
+/* ------------------------------------------------------- Bildaufbereitung */
+
+const kette = new Bildkette(renderer, scene, camera);
+const waechter = new Leistungswaechter(kette, stufe => {
+  const sel = document.getElementById('qualitaet');
+  if (sel) {
+    sel.value = stufe;
+    sel.title = 'automatisch heruntergestuft, weil die Bildrate eingebrochen ist';
+  }
 });
 
 const RAUM = new Map(RAEUME.map(r => [r.id, r]));
@@ -131,6 +136,7 @@ const ui = initUI({
   setModus: m => { steuerung.setModus(m); hinweisAus(); },
   toggle: (n, on) => setToggle(n, on),
   setExplode: v => { S.explode = v; },
+  setQualitaet: v => { kette.setStufe(v); waechter.fertig = true; },
   tour: cmd => tour(cmd),
 });
 
@@ -386,6 +392,7 @@ function resize() {
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
+    kette?.setGroesse(w, h);
   }
 }
 addEventListener('resize', resize);
@@ -410,7 +417,8 @@ function loop(now) {
   }
 
   updateLabels();
-  renderer.render(scene, camera);
+  kette.render();
+  waechter.tick(dt);
   requestAnimationFrame(loop);
 }
 
@@ -432,4 +440,4 @@ setTimeout(() => {
 }, 3000);
 
 // Für Debug/Konsole
-globalThis.TANZHAUS = { scene, camera, bau, site, S, steuerung, KATEGORIEN };
+globalThis.TANZHAUS = { THREE, scene, camera, renderer, bau, site, M, S, steuerung, kette, KATEGORIEN };

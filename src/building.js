@@ -15,12 +15,23 @@ function levelRooms(level) {
   return RAEUME.filter(r => r.level === level && r.kat !== 'aussen');
 }
 
-/** Liefert die Raum-ID an einer Grundrissposition – oder null im Freien. */
+/**
+ * Liefert die Raum-ID an einer Grundrissposition – oder null im Freien.
+ *
+ * Die Toleranz fängt Abtastpunkte ab, die exakt auf einer gemeinsamen
+ * Raumkante liegen (etwa y = 20.05 zwischen zwei aneinandergrenzenden
+ * Sälen). Ohne sie lägen sie in *keinem* Rechteck, und die Wandsuche hielte
+ * die Stelle für Freiraum. Der Wert bleibt deutlich unter dem Sondenabstand
+ * von 6 cm, die Zuordnung zu einem Raum bleibt also eindeutig.
+ */
+const RAUM_TOLERANZ = 0.02;
+
 function makeRoomAt(rooms) {
   const rects = rooms.flatMap(r => r.rects.map(q => [...q, r.id]));
+  const t = RAUM_TOLERANZ;
   return (x, y) => {
     for (const [x1, y1, x2, y2, id] of rects)
-      if (x > x1 && x < x2 && y > y1 && y < y2) return id;
+      if (x > x1 - t && x < x2 + t && y > y1 - t && y < y2 + t) return id;
     return null;
   };
 }
@@ -79,18 +90,35 @@ function wandAchsen(level) {
 
 /* ------------------------------------------------------------------ Wände */
 
+/**
+ * Außenwände tragen den Putz auf der Außenseite – und zusätzlich auf den
+ * beiden Stirnseiten. Diese Stirnflächen sind einerseits die Laibungen der
+ * Fenster, andererseits stoßen benachbarte Wandstücke dort aneinander:
+ * bliebe dort das weiße Innenwandmaterial stehen, zeichnete jede Stoßfuge
+ * als heller Strich durch die Fassade.
+ */
 function wandMaterialien(M, ax, dir, aussen) {
   if (!aussen) return M.wandInnen;
   const mats = [M.wandInnen, M.wandInnen, M.wandInnen, M.wandInnen, M.wandInnen, M.wandInnen];
-  if (ax === 'x') mats[dir > 0 ? 0 : 1] = M.fassade;
-  else            mats[dir > 0 ? 5 : 4] = M.fassade;
+  if (ax === 'x') { mats[dir > 0 ? 0 : 1] = M.fassade; mats[4] = mats[5] = M.fassade; }
+  else            { mats[dir > 0 ? 5 : 4] = M.fassade; mats[0] = mats[1] = M.fassade; }
   return mats;
 }
 
-/** Setzt einen Wandquader; s = Achsrichtung, t = Wandstärke, [h0,h1] = Höhe */
+/**
+ * Setzt einen Wandquader; s = Achsrichtung, t = Wandstärke, [h0,h1] = Höhe.
+ *
+ * Die Quader werden um wenige Millimeter über ihre rechnerischen Kanten
+ * hinaus gebaut. Stießen zwei Stücke exakt aneinander – etwa der Sturz über
+ * einem Fenster an das anschließende Wandstück –, ließ die Fuge unter
+ * flachem Blickwinkel einen haarfeinen Spalt offen; in der Fassade zeigte
+ * sich das als gestrichelte helle Linien.
+ */
+const FUGE = 0.004;
+
 function wandQuader(g, mat, ax, at, sA, sB, h0, h1, t) {
-  const len = sB - sA, hh = h1 - h0;
-  if (len <= 0.01 || hh <= 0.01) return;
+  const len = sB - sA + 2 * FUGE, hh = h1 - h0 + 2 * FUGE;
+  if (sB - sA <= 0.01 || h1 - h0 <= 0.01) return;
   const geo = ax === 'x' ? new THREE.BoxGeometry(t, hh, len) : new THREE.BoxGeometry(len, hh, t);
   const m = new THREE.Mesh(geo, mat);
   if (ax === 'x') m.position.set(at, h0 + hh / 2, -(sA + sB) / 2);
@@ -102,9 +130,12 @@ function wandQuader(g, mat, ax, at, sA, sB, h0, h1, t) {
 function verglasung(g, M, ax, at, sA, sB, h0, h1, typ) {
   const len = sB - sA, hh = h1 - h0;
   if (len <= 0.05 || hh <= 0.05) return;
+  // Die Scheibe füllt die Öffnung vollständig aus. Ein kleineres Glasfeld
+  // ließ ringsum einen Schlitz frei, durch den man auf die hell erleuchtete
+  // Innenwand sah – als feine helle Striche neben jedem Fenster.
   const pane = ax === 'x'
-    ? new THREE.BoxGeometry(0.03, hh - 0.09, len - 0.09)
-    : new THREE.BoxGeometry(len - 0.09, hh - 0.09, 0.03);
+    ? new THREE.BoxGeometry(0.03, hh, len)
+    : new THREE.BoxGeometry(len, hh, 0.03);
   const pm = new THREE.Mesh(pane, M.glas);
   if (ax === 'x') pm.position.set(at, h0 + hh / 2, -(sA + sB) / 2);
   else            pm.position.set((sA + sB) / 2, h0 + hh / 2, -at);
@@ -277,9 +308,13 @@ export function buildBuilding(M) {
       for (const room of levelRooms(1)) for (const [x1, y1, x2, y2] of room.rects)
         roof.add(boxMesh(x2 - x1 + 0.02, 0.42, y2 - y1 + 0.02, M.slab,
           (x1 + x2) / 2, H.roof - 0.21, -(y1 + y2) / 2));
+      // Attika: außen weiter verputzt wie die Fassade, oben eine schmale
+      // helle Abdeckung – so liest sich der Dachrand wie auf den Fotos.
       for (const seg of aussenSegs) {
-        wandQuader(roof, M.attika, seg.ax, seg.at, seg.s0, seg.s1, H.roof, H.roof + H.parapet, H.wallExt);
-        // Dachfläche zwischen den Attiken
+        wandQuader(roof, wandMaterialien(M, seg.ax, seg.dir, true),
+          seg.ax, seg.at, seg.s0, seg.s1, H.roof, H.roof + H.parapet - 0.09, H.wallExt);
+        wandQuader(roof, M.attika,
+          seg.ax, seg.at, seg.s0, seg.s1, H.roof + H.parapet - 0.09, H.roof + H.parapet, H.wallExt + 0.07);
       }
       for (const room of levelRooms(1)) for (const [x1, y1, x2, y2] of room.rects) {
         const m = boxMesh(x2 - x1, 0.04, y2 - y1, M.dach, (x1 + x2) / 2, H.roof + 0.03, -(y1 + y2) / 2);

@@ -3,3 +3,4 @@ package-lock.json
 .shots/
 *.tgz
 dist/tanzhaus-3d.fragment.html
+.look/

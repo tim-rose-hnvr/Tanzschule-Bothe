@@ -55,20 +55,24 @@ geführte Tour mit 13 Stationen.
 ```
 index.html                 Grundgerüst der Oberfläche
 src/data.js                Datenmodell: Räume, Öffnungen, Möblierung,
-                           Highlights, Tour, Fotos, Quellenangaben
+                           Highlights, Tour, Fotos, Standort, Quellenangaben
 src/building.js            erzeugt Wände, Böden, Decken und Dach aus den
                            Raum-Rechtecken – inklusive Tür-/Fensteröffnungen
 src/props.js               Möblierung (Tresen, Spiegelwände, Treppen, …)
 src/site.js                Außenanlagen: Garten, Terrasse, Zaun, Bäume,
                            Beschilderung, Außentreppe
-src/materials.js           prozedurale Texturen (Parkett, Diele, Fliesen,
-                           Rasen, Putz, Beschilderung) – ohne Bilddateien
+src/materials.js           prozedurale Texturen samt abgeleiteten Normalmaps
+                           (Parkett, Diele, Fliesen, Rasen, Putz, Pflaster)
+src/render.js              Himmel, Umgebungsreflexion, Umgebungsverdeckung,
+                           Qualitätsstufen und Leistungsüberwachung
+src/standort.js            Lageplan, Google-Maps-Einbettung, Kartenlinks
 src/controls.js            Kamerasteuerung (Umkreisen und Begehen)
 src/ui.js                  Seitenleiste, Detailfenster, Lightbox, Tour
 src/main.js                Szene, Licht, Auswahl, Beschriftungen
 assets/fotos               die sechs Originalfotos
 assets/plaene              die sechs Grundriss-Renderings
 vendor/three.module.min.js three.js r169 (MIT, siehe THREE.LICENSE)
+vendor/three-addons/       Sky, EffectComposer, GTAO (three.js-Beispiele, MIT)
 tools/                     Build- und Testskripte
 ```
 
@@ -78,6 +82,27 @@ Innenwand, Kanten zum Freien zu einer Außenwand, und die in `OEFFNUNGEN`
 hinterlegten Türen, Fenster und Glasfronten werden aus den Wandscheiben
 herausgeschnitten. Ein neuer Raum in `data.js` genügt also, damit Wände,
 Boden, Decke, Beschriftung, Trefferfläche und Listeneintrag entstehen.
+
+## Bildqualität
+
+Der Himmel wird mit dem Preetham-Modell aus `Sky` berechnet, einmalig in
+eine Cubemap gerendert und dient danach als Hintergrund *und* als
+Umgebungsreflexion – daher die Spiegelungen in Glas, Metall und im
+versiegelten Tanzparkett. Dazu kommen Schattenwurf der Sonne aus Südwesten
+und eine Umgebungsverdeckung (GTAO), die Raumecken und Anschlüsse abdunkelt.
+Alle Texturen entstehen prozedural im Canvas; die Normalmaps werden per
+Sobel-Filter aus der Helligkeit derselben Textur abgeleitet.
+
+Über **Qualität** in der Fußleiste lässt sich das abstufen:
+
+| Stufe | Umgebungsverdeckung | Mehrfachabtastung | Auflösung |
+| --- | --- | --- | --- |
+| Hoch | ja | 4× | bis 2× überabgetastet |
+| Mittel | nein | 4× | bis 2× überabgetastet |
+| Schnell | nein | – | 1× |
+
+Bricht die Bildrate in den ersten Sekunden ein, stuft das Modell selbst
+herunter und stellt die Auswahl entsprechend um.
 
 ## Quellen und Belastbarkeit
 
@@ -111,13 +136,43 @@ dokumentiert sind:
   aufgeständerten Decke sitzt und den Treppenaustritt zeigt.
 * **Außenanlagen nur aus den Fotos.** Garten, Terrasse, Balkon, Dachaufbauten,
   Fassadenfarbe, Beschilderung und Außentreppe kommen in den Renderings nicht
-  vor und stammen ausschließlich aus den sechs Fotos.
+  vor und stammen ausschließlich aus den sechs Fotos. Der Putzton ist aus den
+  Fotos gemittelt (je nach Belichtung #b12628 bis #f5582b).
+* **Feine Fugenlinien.** Die Wände bestehen aus vielen aneinanderstoßenden
+  Quadern. Auf 1×-Bildschirmen können deren Stoßkanten als haarfeine helle
+  Striche im Putz aliasen; deshalb wird dort leicht überabgetastet. Ganz
+  verschwinden sie nur mit zusammengeführter Wandgeometrie.
+
+## Standort
+
+Adresse, Koordinaten und Kartenlinks stehen in der Anwendung unter
+**Standort & Karte**. Sie stammen *nicht* aus dem Drive-Ordner, sondern aus
+öffentlichen Quellen: die Tanzschule nennt „Podbielskistr. 299 B“,
+OpenStreetMap führt an derselben Stelle den Knoten „Tanzhaus Bothe, 299b“
+(52.405503, 9.794793, 30655 Hannover-Groß-Buchholz).
+
+Die Google-Karte wird als `<iframe>` nachgeladen. Umgebungen mit strenger
+Content-Security-Policy – etwa eine veröffentlichte Artifact-Seite – lassen
+keine Fremd-Hosts zu; dort bleibt der selbst gezeichnete Lageplan stehen und
+die Links öffnen den Standort in einem neuen Tab. Ein Schlüssel für die
+offizielle Maps Embed API lässt sich in `src/standort.js` unter
+`MAPS_API_KEY` eintragen; ohne Schlüssel wird die schlüssellose
+`output=embed`-Variante versucht.
+
+**Gegenprobe zur Größe:** OpenStreetMap zeichnet an dieser Adresse ein
+Rechteck von rund 33 × 22 m (722 m², Weg 98115512). Das Modell folgt den
+Renderings und misst 30 × 31 m. Welche Angabe stimmt, lässt sich aus den
+vorliegenden Dateien nicht entscheiden – der OSM-Umriss ist aus Luftbildern
+abgezeichnet, die Renderings können einen Planungsstand zeigen. Beides ist
+so dokumentiert und nicht stillschweigend angeglichen.
 
 ## Entwicklung
 
 ```bash
 node tools/screenshot.mjs      # Screenshots aller Ansichten nach .shots/
+node tools/look.mjs            # feste Kamerastandpunkte nach .look/ (Bildkontrolle)
 node tools/debug.mjs           # Funktionstest der Zustandslogik
+node tools/fassadencheck.mjs   # Einzelbild der Südfassade für Kantenprüfung
 node tools/build-einzeldatei.mjs
 ```
 

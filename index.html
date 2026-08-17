@@ -40,6 +40,7 @@
       </div>
       <nav id="room-list"></nav>
       <div class="side-foot">
+        <button id="btn-standort" class="link-btn">Standort &amp; Karte</button>
         <button id="btn-sources" class="link-btn">Quellen &amp; Methodik</button>
       </div>
     </div>
@@ -66,6 +67,14 @@
     <label class="slider" title="Etagen auseinanderziehen">
       <span>Explosion</span>
       <input id="explode" type="range" min="0" max="100" value="0">
+    </label>
+    <label class="slider" title="Bildqualität – bei Rucklern herunterstufen">
+      <span>Qualität</span>
+      <select id="qualitaet">
+        <option value="hoch" selected>Hoch</option>
+        <option value="mittel">Mittel</option>
+        <option value="aus">Schnell</option>
+      </select>
     </label>
     <button id="btn-tour" class="accent" title="Geführte Tour starten">▶ Tour</button>
   </div>

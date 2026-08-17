@@ -899,6 +899,33 @@ export const TOUR = [
     cam:[-8, 36, 24],   ziel:[16, 6, -16],   level:'all', dach:true },
 ];
 
+/* ============================================================== STANDORT */
+
+/**
+ * Adresse und Koordinaten sind nicht aus den Drive-Dateien, sondern
+ * öffentlich recherchiert und gegengeprüft: die Tanzschule nennt auf ihrer
+ * Website „Podbielskistr. 299 B“, OpenStreetMap führt an derselben Stelle
+ * den Eintrag „Tanzhaus Bothe, 299b“ mit der Postleitzahl 30655.
+ */
+export const STANDORT = {
+  name: 'Tanzhaus Hannover',
+  strasse: 'Podbielskistraße 299 b',
+  ort: '30655 Hannover',
+  stadtteil: 'Groß-Buchholz',
+  lat: 52.405503,
+  lon: 9.794793,
+  suchbegriff: 'Tanzhaus Bothe, Podbielskistraße 299b, 30655 Hannover',
+  quelle: 'tanzschule-bothe.de · OpenStreetMap (Knoten 430176521)',
+
+  /**
+   * Gegenprobe zum Modell: OpenStreetMap zeichnet an dieser Stelle ein
+   * Rechteck von rund 33 × 22 m. Das Modell folgt dagegen den Renderings
+   * und misst 30 × 31 m. Beides ist dokumentiert, nicht stillschweigend
+   * angeglichen – siehe Hinweis im Standortfenster.
+   */
+  osmGrundflaeche: { breite: 33.1, tiefe: 21.8, flaeche: 722, weg: 98115512 },
+};
+
 /* ============================================================= METADATEN */
 
 export const INFO = {

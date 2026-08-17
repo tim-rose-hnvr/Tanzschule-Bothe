@@ -2,7 +2,8 @@
  * Bedienoberfläche: Seitenleiste, Detailfenster, Lightbox, Tour-Leiste.
  * Kommuniziert ausschließlich über das von main.js übergebene `app`-Objekt.
  */
-import { RAEUME, HIGHLIGHTS, KATEGORIEN, BODEN, FOTOS, PLAENE, INFO, TOUR } from './data.js';
+import { RAEUME, HIGHLIGHTS, KATEGORIEN, BODEN, FOTOS, PLAENE, INFO, TOUR, STANDORT } from './data.js';
+import { standortHtml, karteNachladen } from './standort.js';
 
 const $ = s => document.querySelector(s);
 const el = (t, cls, html) => {
@@ -164,6 +165,8 @@ export function initUI(app) {
   $('#modal-close').onclick = () => { modal.hidden = true; };
   modal.addEventListener('click', e => { if (e.target === modal) modal.hidden = true; });
 
+  $('#btn-standort').onclick = () => { openModal(standortHtml()); karteNachladen(); };
+
   $('#btn-help').onclick = () => openModal(`
     <h2>So funktioniert das Modell</h2>
     <p>Ein aus den Grundriss-Renderings und Fotos der Tanzschule Bothe rekonstruiertes,
@@ -185,11 +188,13 @@ export function initUI(app) {
       <li><b>Dach</b> – Flachdach mit Lichtkuppeln ein- und ausblenden.</li>
       <li><b>Röntgen</b> – Wände transparent schalten, um in alle Räume zu sehen.</li>
       <li><b>Explosion</b> – die beiden Geschosse auseinanderziehen.</li>
+      <li><b>Qualität</b> – Umgebungsverdeckung und Auflösung abstufen, falls es ruckelt.
+          Das Modell stuft bei niedriger Bildrate auch selbst herunter.</li>
       <li><b>Tour</b> – geführter Rundgang durch ${TOUR.length} Stationen.</li>
     </ul>
-    <h3>Pläne &amp; Fotos</h3>
-    <p>Alle Originaldateien lassen sich über <b>Quellen &amp; Methodik</b> in der Seitenleiste
-       ansehen.</p>`);
+    <h3>Pläne, Fotos &amp; Standort</h3>
+    <p>Die Originaldateien liegen hinter <b>Quellen &amp; Methodik</b>, Adresse und
+       Karte hinter <b>Standort &amp; Karte</b> – beides unten in der Seitenleiste.</p>`);
 
   $('#btn-sources').onclick = () => openModal(`
     <h2>Quellen &amp; Methodik</h2>
@@ -240,6 +245,7 @@ export function initUI(app) {
     };
   });
   $('#explode').addEventListener('input', e => app.setExplode(+e.target.value / 100));
+  $('#qualitaet').addEventListener('change', e => { e.target.title = ''; app.setQualitaet(e.target.value); });
   $('#btn-menu').onclick = () => $('#sidebar').classList.toggle(
     innerWidth <= 900 ? 'open' : 'hidden');
 

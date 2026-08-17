@@ -12,15 +12,20 @@ const rnd = (seed => () => (seed = (seed * 48271) % 2147483647) / 2147483647)(77
 
 /* ------------------------------------------------------------- Bauteile */
 
+/** Liegestuhl: zwei gekreuzte Seitenrahmen, dazwischen die Stoffbahn. */
 function liegestuhl(g, M, x, y, rot) {
   const s = new THREE.Group();
-  const stoff = new THREE.Mesh(new THREE.BoxGeometry(0.60, 0.03, 1.15), M.rot);
-  stoff.position.set(0, 0.44, 0); stoff.rotation.x = -0.55; stoff.castShadow = true;
-  s.add(stoff);
-  for (const [dx, dz, ang] of [[-0.31, 0, 0.5], [0.31, 0, 0.5], [-0.31, 0, -0.5], [0.31, 0, -0.5]]) {
-    const leg = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.85, 0.04), M.schwarz);
-    leg.position.set(dx, 0.30, dz); leg.rotation.x = ang; s.add(leg);
+  for (const dx of [-0.30, 0.30]) {
+    const vorn = new THREE.Mesh(new THREE.BoxGeometry(0.045, 0.78, 0.045), M.schwarz);
+    vorn.position.set(dx, 0.31, 0.10); vorn.rotation.x = 0.62; s.add(vorn);
+    const hinten = new THREE.Mesh(new THREE.BoxGeometry(0.045, 1.02, 0.045), M.schwarz);
+    hinten.position.set(dx, 0.40, -0.06); hinten.rotation.x = -0.34; s.add(hinten);
   }
+  const quer = new THREE.Mesh(new THREE.BoxGeometry(0.62, 0.04, 0.04), M.schwarz);
+  quer.position.set(0, 0.44, 0.02); s.add(quer);
+  const stoff = new THREE.Mesh(new THREE.PlaneGeometry(0.58, 1.16), M.stoff);
+  stoff.position.set(0, 0.47, -0.05); stoff.rotation.set(-Math.PI / 2 + 0.42, 0, 0);
+  stoff.castShadow = true; s.add(stoff);
   s.position.set(x, 0, -y); s.rotation.y = rot;
   g.add(s);
 }
@@ -41,11 +46,14 @@ function biertisch(g, M, x, y, rot) {
 }
 
 function sonnenschirm(g, M, x, y, r = 2.4) {
-  g.add(cyl(0.06, 2.55, M.grauDunkel, x, 1.27, -y, 10));
-  const top = new THREE.Mesh(new THREE.ConeGeometry(r, 0.55, 4), M.rot);
-  top.position.set(x, 2.70, -y); top.rotation.y = Math.PI / 4; top.castShadow = true;
+  g.add(cyl(0.055, 2.5, M.grauDunkel, x, 1.25, -y, 10));
+  const top = new THREE.Mesh(new THREE.ConeGeometry(r, 0.42, 4), M.schirm);
+  top.position.set(x, 2.62, -y); top.rotation.y = Math.PI / 4; top.castShadow = true;
   g.add(top);
-  g.add(boxMesh(0.55, 0.10, 0.55, M.schwarz, x, 0.05, -y));
+  // Volant am Schirmrand
+  const volant = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.985, r * 0.985, 0.16, 4, 1, true), M.schirm);
+  volant.position.set(x, 2.35, -y); volant.rotation.y = Math.PI / 4; g.add(volant);
+  g.add(boxMesh(0.55, 0.09, 0.55, M.grauDunkel, x, 0.05, -y));
 }
 
 function palme(g, M, x, y, hoehe = 3.4) {
@@ -62,15 +70,32 @@ function palme(g, M, x, y, hoehe = 3.4) {
   }
 }
 
+/**
+ * Laubbaum aus mehreren, leicht versetzten Kugeln. Runde Kugeln statt
+ * Ikosaedern: die facettierten Körper haben das ganze Bild in Richtung
+ * Spielzeugmodell gezogen.
+ */
 function baum(g, M, x, y, h = 8) {
-  const st = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.34, h * 0.55, 8), M.stamm);
-  st.position.set(x, h * 0.275, -y); g.add(st);
-  for (let i = 0; i < 4; i++) {
-    const k = new THREE.Mesh(new THREE.IcosahedronGeometry(h * 0.26, 0), i % 2 ? M.gruen : M.gruenD);
-    k.position.set(x + (rnd() - 0.5) * h * 0.28, h * 0.55 + rnd() * h * 0.26, -y + (rnd() - 0.5) * h * 0.28);
+  const st = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.30, h * 0.5, 9), M.stamm);
+  st.position.set(x, h * 0.25, -y); st.castShadow = true; g.add(st);
+  for (let i = 0; i < 3; i++) {
+    const ast = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.11, h * 0.26, 6), M.stamm);
+    const a = (i / 3) * Math.PI * 2 + rnd();
+    ast.position.set(x + Math.cos(a) * h * 0.09, h * 0.53, -y + Math.sin(a) * h * 0.09);
+    ast.rotation.z = Math.cos(a) * -0.5; ast.rotation.x = Math.sin(a) * 0.5;
+    g.add(ast);
+  }
+  const ballen = [
+    [0, 0.66, 0, 0.30], [-0.20, 0.60, 0.14, 0.22], [0.22, 0.62, -0.10, 0.23],
+    [0.06, 0.78, 0.18, 0.21], [-0.14, 0.76, -0.16, 0.19], [0, 0.88, 0, 0.17],
+  ];
+  ballen.forEach(([dx, dy, dz, r], i) => {
+    const k = new THREE.Mesh(new THREE.SphereGeometry(h * r, 9, 7), i % 2 ? M.laub1 : M.laub2);
+    k.position.set(x + dx * h, dy * h, -y + dz * h);
+    k.scale.y = 0.86;
     k.castShadow = true;
     g.add(k);
-  }
+  });
 }
 
 function zaun(g, M, ax, ay, bx, by) {
@@ -100,8 +125,8 @@ function beschilderung(g, M) {
     new THREE.PlaneGeometry(5.4, 1.7),
     new THREE.MeshStandardMaterial({ map: schildTextur(), transparent: true,
       emissive: 0xffffff, emissiveIntensity: 0.28, roughness: 0.6 }));
-  schild.position.set(21.4, 5.5, 0.20);
-  schild.rotation.y = Math.PI;
+  // Die Fläche zeigt nach +Z, also zur Straße im Süden – nicht drehen.
+  schild.position.set(21.4, 5.5, 0.22);
   g.add(schild);
 
   // Freistehende Werbestele an der Zufahrt
@@ -149,10 +174,10 @@ export function buildSite(M) {
   boden.receiveShadow = true;
   g.add(boden);
 
-  /* Parkplatz / Zufahrt im Süden */
-  const hof = boxMesh(46, 0.10, 17, M.pflaster, 14, -0.04, 10.5);
+  /* Parkplatz / Zufahrt im Süden – Klinkerpflaster wie auf Foto 3/54 */
+  const hof = boxMesh(46, 0.10, 17, M.klinker, 14, -0.04, 10.5);
   hof.receiveShadow = true; hof.castShadow = false; g.add(hof);
-  const strasse = boxMesh(70, 0.08, 8, M.asphalt, 14, -0.05, 22.5);
+  const strasse = boxMesh(160, 0.08, 9, M.asphalt, 14, -0.05, 22.5);
   strasse.receiveShadow = true; strasse.castShadow = false; g.add(strasse);
 
   /* Terrasse an der Gartenfassade */

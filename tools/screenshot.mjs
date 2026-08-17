@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
   if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) {
     res.writeHead(404); return res.end('not found');
   }
-  res.writeHead(200, { 'content-type': TYPES[path.extname(file)] || 'application/octet-stream' });
+  res.writeHead(200, { 'content-type': TYPES[path.extname(file)] || 'application/octet-stream', 'cache-control': 'no-store' });
   fs.createReadStream(file).pipe(res);
 });
 
@@ -35,6 +35,10 @@ const browser = await chromium.launch({
   args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--no-sandbox'],
 });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+// Software-Rendering blockiert den Hauptthread; Playwrights Stabilitäts-
+// prüfung läuft dann in den Timeout. Klicks deshalb erzwingen.
+page.setDefaultTimeout(90000);
+const klick = sel => page.click(sel, { force: true });
 const fehler = [];
 page.on('console', m => { if (m.type() === 'error') fehler.push('console: ' + m.text()); });
 page.on('pageerror', e => fehler.push('pageerror: ' + e.message));
@@ -45,51 +49,51 @@ await page.waitForTimeout(6500);
 
 const shots = [
   ['01-uebersicht', async () => {}],
-  ['02-eg', async () => { await page.click('.level-switch button[data-level="0"]'); await page.waitForTimeout(700); }],
-  ['03-og', async () => { await page.click('.level-switch button[data-level="1"]'); await page.waitForTimeout(700); }],
+  ['02-eg', async () => { await klick('.level-switch button[data-level="0"]'); await page.waitForTimeout(700); }],
+  ['03-og', async () => { await klick('.level-switch button[data-level="1"]'); await page.waitForTimeout(700); }],
   ['04-explosion', async () => {
-      await page.click('.level-switch button[data-level="all"]');
+      await klick('.level-switch button[data-level="all"]');
       await page.$eval('#explode', e => { e.value = 70; e.dispatchEvent(new Event('input')); });
       await page.waitForTimeout(1400);
   }],
   ['05-dach', async () => {
       await page.$eval('#explode', e => { e.value = 0; e.dispatchEvent(new Event('input')); });
-      await page.click('[data-toggle="roof"]');
+      await klick('[data-toggle="roof"]');
       await page.waitForTimeout(1200);
   }],
   ['06-raum-detail', async () => {
-      await page.click('[data-toggle="roof"]');
+      await klick('[data-toggle="roof"]');
       await page.evaluate(() => document.querySelector('.room-item[data-id="eg-saal-ost"]').click());
       await page.waitForTimeout(2200);
   }],
-  ['07-tour', async () => { await page.click('#btn-tour'); await page.waitForTimeout(2400); }],
+  ['07-tour', async () => { await klick('#btn-tour'); await page.waitForTimeout(2400); }],
   ['08-tour-lounge', async () => {
-      for (let i = 0; i < 2; i++) { await page.click('#tour-next'); await page.waitForTimeout(1500); }
+      for (let i = 0; i < 2; i++) { await klick('#tour-next'); await page.waitForTimeout(1500); }
   }],
   ['09-tour-saal', async () => {
-      for (let i = 0; i < 2; i++) { await page.click('#tour-next'); await page.waitForTimeout(1500); }
+      for (let i = 0; i < 2; i++) { await klick('#tour-next'); await page.waitForTimeout(1500); }
   }],
   ['10-tour-garten', async () => {
-      for (let i = 0; i < 3; i++) { await page.click('#tour-next'); await page.waitForTimeout(1500); }
+      for (let i = 0; i < 3; i++) { await klick('#tour-next'); await page.waitForTimeout(1500); }
   }],
   ['11-tour-og', async () => {
-      for (let i = 0; i < 2; i++) { await page.click('#tour-next'); await page.waitForTimeout(1500); }
+      for (let i = 0; i < 2; i++) { await klick('#tour-next'); await page.waitForTimeout(1500); }
   }],
   ['12-begehen', async () => {
-      await page.click('#tour-stop'); await page.waitForTimeout(300);
-      await page.click('.level-switch button[data-level="0"]'); await page.waitForTimeout(300);
+      await klick('#tour-stop'); await page.waitForTimeout(300);
+      await klick('.level-switch button[data-level="0"]'); await page.waitForTimeout(300);
       await page.evaluate(() => {
         TANZHAUS.steuerung.setModus('walk');
         TANZHAUS.steuerung.pos.set(17.5, 1.65, -6);
         TANZHAUS.steuerung.yaw = 0.35;
       });
-      await page.click('[data-mode="walk"]');
+      await klick('[data-mode="walk"]');
       await page.waitForTimeout(900);
   }],
   ['13-roentgen', async () => {
-      await page.click('[data-mode="orbit"]');
-      await page.click('.level-switch button[data-level="all"]');
-      await page.click('[data-toggle="walls"]');
+      await klick('[data-mode="orbit"]');
+      await klick('.level-switch button[data-level="all"]');
+      await klick('[data-toggle="walls"]');
       await page.waitForTimeout(1400);
   }],
 ];
