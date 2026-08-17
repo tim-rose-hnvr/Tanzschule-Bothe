@@ -1,0 +1,19 @@
+{
+  "name": "tanzhaus-hannover-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interaktives 3D-Modell des Tanzhauses Hannover (Tanzschule Bothe), rekonstruiert aus Grundriss-Renderings und Fotos",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs --open",
+    "serve": "node tools/serve.mjs",
+    "build": "node tools/build-einzeldatei.mjs",
+    "shots": "node tools/screenshot.mjs",
+    "look": "node tools/look.mjs",
+    "check": "node tools/debug.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "playwright": "^1.62.0"
+  }
+}

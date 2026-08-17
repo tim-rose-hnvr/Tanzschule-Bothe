@@ -23,11 +23,22 @@ export const KARTEN_LINKS = {
   satellit: `https://www.google.com/maps/@${S.lat},${S.lon},19z/data=!3m1!1e3`,
 };
 
-function embedUrl() {
-  return MAPS_API_KEY
-    ? `https://www.google.com/maps/embed/v1/place?key=${MAPS_API_KEY}`
-      + `&q=${encodeURIComponent(S.suchbegriff)}&zoom=18&maptype=satellite`
-    : `https://maps.google.com/maps?q=${S.lat},${S.lon}&z=18&t=k&output=embed`;
+/**
+ * Ohne Schlüssel wird die eingebettete Kartenansicht direkt angesprochen.
+ * Der bequemere Umweg `maps.google.com/…&output=embed` landet über eine
+ * 301-Weiterleitung bei genau dieser Adresse – die Weiterleitung selbst
+ * trägt aber `X-Frame-Options: SAMEORIGIN`, deshalb hier gleich das Ziel.
+ * Die Endantwort setzt kein `frame-ancestors`, die Einbettung ist erlaubt.
+ */
+function embedUrl(modus = 'satellit') {
+  if (MAPS_API_KEY) {
+    return `https://www.google.com/maps/embed/v1/place?key=${MAPS_API_KEY}`
+      + `&q=${encodeURIComponent(S.suchbegriff)}&zoom=18`
+      + `&maptype=${modus === 'satellit' ? 'satellite' : 'roadmap'}`;
+  }
+  const ort = `!2m1!1s${S.lat},${S.lon}`;
+  const pb = modus === 'satellit' ? `!1m4${ort}!5e1!6i18` : `!1m3${ort}!6i18`;
+  return `https://www.google.com/maps/embed?origin=mfe&pb=${pb}`;
 }
 
 /* ------------------------------------------------------------ Lageplan */
@@ -94,6 +105,10 @@ export function standortHtml() {
         ${lageplanSvg()}
         <p class="karte-hinweis" id="karte-hinweis">Google-Karte wird geladen …</p>
       </div>
+      <div class="kartenmodus" id="kartenmodus" hidden>
+        <button data-kartenmodus="satellit" class="active">Satellit</button>
+        <button data-kartenmodus="karte">Karte</button>
+      </div>
     </div>
 
     <div class="kartenlinks">
@@ -122,14 +137,28 @@ export function standortHtml() {
  * Versucht, die Google-Karte nachzuladen. Meldet sie sich nicht innerhalb
  * weniger Sekunden, bleibt der gezeichnete Lageplan stehen.
  */
+/**
+ * Warum die Karte ausbleibt, hat je nach Umgebung einen anderen Grund –
+ * eine pauschale Meldung würde in zwei von drei Fällen in die Irre führen.
+ */
+function grundText() {
+  if (location.protocol === 'file:')
+    return 'Die Karte braucht http(s): aus einer direkt geöffneten Datei lädt Google Maps nicht. '
+         + 'Mit „npm start“ läuft das Modell unter localhost – dann erscheint sie hier.';
+  if (window.self !== window.top)
+    return 'Diese Seite ist eingebettet und lässt keine fremden Inhalte zu.';
+  return 'Google Maps ist von hier aus nicht erreichbar – etwa ohne Internetverbindung '
+       + 'oder wenn ein Inhaltsblocker die Einbettung unterbindet.';
+}
+
 export function karteNachladen() {
   const feld = document.getElementById('kartenfeld');
   const hinweis = document.getElementById('karte-hinweis');
+  const modusleiste = document.getElementById('kartenmodus');
   if (!feld) return;
 
   const frame = document.createElement('iframe');
   frame.className = 'karte';
-  frame.loading = 'lazy';
   frame.referrerPolicy = 'no-referrer-when-downgrade';
   frame.title = 'Google-Karte des Standorts';
   frame.allowFullscreen = true;
@@ -139,20 +168,28 @@ export function karteNachladen() {
     if (erledigt) return;
     erledigt = true;
     frame.remove();
-    if (hinweis) hinweis.textContent =
-      'Live-Karte hier nicht verfügbar – der Lageplan oben stammt aus dem Modell. '
-      + 'Die Links darunter öffnen den Standort in Google Maps.';
+    if (hinweis) hinweis.textContent = grundText() + ' Der Lageplan oben stammt aus dem '
+      + 'Modell, die Links darunter funktionieren in jedem Fall.';
   };
   const geschafft = () => {
     if (erledigt) return;
     erledigt = true;
     feld.classList.add('hat-karte');
+    if (modusleiste) modusleiste.hidden = false;
   };
 
   frame.addEventListener('load', geschafft);
   frame.addEventListener('error', aufgeben);
-  setTimeout(aufgeben, 4500);
+  setTimeout(aufgeben, 5000);
 
-  frame.src = embedUrl();
+  frame.src = embedUrl('satellit');
   feld.append(frame);
+
+  modusleiste?.addEventListener('click', e => {
+    const b = e.target.closest('[data-kartenmodus]');
+    if (!b) return;
+    modusleiste.querySelectorAll('button').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    frame.src = embedUrl(b.dataset.kartenmodus);
+  });
 }

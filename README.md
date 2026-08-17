@@ -8,28 +8,51 @@ Jeder Raum lässt sich anklicken und liefert Fläche, Abmessung, Bodenbelag,
 Ausstattung und die zugehörigen Fotos. Acht Highlights erschließen zusätzlich
 die Außenanlagen, die nur auf den Fotos zu sehen sind.
 
-## Starten
+## Lokal starten
 
-Das Projekt braucht keinen Build-Schritt, aber wegen der ES-Module einen
-lokalen Server:
+Ein Befehl, keine Abhängigkeiten – Node.js ab Version 18 genügt:
 
 ```bash
-python3 -m http.server 8000     # danach http://localhost:8000 öffnen
+npm start                  # startet den Server und öffnet den Browser
 ```
 
-Alternativ gibt es eine vollständig eigenständige Einzeldatei, die sich
-direkt per Doppelklick öffnen lässt – three.js, alle Module und sämtliche
-Bilder sind darin eingebettet, es wird kein Netz benötigt:
+Danach läuft das Modell unter **http://localhost:8080**. Ist der Port belegt,
+sucht der Server selbst den nächsten freien und nennt die Adresse. Ohne
+automatischen Browserstart:
+
+```bash
+npm run serve              # nur starten, Adresse steht in der Ausgabe
+node tools/serve.mjs 3000  # eigener Port
+```
+
+Der Server bindet bewusst nur auf `127.0.0.1`, ist also ausschließlich vom
+eigenen Rechner erreichbar. Wer lieber etwas Vorhandenes nimmt, kommt mit
+jedem statischen Server ans Ziel:
+
+```bash
+python3 -m http.server 8000
+npx serve .
+```
+
+**Warum überhaupt ein Server?** Das Modell besteht aus ES-Modulen, die
+Browser aus Sicherheitsgründen nicht über `file://` laden. Und die
+eingebettete Google-Karte im Standortfenster kommt nur über `http(s)` an.
+
+### Einzeldatei ohne Server
+
+Wenn es keine Rolle spielt, dass die Live-Karte fehlt, tut es auch die
+eigenständige Fassung per Doppelklick – three.js, alle Module und sämtliche
+Bilder sind eingebettet, es wird kein Netz benötigt:
 
 ```
-dist/tanzhaus-3d.html          (2,5 MB)
+dist/tanzhaus-3d.html          (2,7 MB)
 ```
 
 Neu erzeugen lässt sie sich mit:
 
 ```bash
-npm install esbuild
-node tools/build-einzeldatei.mjs
+npm install                # esbuild
+npm run build
 ```
 
 ## Bedienung
@@ -151,13 +174,21 @@ Adresse, Koordinaten und Kartenlinks stehen in der Anwendung unter
 OpenStreetMap führt an derselben Stelle den Knoten „Tanzhaus Bothe, 299b“
 (52.405503, 9.794793, 30655 Hannover-Groß-Buchholz).
 
-Die Google-Karte wird als `<iframe>` nachgeladen. Umgebungen mit strenger
-Content-Security-Policy – etwa eine veröffentlichte Artifact-Seite – lassen
-keine Fremd-Hosts zu; dort bleibt der selbst gezeichnete Lageplan stehen und
-die Links öffnen den Standort in einem neuen Tab. Ein Schlüssel für die
-offizielle Maps Embed API lässt sich in `src/standort.js` unter
-`MAPS_API_KEY` eintragen; ohne Schlüssel wird die schlüssellose
-`output=embed`-Variante versucht.
+Die Google-Karte wird als `<iframe>` nachgeladen und erscheint, sobald die
+Seite über `http(s)` läuft – also unter `npm start` auf localhost. Lädt sie
+nicht, bleibt der selbst gezeichnete Lageplan stehen und das Fenster nennt
+den Grund: aus einer per Doppelklick geöffneten Datei (`file://`) lässt
+Google Maps sich nicht einbetten, in eingebetteten Seiten mit strenger
+Content-Security-Policy – etwa einer veröffentlichten Artifact-Seite – sind
+Fremd-Hosts generell gesperrt. Die Kartenlinks funktionieren in jedem Fall.
+
+Ohne Schlüssel wird `https://www.google.com/maps/embed?origin=mfe&pb=…`
+angesprochen. Das ist das Ziel der Weiterleitung von
+`maps.google.com/maps?…&output=embed`; direkt angesprochen, weil die
+Weiterleitung selbst `X-Frame-Options: SAMEORIGIN` trägt. Die Endantwort
+setzt kein `frame-ancestors`, die Einbettung ist also erlaubt. Ein Schlüssel
+für die offizielle Maps Embed API lässt sich in `src/standort.js` unter
+`MAPS_API_KEY` eintragen.
 
 **Gegenprobe zur Größe:** OpenStreetMap zeichnet an dieser Adresse ein
 Rechteck von rund 33 × 22 m (722 m², Weg 98115512). Das Modell folgt den
@@ -169,6 +200,7 @@ so dokumentiert und nicht stillschweigend angeglichen.
 ## Entwicklung
 
 ```bash
+npm start                      # lokaler Server + Browser
 node tools/screenshot.mjs      # Screenshots aller Ansichten nach .shots/
 node tools/look.mjs            # feste Kamerastandpunkte nach .look/ (Bildkontrolle)
 node tools/debug.mjs           # Funktionstest der Zustandslogik
