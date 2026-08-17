@@ -1,0 +1,62 @@
+name: SEO-Wächter
+
+# Läuft täglich um 05:20 UTC (Sommerzeit 07:20 in Hannover) und lässt sich
+# jederzeit von Hand starten. Der Lauf ändert nichts an der Website — er
+# schreibt nur die Momentaufnahme fort und legt Korrekturvorschläge als
+# Pull Request zur Freigabe vor.
+on:
+  schedule:
+    - cron: "20 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  wacht:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Stufe 1 — Sensor
+        working-directory: waechter
+        run: python3 waechter.py sensor
+
+      - name: Stufe 2 — Prüfen
+        id: pruefen
+        working-directory: waechter
+        # Rückgabewert 1 bedeutet: kritische Befunde vorhanden. Das soll den
+        # Lauf nicht abbrechen, sondern nur festgehalten werden.
+        run: |
+          set +e
+          python3 waechter.py pruefen | tee pruefbericht.txt
+          echo "kritisch=$?" >> "$GITHUB_OUTPUT"
+          python3 waechter.py bericht
+
+      - name: Stufe 3 — Vorschläge
+        working-directory: waechter
+        run: python3 waechter.py vorschlag
+
+      - name: Momentaufnahme und Vorschläge als Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: waechter/lauf-${{ github.run_number }}
+          title: "SEO-Wächter: Befunde und Vorschläge vom ${{ github.run_id }}"
+          commit-message: |
+            SEO-Waechter: taeglicher Lauf
+
+            Momentaufnahme, Befunde und Korrekturvorschlaege aktualisiert.
+            Vorschlaege sind noch nicht angewendet — dieser Pull Request
+            dient der Durchsicht und Freigabe durch einen Menschen.
+          body-path: waechter/bericht.md
+          add-paths: |
+            waechter/momentaufnahmen/**
+            waechter/befunde.json
+            waechter/vorschlaege.json
+            waechter/bericht.md
+          delete-branch: true

@@ -1,0 +1,4 @@
+# Zwischenergebnisse eines Laufs. Momentaufnahmen bleiben bewusst versioniert —
+# sie sind der Verlauf, ohne den Stufe 2 nichts vergleichen kann.
+pruefbericht.txt
+__pycache__/
