@@ -2739,6 +2739,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/freunde-werben-freunde/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.39 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/freunde-werben-freunde/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -3630,10 +3639,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
+   "regel": "Titel zu lang",
+   "schwere": "mittel",
+   "text": "Der Titel wird in der Suche abgeschnitten.",
+   "ist": "65 Zeichen",
+   "soll": "höchstens 60",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
    "regel": "Marke steht vorn",
    "schwere": "hoch",
    "text": "Der Titel beginnt mit dem Markennamen statt mit dem Suchbegriff.",
-   "ist": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Jun",
+   "ist": "Tanzschule Familie Bothe | Neue Paartanzkurse ab End",
    "soll": "Suchbegriff + Ort + Marke",
    "fixbar": true
   },
@@ -3642,7 +3660,7 @@
    "regel": "Ort fehlt im Titel",
    "schwere": "hoch",
    "text": "Ohne Ortsbezug konkurriert die Seite bundesweit statt lokal.",
-   "ist": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Jun",
+   "ist": "Tanzschule Familie Bothe | Neue Paartanzkurse ab End",
    "soll": "Ort im Titel nennen",
    "fixbar": true
   },
@@ -3693,10 +3711,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.39 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "301 kB",
+   "ist": "311 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -4071,10 +4098,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/winter-galaball-2025/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.54 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/winter-galaball-2025/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "300 kB",
+   "ist": "299 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -4356,6 +4392,15 @@
    "ist": "10 von 12",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/opening-studiob/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.18 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/opening-studiob/",
@@ -4791,6 +4836,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tanz-in-den-mai-2026/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.14 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tanz-in-den-mai-2026/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -5079,6 +5133,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tanz-tee-und-toertchen-60/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.13 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tanz-tee-und-toertchen-60/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -5220,6 +5283,15 @@
    "ist": "10 von 12",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/kostenlose-glueckswoche-2026/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.07 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/kostenlose-glueckswoche-2026/",
@@ -5227,78 +5299,6 @@
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
    "ist": "300 kB",
-   "soll": "unter 200 kB",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Marke steht vorn",
-   "schwere": "hoch",
-   "text": "Der Titel beginnt mit dem Markennamen statt mit dem Suchbegriff.",
-   "ist": "Tanzschule Familie Bothe | Sommerferien 2026",
-   "soll": "Suchbegriff + Ort + Marke",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Ort fehlt im Titel",
-   "schwere": "hoch",
-   "text": "Ohne Ortsbezug konkurriert die Seite bundesweit statt lokal.",
-   "ist": "Tanzschule Familie Bothe | Sommerferien 2026",
-   "soll": "Ort im Titel nennen",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Beschreibung fehlt",
-   "schwere": "kritisch",
-   "text": "Google baut sich den Suchergebnis-Text selbst zusammen.",
-   "ist": "leer",
-   "soll": "70–165 Zeichen",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "H2-Ebene fehlt",
-   "schwere": "mittel",
-   "text": "Ohne Zwischenüberschriften fehlt der Seite eine Gliederung.",
-   "ist": "0×",
-   "soll": "mindestens 1×",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Kein Schema",
-   "schwere": "hoch",
-   "text": "Ohne strukturierte Daten entstehen keine Rich Results.",
-   "ist": "0 Blöcke",
-   "soll": "Course, Event oder LocalBusiness",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Kein Open Graph",
-   "schwere": "mittel",
-   "text": "Geteilte Links erscheinen in sozialen Netzen ohne Bild und Text.",
-   "ist": "0 Tags",
-   "soll": "mindestens 4",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Bilder ohne Alt-Text",
-   "schwere": "mittel",
-   "text": "Bilder ohne Alternativtext sind für Suchmaschinen und Screenreader unsichtbar.",
-   "ist": "10 von 12",
-   "soll": "0",
-   "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "regel": "Seite zu schwer",
-   "schwere": "mittel",
-   "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "301 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -5436,6 +5436,15 @@
    "ist": "10 von 12",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/danceconnect-2026/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.17 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/danceconnect-2026/",
@@ -6582,10 +6591,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/vermietung/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.31 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/vermietung/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "223 kB",
+   "ist": "222 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -6849,15 +6867,6 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/kita/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.70 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/kita/",
@@ -7149,19 +7158,10 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/hannovertanzt-magazin/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.99 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/hannovertanzt-magazin/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "216 kB",
+   "ist": "217 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -7266,6 +7266,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/spotify/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.17 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/spotify/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -7347,19 +7356,10 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tickets/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.01 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tickets/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "223 kB",
+   "ist": "224 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -7932,10 +7932,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/blackdeals/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.14 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/blackdeals/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "226 kB",
+   "ist": "225 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -8007,7 +8016,7 @@
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "327 kB",
+   "ist": "328 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -9507,15 +9516,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/__stickies/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "4.20 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/__stickies/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -9588,19 +9588,10 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/events_xxx/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.23 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/events_xxx/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "202 kB",
+   "ist": "203 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -9663,7 +9654,7 @@
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "339 kB",
+   "ist": "338 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -9945,15 +9936,6 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/bothe-event/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.05 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/bothe-event/",
@@ -10614,15 +10596,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/umfrage/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.35 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/umfrage/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -10947,15 +10920,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/jetzt/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.51 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/jetzt/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -11154,19 +11118,10 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/bws2023/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.29 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/bws2023/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "226 kB",
+   "ist": "227 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -11223,15 +11178,6 @@
    "ist": "14 von 18",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/bwx2023/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.15 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/bwx2023/",
@@ -11376,15 +11322,6 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/ice-cream-challenge-2023-klon/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.98 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/ice-cream-challenge-2023-klon/",
@@ -12171,6 +12108,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/series/friday-night-party/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.24 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/series/friday-night-party/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12234,6 +12180,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/series/schueler-disco/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.72 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/series/schueler-disco/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12285,6 +12240,15 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/series/friday-night-party-2/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.31 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/series/friday-night-party-2/",
@@ -12360,15 +12324,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/schnellkontakt/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.30 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/divi_mega_pro/schnellkontakt/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12429,15 +12384,6 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-hannover/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.18 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-hannover/",
@@ -12513,15 +12459,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/mega-menu/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.97 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/divi_mega_pro/mega-menu/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12594,19 +12531,10 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/kat-erw-paare/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.00 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/divi_mega_pro/kat-erw-paare/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "243 kB",
+   "ist": "244 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -12663,15 +12591,6 @@
    "ist": "9 von 11",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-burgwedel/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.32 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-burgwedel/",
@@ -12738,15 +12657,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/3d-flip-book/hannover-tanzt/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.27 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/3d-flip-book/hannover-tanzt/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12819,15 +12729,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/3d-flip-book/70-jahre-70-fakten/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.00 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/3d-flip-book/70-jahre-70-fakten/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -12879,6 +12780,15 @@
    "ist": "11 von 13",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.18 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/",
@@ -12981,6 +12891,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.41 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -13023,6 +12942,15 @@
    "ist": "11 von 13",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-burgwedel/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.45 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-burgwedel/",
@@ -13077,6 +13005,15 @@
    "ist": "14 von 16",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.31 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/",
@@ -13152,6 +13089,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/meiers-lebenslust/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.24 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstaltungsort/meiers-lebenslust/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -13203,6 +13149,15 @@
    "ist": "21 von 23",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/veranstalter/ticketing/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.30 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstalter/ticketing/",
@@ -13341,15 +13296,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.96 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -13476,15 +13422,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.45 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -13548,15 +13485,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.49 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -13617,15 +13545,6 @@
    "ist": "13 von 15",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.39 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
@@ -14082,7 +14001,7 @@
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "284 kB",
+   "ist": "283 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -14202,6 +14121,15 @@
    "ist": "13 von 15",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.95 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
@@ -14520,6 +14448,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.71 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -14709,6 +14646,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.95 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -14835,10 +14781,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.61 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/news/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "318 kB",
+   "ist": "317 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -14907,10 +14862,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/tanzen/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.59 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/news/tanzen/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "317 kB",
+   "ist": "316 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -14979,10 +14943,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/events/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.67 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/news/events/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "316 kB",
+   "ist": "315 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -15051,10 +15024,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/aktionen/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.39 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/news/aktionen/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "313 kB",
+   "ist": "312 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -15123,10 +15105,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/locations/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.41 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/locations/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "305 kB",
+   "ist": "304 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -15312,10 +15303,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/slider/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.27 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/category/slider/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "308 kB",
+   "ist": "307 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -15525,6 +15525,15 @@
    "ist": "9 von 16",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/tanzschule-bothe/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.42 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschule-bothe/",
@@ -16074,6 +16083,15 @@
    "ist": "9 von 16",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/bothe/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.38 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/bothe/",
@@ -17751,15 +17769,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/glueckswoche/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.28 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tag/glueckswoche/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -17829,15 +17838,6 @@
    "ist": "10 von 13",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tag/tanzhaus/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.36 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzhaus/",
@@ -17913,15 +17913,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/party/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.17 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tag/party/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -17991,15 +17982,6 @@
    "ist": "72 von 75",
    "soll": "0",
    "fixbar": true
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tag/tanzhaus-bothe/",
-   "regel": "Langsame Antwort",
-   "schwere": "mittel",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "1.16 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzhaus-bothe/",
@@ -18216,6 +18198,15 @@
    "ist": "9 von 12",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/kostenlos/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.34 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/kostenlos/",
@@ -18759,10 +18750,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/noltemeyerbruecke/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.12 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/noltemeyerbruecke/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "302 kB",
+   "ist": "301 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -21450,6 +21450,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/bothetanzt/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.10 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/bothetanzt/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -23457,6 +23466,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.14 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -23961,15 +23979,6 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/the-prospect/",
-   "regel": "Langsame Antwort",
-   "schwere": "hoch",
-   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
-   "ist": "2.75 s",
-   "soll": "unter 1.0 s",
-   "fixbar": false
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/tag/the-prospect/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -24114,6 +24123,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.14 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -24186,6 +24204,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.05 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -24246,6 +24273,15 @@
    "ist": "9 von 13",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/paartanzkurs-hannover/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.48 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/paartanzkurs-hannover/",
@@ -24312,6 +24348,15 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-hannover/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.24 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/tanzen-hannover/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
@@ -24372,6 +24417,15 @@
    "ist": "9 von 13",
    "soll": "0",
    "fixbar": true
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/tag/tanzen-burgwedel/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.01 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-burgwedel/",
@@ -26526,10 +26580,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/workshop/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.33 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/events/kategorie/workshop/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "319 kB",
+   "ist": "318 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },
@@ -27381,10 +27444,19 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/author/derjasper/",
+   "regel": "Langsame Antwort",
+   "schwere": "hoch",
+   "text": "Lange Wartezeit bis zum ersten Byte kostet Besucher und Ranking.",
+   "ist": "2.53 s",
+   "soll": "unter 1.0 s",
+   "fixbar": false
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/author/derjasper/",
    "regel": "Seite zu schwer",
    "schwere": "mittel",
    "text": "Großes HTML verzögert die Darstellung besonders mobil.",
-   "ist": "309 kB",
+   "ist": "308 kB",
    "soll": "unter 200 kB",
    "fixbar": false
   },

@@ -1,12 +1,12 @@
 {
  "stand": "2026-08-17",
  "basis": "https://www.tanzschule-bothe.de",
- "anzahl": 396,
+ "anzahl": 395,
  "seiten": {
   "https://www.tanzschule-bothe.de/bildergalerie-01/": {
    "url": "https://www.tanzschule-bothe.de/bildergalerie-01/",
    "code": "200",
-   "ttfb": 0.63,
+   "ttfb": 0.54,
    "kb": 308,
    "titel": "Tanzschule Familie Bothe | Junioren Galaball im Kuppelsaal / HCC",
    "desc": "",
@@ -25,7 +25,7 @@
   "https://www.tanzschule-bothe.de/bildergalerie-zwei/": {
    "url": "https://www.tanzschule-bothe.de/bildergalerie-zwei/",
    "code": "200",
-   "ttfb": 0.76,
+   "ttfb": 0.6,
    "kb": 316,
    "titel": "Tanzschule Familie Bothe | Hauspartys im TANZHAUS HANNOVER",
    "desc": "",
@@ -44,7 +44,7 @@
   "https://www.tanzschule-bothe.de/neueroeffnung-tanzhaus-hannover-09-02-2019/": {
    "url": "https://www.tanzschule-bothe.de/neueroeffnung-tanzhaus-hannover-09-02-2019/",
    "code": "200",
-   "ttfb": 0.77,
+   "ttfb": 0.61,
    "kb": 317,
    "titel": "Tanzschule Familie Bothe | Neueröffnung TANZHAUS HANNOVER",
    "desc": "",
@@ -63,7 +63,7 @@
   "https://www.tanzschule-bothe.de/360-tour-durch-das-tanzhaus-hannover/": {
    "url": "https://www.tanzschule-bothe.de/360-tour-durch-das-tanzhaus-hannover/",
    "code": "200",
-   "ttfb": 0.79,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | 360° Tour durch das TANZHAUS HANNOVER",
    "desc": "",
@@ -82,7 +82,7 @@
   "https://www.tanzschule-bothe.de/junioren-galaball/": {
    "url": "https://www.tanzschule-bothe.de/junioren-galaball/",
    "code": "200",
-   "ttfb": 0.63,
+   "ttfb": 0.69,
    "kb": 310,
    "titel": "Tanzschule Familie Bothe | Junioren-Galaball",
    "desc": "",
@@ -101,7 +101,7 @@
   "https://www.tanzschule-bothe.de/galanight-hannover-2019/": {
    "url": "https://www.tanzschule-bothe.de/galanight-hannover-2019/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.65,
    "kb": 316,
    "titel": "Tanzschule Familie Bothe | GALANIGHT-HANNOVER",
    "desc": "",
@@ -120,7 +120,7 @@
   "https://www.tanzschule-bothe.de/galanight-hannover-18-12-2021/": {
    "url": "https://www.tanzschule-bothe.de/galanight-hannover-18-12-2021/",
    "code": "200",
-   "ttfb": 0.81,
+   "ttfb": 0.67,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | GALA NIGHT HANNOVER &#8211; es war (uns) ein Fest",
    "desc": "",
@@ -139,7 +139,7 @@
   "https://www.tanzschule-bothe.de/ice-cream-challenge-jetzt-voten/": {
    "url": "https://www.tanzschule-bothe.de/ice-cream-challenge-jetzt-voten/",
    "code": "200",
-   "ttfb": 0.81,
+   "ttfb": 0.62,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | ICE CREAM CHALLENGE &#8211; jetzt voten!",
    "desc": "",
@@ -158,7 +158,7 @@
   "https://www.tanzschule-bothe.de/tanz-in-den-mai-2022/": {
    "url": "https://www.tanzschule-bothe.de/tanz-in-den-mai-2022/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.81,
    "kb": 337,
    "titel": "Tanzschule Familie Bothe | Tanz in den Mai 2022",
    "desc": "",
@@ -177,7 +177,7 @@
   "https://www.tanzschule-bothe.de/paartanzkurse-ab-28-08-2022-jetzt-anmelden/": {
    "url": "https://www.tanzschule-bothe.de/paartanzkurse-ab-28-08-2022-jetzt-anmelden/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.81,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Januar 2025",
    "desc": "",
@@ -196,7 +196,7 @@
   "https://www.tanzschule-bothe.de/hanoover-tanzt-das-magazin-der-tanzschule/": {
    "url": "https://www.tanzschule-bothe.de/hanoover-tanzt-das-magazin-der-tanzschule/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.79,
    "kb": 302,
    "titel": "Tanzschule Familie Bothe | HANNOVER TANZT! Das Magazin der Tanzschule",
    "desc": "",
@@ -215,7 +215,7 @@
   "https://www.tanzschule-bothe.de/opernball-2023-besame-mucho/": {
    "url": "https://www.tanzschule-bothe.de/opernball-2023-besame-mucho/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.79,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | OPERNBALL 2023 &#8211; Bésame mucho",
    "desc": "",
@@ -234,7 +234,7 @@
   "https://www.tanzschule-bothe.de/summercamp-2023-jetzt-anmelden-und-platz-sichern/": {
    "url": "https://www.tanzschule-bothe.de/summercamp-2023-jetzt-anmelden-und-platz-sichern/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Summercamp 2023: Jetzt anmelden und Platz sichern!",
    "desc": "",
@@ -253,7 +253,7 @@
   "https://www.tanzschule-bothe.de/european-masters-of-dance-2023/": {
    "url": "https://www.tanzschule-bothe.de/european-masters-of-dance-2023/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | EUROPEAN MASTERS OF DANCE 2023",
    "desc": "",
@@ -272,7 +272,7 @@
   "https://www.tanzschule-bothe.de/winter-galaball-09-12-2023/": {
    "url": "https://www.tanzschule-bothe.de/winter-galaball-09-12-2023/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.76,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Winter Galaball 09.12.2023",
    "desc": "",
@@ -291,7 +291,7 @@
   "https://www.tanzschule-bothe.de/community-app-wird-bothe/": {
    "url": "https://www.tanzschule-bothe.de/community-app-wird-bothe/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.76,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Die neue Bothe!-Community",
    "desc": "",
@@ -310,7 +310,7 @@
   "https://www.tanzschule-bothe.de/wir-sind-stolz-adtv-sommerpruefungen-2023/": {
    "url": "https://www.tanzschule-bothe.de/wir-sind-stolz-adtv-sommerpruefungen-2023/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Wir sind stolz! ADTV Sommerprüfungen 2023",
    "desc": "",
@@ -329,7 +329,7 @@
   "https://www.tanzschule-bothe.de/tanzhaus-hannover-am-fr-15-09-2023-geschlossen/": {
    "url": "https://www.tanzschule-bothe.de/tanzhaus-hannover-am-fr-15-09-2023-geschlossen/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Keine Kurse am 15. September im TANZHAUS HANNOVER",
    "desc": "",
@@ -348,7 +348,7 @@
   "https://www.tanzschule-bothe.de/pink-black-party-fuer-schueler/": {
    "url": "https://www.tanzschule-bothe.de/pink-black-party-fuer-schueler/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Pink &#038; Black-Party für Schüler",
    "desc": "",
@@ -367,7 +367,7 @@
   "https://www.tanzschule-bothe.de/grosse-erfolge-am-30-09-in-hamburg/": {
    "url": "https://www.tanzschule-bothe.de/grosse-erfolge-am-30-09-in-hamburg/",
    "code": "200",
-   "ttfb": 0.48,
+   "ttfb": 0.58,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Große Erfolge am 30.09. in Hamburg",
    "desc": "",
@@ -386,7 +386,7 @@
   "https://www.tanzschule-bothe.de/winter-galaball-2023-es-war-uns-ein-fest/": {
    "url": "https://www.tanzschule-bothe.de/winter-galaball-2023-es-war-uns-ein-fest/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 306,
    "titel": "Tanzschule Familie Bothe | Winter Galaball 2023 &#8211; Es war (uns) ein Fest",
    "desc": "",
@@ -405,7 +405,7 @@
   "https://www.tanzschule-bothe.de/spende-an-kleine-herzen-hannover-e-v/": {
    "url": "https://www.tanzschule-bothe.de/spende-an-kleine-herzen-hannover-e-v/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.63,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Spende an &#8222;Kleine Herzen Hannover e.V.&#8220;",
    "desc": "",
@@ -424,7 +424,7 @@
   "https://www.tanzschule-bothe.de/open-dance-day-am-14-01-2024/": {
    "url": "https://www.tanzschule-bothe.de/open-dance-day-am-14-01-2024/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.64,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | OPEN DANCE DAY am 14.01.2024",
    "desc": "",
@@ -443,7 +443,7 @@
   "https://www.tanzschule-bothe.de/werde-gastherr-fuer-unsere-schuelertanzkurse/": {
    "url": "https://www.tanzschule-bothe.de/werde-gastherr-fuer-unsere-schuelertanzkurse/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.65,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Werde GASTHERR für unsere Schülertanzkurse",
    "desc": "",
@@ -462,7 +462,7 @@
   "https://www.tanzschule-bothe.de/opernball-2024-debuetanten/": {
    "url": "https://www.tanzschule-bothe.de/opernball-2024-debuetanten/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 310,
    "titel": "Tanzschule Familie Bothe | Opernball 2024 &#8211; &#8222;LET THE SUNSHINE IN&#8220;",
    "desc": "",
@@ -481,7 +481,7 @@
   "https://www.tanzschule-bothe.de/70-jahre-tanzschule-bothe/": {
    "url": "https://www.tanzschule-bothe.de/70-jahre-tanzschule-bothe/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.56,
    "kb": 303,
    "titel": "Tanzschule Familie Bothe | 70 Jahre Tanzschule Bothe",
    "desc": "",
@@ -500,7 +500,7 @@
   "https://www.tanzschule-bothe.de/dj-battle-fuer-schueler-2/": {
    "url": "https://www.tanzschule-bothe.de/dj-battle-fuer-schueler-2/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | DJ-Battle für Schüler",
    "desc": "",
@@ -519,7 +519,7 @@
   "https://www.tanzschule-bothe.de/tanzfreie-tage/": {
    "url": "https://www.tanzschule-bothe.de/tanzfreie-tage/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Tanzfreie Tage im April/Mai 2024",
    "desc": "",
@@ -538,7 +538,7 @@
   "https://www.tanzschule-bothe.de/jubilaeum-tanzschulgruender-wird-90/": {
    "url": "https://www.tanzschule-bothe.de/jubilaeum-tanzschulgruender-wird-90/",
    "code": "200",
-   "ttfb": 0.67,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Jubiläum &#8211; Tanzschulgründer wird 90",
    "desc": "",
@@ -557,7 +557,7 @@
   "https://www.tanzschule-bothe.de/summer-dance-festival-17-18-august/": {
    "url": "https://www.tanzschule-bothe.de/summer-dance-festival-17-18-august/",
    "code": "200",
-   "ttfb": 0.67,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | SUMMER DANCE FESTIVAL &#8211; 17. &#038; 18. August",
    "desc": "",
@@ -576,7 +576,7 @@
   "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende/": {
    "url": "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.56,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Erfolgreiches Hip Hop Wochenende",
    "desc": "",
@@ -595,7 +595,7 @@
   "https://www.tanzschule-bothe.de/erfolgreicher-turniertag-in-osnabrueck/": {
    "url": "https://www.tanzschule-bothe.de/erfolgreicher-turniertag-in-osnabrueck/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Erfolgreicher Turniertag in Osnabrück",
    "desc": "",
@@ -614,7 +614,7 @@
   "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende-2/": {
    "url": "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende-2/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Erfolgreiches Hip Hop-Wochenende",
    "desc": "",
@@ -633,7 +633,7 @@
   "https://www.tanzschule-bothe.de/hannover-tanzt-am-see/": {
    "url": "https://www.tanzschule-bothe.de/hannover-tanzt-am-see/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Hannover tanzt(e) am See",
    "desc": "",
@@ -652,7 +652,7 @@
   "https://www.tanzschule-bothe.de/showcase-6-11-jahre/": {
    "url": "https://www.tanzschule-bothe.de/showcase-6-11-jahre/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.6,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | SHOWCASE | 6 -11 Jahre",
    "desc": "",
@@ -671,7 +671,7 @@
   "https://www.tanzschule-bothe.de/winter-galaball-2024/": {
    "url": "https://www.tanzschule-bothe.de/winter-galaball-2024/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Winter-Galaball 2024",
    "desc": "",
@@ -690,7 +690,7 @@
   "https://www.tanzschule-bothe.de/freunde-werben-freunde/": {
    "url": "https://www.tanzschule-bothe.de/freunde-werben-freunde/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 2.39,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Freunde werben Freunde",
    "desc": "",
@@ -703,13 +703,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "Freunde werben Freunde",
-   "woerter": 322,
+   "woerter": 326,
    "auszug": "50,00 EUR Gutschrift auf Dein Kundenkonto – werbe Freunde, die noch nie bei uns angemeldet waren – Solotanz (Hip Hop, Dance&Fitness, Kindertanz, etc.): € 50,00 Gutschrift pro geworbener Person – Paartanzangebot: € 50,00 Gutschrift pro geworbenem Paar (Einzelanmeldungen werden nicht berücksichtigt) – gilt nur bei Abo-Buchungen (Laufzeiten) – nicht rückwirkend möglich – keine Auszahlung oder Verrechnung mit Getränken möglich – die Aktion gilt nicht innerhalb der Familie – Die Gutschrift auf deinem Kundenkonto erfolgt nach Ablauf der Widerrufsfrist der geworbenen Person Bei der Online-Anmeldung der Freunde im Feld „Sonstiges“ den Namen und die Kundennummer der werbenden Person eintragen. Gilt n"
   },
   "https://www.tanzschule-bothe.de/summer-dance-camp-2025/": {
    "url": "https://www.tanzschule-bothe.de/summer-dance-camp-2025/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | SUMMER-DANCE-CAMP 2025",
    "desc": "",
@@ -728,7 +728,7 @@
   "https://www.tanzschule-bothe.de/open-dance-day-2025/": {
    "url": "https://www.tanzschule-bothe.de/open-dance-day-2025/",
    "code": "200",
-   "ttfb": 0.63,
+   "ttfb": 0.57,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | OPEN DANCE DAY 2025",
    "desc": "",
@@ -747,7 +747,7 @@
   "https://www.tanzschule-bothe.de/volare-oh-oh/": {
    "url": "https://www.tanzschule-bothe.de/volare-oh-oh/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | VOLARE OH, OH!",
    "desc": "",
@@ -766,7 +766,7 @@
   "https://www.tanzschule-bothe.de/osterferien-2025/": {
    "url": "https://www.tanzschule-bothe.de/osterferien-2025/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.59,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Osterferien 2025",
    "desc": "",
@@ -785,7 +785,7 @@
   "https://www.tanzschule-bothe.de/the-prospect-goes-vibe-2025/": {
    "url": "https://www.tanzschule-bothe.de/the-prospect-goes-vibe-2025/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | The Prospect tanzt an die Weltspitze",
    "desc": "",
@@ -804,7 +804,7 @@
   "https://www.tanzschule-bothe.de/schlossfest-2025/": {
    "url": "https://www.tanzschule-bothe.de/schlossfest-2025/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Schlossfest 2025",
    "desc": "",
@@ -823,7 +823,7 @@
   "https://www.tanzschule-bothe.de/juni-special-tanze-4-zahle-3/": {
    "url": "https://www.tanzschule-bothe.de/juni-special-tanze-4-zahle-3/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | JUNI-SPECIAL: tanze 4, zahle 3!",
    "desc": "",
@@ -842,7 +842,7 @@
   "https://www.tanzschule-bothe.de/showcase-family-friends-is-back/": {
    "url": "https://www.tanzschule-bothe.de/showcase-family-friends-is-back/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Showcase Family &#038; Friends is back!",
    "desc": "",
@@ -861,7 +861,7 @@
   "https://www.tanzschule-bothe.de/tanz-in-den-mai-2025/": {
    "url": "https://www.tanzschule-bothe.de/tanz-in-den-mai-2025/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Tanz in den Mai 2025",
    "desc": "",
@@ -880,7 +880,7 @@
   "https://www.tanzschule-bothe.de/tanzfreie-tage-im-mai-juni-2025/": {
    "url": "https://www.tanzschule-bothe.de/tanzfreie-tage-im-mai-juni-2025/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.62,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | Tanzfreie Tage im Mai/Juni 2025",
    "desc": "",
@@ -899,7 +899,7 @@
   "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende-3/": {
    "url": "https://www.tanzschule-bothe.de/erfolgreiches-hip-hop-wochenende-3/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Erfolgreiches Hip Hop Wochenende",
    "desc": "",
@@ -918,7 +918,7 @@
   "https://www.tanzschule-bothe.de/glueckswoche-2025/": {
    "url": "https://www.tanzschule-bothe.de/glueckswoche-2025/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Glückswoche für Erwachsene",
    "desc": "",
@@ -937,9 +937,9 @@
   "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/": {
    "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
    "code": "200",
-   "ttfb": 0.51,
-   "kb": 301,
-   "titel": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Juni 2026",
+   "ttfb": 2.39,
+   "kb": 311,
+   "titel": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Ende August 2026",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
    "noindex": false,
@@ -949,14 +949,14 @@
    "og": 0,
    "img_gesamt": 12,
    "img_ohne_alt": 10,
-   "h1_text": "Neue Paartanzkurse ab Juni 2026",
-   "woerter": 468,
+   "h1_text": "Neue Paartanzkurse ab Ende August 2026",
+   "woerter": 474,
    "auszug": "Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare erlernt ihr Schritt für Schritt "
   },
   "https://www.tanzschule-bothe.de/tanzschulferien-und-sommerferienprogramm-2025/": {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-und-sommerferienprogramm-2025/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.54,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Tanzschulferien und Sommerferienprogramm 2025",
    "desc": "",
@@ -975,7 +975,7 @@
   "https://www.tanzschule-bothe.de/glueckswoche-fuer-kids-und-teens/": {
    "url": "https://www.tanzschule-bothe.de/glueckswoche-fuer-kids-und-teens/",
    "code": "200",
-   "ttfb": 0.56,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Glückswoche für Kids und Teens",
    "desc": "",
@@ -994,7 +994,7 @@
   "https://www.tanzschule-bothe.de/friday-night-party-wiesn-edition/": {
    "url": "https://www.tanzschule-bothe.de/friday-night-party-wiesn-edition/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY &#8211; WIESN-EDITION",
    "desc": "",
@@ -1013,7 +1013,7 @@
   "https://www.tanzschule-bothe.de/white-meets-neon-schueler-disco/": {
    "url": "https://www.tanzschule-bothe.de/white-meets-neon-schueler-disco/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 299,
    "titel": "Tanzschule Familie Bothe | WHITE MEETS NEON | Schüler-Disco",
    "desc": "",
@@ -1032,8 +1032,8 @@
   "https://www.tanzschule-bothe.de/winter-galaball-2025/": {
    "url": "https://www.tanzschule-bothe.de/winter-galaball-2025/",
    "code": "200",
-   "ttfb": 0.52,
-   "kb": 300,
+   "ttfb": 2.54,
+   "kb": 299,
    "titel": "Tanzschule Familie Bothe | WINTER-GALABALL 2025",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/winter-galaball-2025/",
@@ -1045,13 +1045,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "WINTER-GALABALL 2025",
-   "woerter": 393,
+   "woerter": 397,
    "auszug": "Das Hannoversche Tanz-Highlight des Jahres im HCC Wir sind glücklich, mit Ihnen am 06. Dezember 2025 den WINTER-GALABALL im Kuppelsaal des HCC zu feiern. Winterball meets Gala Night. Auf mehreren Areas kommen nicht nur Paartanz-Fans auf ihre Kosten. Es erwartet Sie eine perfekte Mischung aus Tanz und Show im wundervollen Ambiente des Kuppelsaals, dem wohl schönsten Ballsaal Niedersachsens. Beginnend mit einer Opening-Show mit vielen kleinen und großen Akteuren leiten wir Sie durch unser Ballevent. Die Stargäste versprechen eine atemberaubende Performance – lassen Sie sich überraschen. Freuen Sie sich zwischen den Tanzrunden natürlich auch auf weitere Highlights und Showacts im Laufe des Ball"
   },
   "https://www.tanzschule-bothe.de/tanzen-mit-mehrwert-in-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tanzen-mit-mehrwert-in-hannover/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | TANZEN MIT MEHRWERT IN HANNOVER",
    "desc": "",
@@ -1070,7 +1070,7 @@
   "https://www.tanzschule-bothe.de/tanzschulferien-herbst-2025/": {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-herbst-2025/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Tanzschulferien Herbst 2025",
    "desc": "",
@@ -1089,7 +1089,7 @@
   "https://www.tanzschule-bothe.de/grand-opening-tag-der-offenen-tuer/": {
    "url": "https://www.tanzschule-bothe.de/grand-opening-tag-der-offenen-tuer/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | GRAND OPENING &#8211; Tag der offenen Tür",
    "desc": "",
@@ -1108,7 +1108,7 @@
   "https://www.tanzschule-bothe.de/opening-studiob/": {
    "url": "https://www.tanzschule-bothe.de/opening-studiob/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 2.18,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | OPENING STUDIO B",
    "desc": "",
@@ -1121,13 +1121,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "OPENING STUDIO B",
-   "woerter": 365,
+   "woerter": 369,
    "auszug": "FÜR ALLE SOLOTÄNZER IM BEREICH HIP HOP/CHOREO & CO. Feiere mit uns am Samstag, den 10.01.2026 , von 15:00 bis 21:00 Uhr im TANZHAUS HANNOVER . Ein Tag voller Workshops, Jams und Shows von ambitionierten Tänzern, die ihr Können unter Beweis stellen. Wir freuen uns riesig, dich zur offiziellen Eröffnung unseres neuen Studio B einzuladen! Der Eintritt ist frei , und ab 14:30 Uhr öffnen wir für dich die Türen. Bitte beachte: Für die Teilnahme benötigst du ein kostenloses Ticket , das du dir ganz einfach hier sichern kannst! Wenn du an den Workshops teilnehmen möchtest, wähle im Ticketshop bitte den WORKSHOP-PASS. Wenn du nur vorbeischauen und erleben möchtest, was das neue Studio B zu bieten hat"
   },
   "https://www.tanzschule-bothe.de/opening-party/": {
    "url": "https://www.tanzschule-bothe.de/opening-party/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | OPENING PARTY",
    "desc": "",
@@ -1146,7 +1146,7 @@
   "https://www.tanzschule-bothe.de/tanzschulferien-weihnachten-2025/": {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-weihnachten-2025/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Tanzschulferien Weihnachten 2025",
    "desc": "",
@@ -1165,7 +1165,7 @@
   "https://www.tanzschule-bothe.de/opernballtanzstunde-2026/": {
    "url": "https://www.tanzschule-bothe.de/opernballtanzstunde-2026/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | OPERNBALLTANZSTUNDE 2026",
    "desc": "",
@@ -1203,7 +1203,7 @@
   "https://www.tanzschule-bothe.de/friday-night-mees-afterwork/": {
    "url": "https://www.tanzschule-bothe.de/friday-night-mees-afterwork/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Friday Night meets Afterwork",
    "desc": "",
@@ -1222,7 +1222,7 @@
   "https://www.tanzschule-bothe.de/tanz-in-den-mai-2026/": {
    "url": "https://www.tanzschule-bothe.de/tanz-in-den-mai-2026/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 2.14,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Tanz in den Mai 2026",
    "desc": "",
@@ -1235,13 +1235,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "Tanz in den Mai 2026",
-   "woerter": 278,
-   "auszug": "Tanz in den Mai für Tänzer der Bothe-Family am 30. April im TANZHAUS HANNOVER! Mit großer Haupttanzfläche und eigenem Special-Bereich mit wechselndem Tanzangebot feiern wir wieder gemeinsam in den Mai. Neben Standard- und Lateintänzen, Discofox, Tango und Co. dürft ihr euch auch wieder auf die traditionelle Erdbeer-Bowle „à la Mark“ freuen. Es erwartet euch ein unterhaltsamer Abend mit viel Tanz, Animation und Spaß! Hier geht’s zu den Tickets! Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "woerter": 282,
+   "auszug": "Tanz in den Mai für Tänzer der Bothe-Family am 30. April im TANZHAUS HANNOVER! Mit großer Haupttanzfläche und eigenem Special-Bereich mit wechselndem Tanzangebot feiern wir wieder gemeinsam in den Mai. Neben Standard- und Lateintänzen, Discofox, Tango und Co. dürft ihr euch auch wieder auf die traditionelle Erdbeer-Bowle „à la Mark“ freuen. Es erwartet euch ein unterhaltsamer Abend mit viel Tanz, Animation und Spaß! Hier geht’s zu den Tickets! Neue Paartanzkurse ab Ende August 2026 Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
   },
   "https://www.tanzschule-bothe.de/summer-dance-camp-2026/": {
    "url": "https://www.tanzschule-bothe.de/summer-dance-camp-2026/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | SUMMER-DANCE-CAMP 2026",
    "desc": "",
@@ -1260,7 +1260,7 @@
   "https://www.tanzschule-bothe.de/osterferien-2026/": {
    "url": "https://www.tanzschule-bothe.de/osterferien-2026/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Osterferien 2026",
    "desc": "",
@@ -1279,7 +1279,7 @@
   "https://www.tanzschule-bothe.de/schlossfest-2026/": {
    "url": "https://www.tanzschule-bothe.de/schlossfest-2026/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Tanzschule Familie Bothe | Schlossfest 2026",
    "desc": "",
@@ -1298,7 +1298,7 @@
   "https://www.tanzschule-bothe.de/tanz-tee-und-toertchen-60/": {
    "url": "https://www.tanzschule-bothe.de/tanz-tee-und-toertchen-60/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 2.13,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Tanz, Tee und Törtchen 60+",
    "desc": "",
@@ -1311,13 +1311,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "Tanz, Tee und Törtchen 60+",
-   "woerter": 355,
+   "woerter": 359,
    "auszug": "Der zweite Tanz, Tee & Törtchen-Tag findet in diesem Jahr am Sonntag, 07. Juni im Tanzhaus Hannover statt (NEUER TERMIN) und lädt dich zu einem rundum entspannten und bewegten Nachmittag ein. Gemeinsam entdecken wir das 60plus-Programm und genießen im Anschluss ein geselliges Kaffeetrinken in großer Runde. In den Workshops hast du die Möglichkeit, pro Zeitslot zwischen zwei Angeboten zu wählen: 13:00 Uhr: Linedance ODER TanzFit 13:45 Uhr: TanzFit ODER Linedance 14:30 Uhr: SenYoga ODER TanzFit Ab 15:00 Uhr lassen wir den Tag bei Kaffee und Kuchen gemütlich ausklingen. Hier geht’s zu den Tickets! Ein besonderes Highlight folgt direkt danach: unsere Glückswoche 60plus vom 08.06. In dieser Woche"
   },
   "https://www.tanzschule-bothe.de/showcase-2026/": {
    "url": "https://www.tanzschule-bothe.de/showcase-2026/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.56,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Showcase 2026",
    "desc": "",
@@ -1336,7 +1336,7 @@
   "https://www.tanzschule-bothe.de/kostenlose-glueckswoche-2026/": {
    "url": "https://www.tanzschule-bothe.de/kostenlose-glueckswoche-2026/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 2.07,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Kostenlose Glückswoche 2026",
    "desc": "",
@@ -1349,32 +1349,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "Kostenlose Glückswoche 2026",
-   "woerter": 288,
-   "auszug": "Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa/Bachata & Tango Argentino Contemporary, SalsaFit (Beginner), LadyStyle, Zumba, Pepzu, Body Movement, Dance4Fun, Strength & Conditioning, Mobility, Yoga, Faszientraining, Hip Hop/Choreo Adults 25+ sowie Linedance in Burgwedel TanzFit 60+, SenYoga 60+, LineDance 60+ Hier geht’s zur Anmeldung! Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
-  },
-  "https://www.tanzschule-bothe.de/sommerferien-2026/": {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "code": "200",
-   "ttfb": 0.52,
-   "kb": 301,
-   "titel": "Tanzschule Familie Bothe | Sommerferien 2026",
-   "desc": "",
-   "canonical": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "noindex": false,
-   "h1": 1,
-   "h2": 0,
-   "ld": 0,
-   "og": 0,
-   "img_gesamt": 12,
-   "img_ohne_alt": 10,
-   "h1_text": "Sommerferien 2026",
-   "woerter": 284,
-   "auszug": "Die Sommerferien stehen vor der Tür. Hier findet ihr alle wichtigen Termine und die Sommer-Ferienprogramme auf einen Blick: Paartanz & Dance&Fitness Ferien vom 11.07. bis 01.08.2026 Zusätzlich geschlossen am 11.08. Schülertanzkurse & Jugendclubs Ferien vom 02.07. Kindertanz, StudioB & Kurse bis 17 Jahre Ferien vom 04.07. Hier geht’s schon zu den nächsten Ferienzeiten! Unsere Sommer-Ferienprogramme 2026: VIPClubs_Sommerferienprogramm_2026 Teens_Sommerferienprogramm_2026 Kids_Sommerferienprogramm_2026 Wir wünschen euch sonnige Sommerferien und freuen uns auf ein Wiedersehen auf der Tanzfläche! Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "woerter": 292,
+   "auszug": "Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa/Bachata & Tango Argentino Contemporary, SalsaFit (Beginner), LadyStyle, Zumba, Pepzu, Body Movement, Dance4Fun, Strength & Conditioning, Mobility, Yoga, Faszientraining, Hip Hop/Choreo Adults 25+ sowie Linedance in Burgwedel TanzFit 60+, SenYoga 60+, LineDance 60+ Hier geht’s zur Anmeldung! Neue Paartanzkurse ab Ende August 2026 Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
   },
   "https://www.tanzschule-bothe.de/erfolgreiches-hiphop-wochenende/": {
    "url": "https://www.tanzschule-bothe.de/erfolgreiches-hiphop-wochenende/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.6,
    "kb": 302,
    "titel": "Tanzschule Familie Bothe | Erfolgreiches HipHop-Wochenende",
    "desc": "",
@@ -1393,7 +1374,7 @@
   "https://www.tanzschule-bothe.de/danceconnect-2026/": {
    "url": "https://www.tanzschule-bothe.de/danceconnect-2026/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.17,
    "kb": 300,
    "titel": "Tanzschule Familie Bothe | Dance&#038;Connect 2026",
    "desc": "",
@@ -1406,13 +1387,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 10,
    "h1_text": "Dance&#038;Connect 2026",
-   "woerter": 292,
-   "auszug": "Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance & Connect Event am Sa., 29.08. ✨ Lerne neue Styles kennen ✨ Verbessere deine Skills ✨ Triff andere Tänzerinnen und Tänzer ✨ Sammle neue Inspiration ✨ Verbringe einen unvergesslichen Tag voller Musik, Bewegung und guter Vibes Egal ob Hip Hop/Choreography, Contemporary oder Commercial – hier geht es um Tanz, Gemeinschaft und Spaß! Hier geht’s zur Anmeldung! Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "woerter": 296,
+   "auszug": "Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance & Connect Event am Sa., 29.08. ✨ Lerne neue Styles kennen ✨ Verbessere deine Skills ✨ Triff andere Tänzerinnen und Tänzer ✨ Sammle neue Inspiration ✨ Verbringe einen unvergesslichen Tag voller Musik, Bewegung und guter Vibes Egal ob Hip Hop/Choreography, Contemporary oder Commercial – hier geht es um Tanz, Gemeinschaft und Spaß! Hier geht’s zur Anmeldung! Neue Paartanzkurse ab Ende August 2026 Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
   },
   "https://www.tanzschule-bothe.de/slider/": {
    "url": "https://www.tanzschule-bothe.de/slider/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 248,
    "titel": "Tanzschule Familie Bothe | slider",
    "desc": "",
@@ -1450,7 +1431,7 @@
   "https://www.tanzschule-bothe.de/voting/": {
    "url": "https://www.tanzschule-bothe.de/voting/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.6,
    "kb": 220,
    "titel": "Tanzschule Familie Bothe | Voting",
    "desc": "",
@@ -1469,7 +1450,7 @@
   "https://www.tanzschule-bothe.de/news/": {
    "url": "https://www.tanzschule-bothe.de/news/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 354,
    "titel": "Tanzschule Familie Bothe - News",
    "desc": "",
@@ -1488,7 +1469,7 @@
   "https://www.tanzschule-bothe.de/news-burgwedel/": {
    "url": "https://www.tanzschule-bothe.de/news-burgwedel/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.55,
    "kb": 354,
    "titel": "Tanzschule Familie Bothe | 140 News Burgwedel",
    "desc": "",
@@ -1507,7 +1488,7 @@
   "https://www.tanzschule-bothe.de/shop/": {
    "url": "https://www.tanzschule-bothe.de/shop/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 221,
    "titel": "Tanzschule Familie Bothe - Shop",
    "desc": "",
@@ -1526,7 +1507,7 @@
   "https://www.tanzschule-bothe.de/traditionverpflichtet/": {
    "url": "https://www.tanzschule-bothe.de/traditionverpflichtet/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.74,
    "kb": 312,
    "titel": "Tanzschule Familie Bothe - Geschichte",
    "desc": "",
@@ -1545,7 +1526,7 @@
   "https://www.tanzschule-bothe.de/locations/": {
    "url": "https://www.tanzschule-bothe.de/locations/",
    "code": "200",
-   "ttfb": 0.64,
+   "ttfb": 0.57,
    "kb": 238,
    "titel": "Tanzschule Familie Bothe - Location",
    "desc": "",
@@ -1564,7 +1545,7 @@
   "https://www.tanzschule-bothe.de/galerie/": {
    "url": "https://www.tanzschule-bothe.de/galerie/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 314,
    "titel": "Tanzschulen Familie Bothe - Galerie",
    "desc": "",
@@ -1583,7 +1564,7 @@
   "https://www.tanzschule-bothe.de/team/": {
    "url": "https://www.tanzschule-bothe.de/team/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 256,
    "titel": "Tanzschule Familie Bothe - Team",
    "desc": "",
@@ -1602,7 +1583,7 @@
   "https://www.tanzschule-bothe.de/partner/": {
    "url": "https://www.tanzschule-bothe.de/partner/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 237,
    "titel": "Tanzschule Familie Bothe - Partner",
    "desc": "",
@@ -1621,7 +1602,7 @@
   "https://www.tanzschule-bothe.de/faq/": {
    "url": "https://www.tanzschule-bothe.de/faq/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.57,
    "kb": 243,
    "titel": "Tanzschule Familie Bothe - FAQ",
    "desc": "",
@@ -1640,7 +1621,7 @@
   "https://www.tanzschule-bothe.de/impressum/": {
    "url": "https://www.tanzschule-bothe.de/impressum/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 321,
    "titel": "Tanzschule Familie Bothe - Impressum",
    "desc": "",
@@ -1659,7 +1640,7 @@
   "https://www.tanzschule-bothe.de/kontakt/": {
    "url": "https://www.tanzschule-bothe.de/kontakt/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 226,
    "titel": "Tanzschule Familie Bothe - Kontakt",
    "desc": "",
@@ -1678,7 +1659,7 @@
   "https://www.tanzschule-bothe.de/schulkooperation/": {
    "url": "https://www.tanzschule-bothe.de/schulkooperation/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 226,
    "titel": "Tanzschule Familie Bothe - Schulkooperationen",
    "desc": "",
@@ -1697,7 +1678,7 @@
   "https://www.tanzschule-bothe.de/dd/": {
    "url": "https://www.tanzschule-bothe.de/dd/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 373,
    "titel": "Tanzschule Familie Bothe | Dongsineu",
    "desc": "",
@@ -1716,7 +1697,7 @@
   "https://www.tanzschule-bothe.de/gutschein/": {
    "url": "https://www.tanzschule-bothe.de/gutschein/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 219,
    "titel": "Tanzschule Familie Bothe - Gutscheine",
    "desc": "",
@@ -1735,8 +1716,8 @@
   "https://www.tanzschule-bothe.de/vermietung/": {
    "url": "https://www.tanzschule-bothe.de/vermietung/",
    "code": "200",
-   "ttfb": 0.5,
-   "kb": 223,
+   "ttfb": 2.31,
+   "kb": 222,
    "titel": "Tanzschule Familie Bothe - Vermietung",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/vermietung/",
@@ -1754,7 +1735,7 @@
   "https://www.tanzschule-bothe.de/testseite/": {
    "url": "https://www.tanzschule-bothe.de/testseite/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.58,
    "kb": 328,
    "titel": "Tanzschule Familie Bothe | 222 Testseite",
    "desc": "",
@@ -1773,7 +1754,7 @@
   "https://www.tanzschule-bothe.de/schulprojekte/": {
    "url": "https://www.tanzschule-bothe.de/schulprojekte/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.6,
    "kb": 207,
    "titel": "Tanzschule Familie Bothe | Downloadbereich",
    "desc": "",
@@ -1792,7 +1773,7 @@
   "https://www.tanzschule-bothe.de/summerdance/": {
    "url": "https://www.tanzschule-bothe.de/summerdance/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 217,
    "titel": "Tanzschule Familie Bothe | 310 Summer Dance",
    "desc": "",
@@ -1811,7 +1792,7 @@
   "https://www.tanzschule-bothe.de/kita/": {
    "url": "https://www.tanzschule-bothe.de/kita/",
    "code": "200",
-   "ttfb": 2.7,
+   "ttfb": 0.56,
    "kb": 225,
    "titel": "Tanzschule Familie Bothe | 311 Kita",
    "desc": "",
@@ -1830,7 +1811,7 @@
   "https://www.tanzschule-bothe.de/summerdance-erwachsene/": {
    "url": "https://www.tanzschule-bothe.de/summerdance-erwachsene/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.6,
    "kb": 220,
    "titel": "Tanzschule Familie Bothe | 312 Summer Dance Erwachsene",
    "desc": "",
@@ -1849,7 +1830,7 @@
   "https://www.tanzschule-bothe.de/galanight/": {
    "url": "https://www.tanzschule-bothe.de/galanight/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.59,
    "kb": 229,
    "titel": "Tanzschule Familie Bothe | Gala Night Hannover",
    "desc": "",
@@ -1868,7 +1849,7 @@
   "https://www.tanzschule-bothe.de/community/": {
    "url": "https://www.tanzschule-bothe.de/community/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 234,
    "titel": "Tanzschule Familie Bothe - Community",
    "desc": "",
@@ -1887,8 +1868,8 @@
   "https://www.tanzschule-bothe.de/hannovertanzt-magazin/": {
    "url": "https://www.tanzschule-bothe.de/hannovertanzt-magazin/",
    "code": "200",
-   "ttfb": 1.99,
-   "kb": 216,
+   "ttfb": 0.58,
+   "kb": 217,
    "titel": "Tanzschule Familie Bothe - Hannover tanzt!",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/hannovertanzt-magazin/",
@@ -1906,7 +1887,7 @@
   "https://www.tanzschule-bothe.de/gw/": {
    "url": "https://www.tanzschule-bothe.de/gw/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 259,
    "titel": "Tanzschule Familie Bothe - Glückswoche",
    "desc": "",
@@ -1925,7 +1906,7 @@
   "https://www.tanzschule-bothe.de/spotify/": {
    "url": "https://www.tanzschule-bothe.de/spotify/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 2.17,
    "kb": 222,
    "titel": "Tanzschule Familie Bothe - Spotify",
    "desc": "",
@@ -1944,8 +1925,8 @@
   "https://www.tanzschule-bothe.de/tickets/": {
    "url": "https://www.tanzschule-bothe.de/tickets/",
    "code": "200",
-   "ttfb": 2.01,
-   "kb": 223,
+   "ttfb": 0.58,
+   "kb": 224,
    "titel": "Tanzschule Familie Bothe - Tickets",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/tickets/",
@@ -1963,7 +1944,7 @@
   "https://www.tanzschule-bothe.de/herbstmarkt/": {
    "url": "https://www.tanzschule-bothe.de/herbstmarkt/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 215,
    "titel": "Tanzschule Familie Bothe | Bothfelder Herbstmarkt",
    "desc": "",
@@ -1982,7 +1963,7 @@
   "https://www.tanzschule-bothe.de/elterntanz/": {
    "url": "https://www.tanzschule-bothe.de/elterntanz/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 220,
    "titel": "Tanzschule Familie Bothe - Elterntanz",
    "desc": "",
@@ -2001,7 +1982,7 @@
   "https://www.tanzschule-bothe.de/paartanz/": {
    "url": "https://www.tanzschule-bothe.de/paartanz/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.6,
    "kb": 260,
    "titel": "Tanzschule Familie Bothe - Paartanz Erwachsene",
    "desc": "",
@@ -2020,7 +2001,7 @@
   "https://www.tanzschule-bothe.de/danceandfitness/": {
    "url": "https://www.tanzschule-bothe.de/danceandfitness/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.59,
    "kb": 315,
    "titel": "Tanzschule Familie Bothe - DANCE & FITNESS",
    "desc": "",
@@ -2039,7 +2020,7 @@
   "https://www.tanzschule-bothe.de/bwschuelerkursealt/": {
    "url": "https://www.tanzschule-bothe.de/bwschuelerkursealt/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 237,
    "titel": "Tanzschule Familie Bothe - BW Schülertanzkurse",
    "desc": "",
@@ -2058,7 +2039,7 @@
   "https://www.tanzschule-bothe.de/hiphopundco/": {
    "url": "https://www.tanzschule-bothe.de/hiphopundco/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.56,
    "kb": 257,
    "titel": "Tanzschule Familie Bothe - Tanzangebot Hip Hop & Co",
    "desc": "",
@@ -2077,7 +2058,7 @@
   "https://www.tanzschule-bothe.de/kids2bis11/": {
    "url": "https://www.tanzschule-bothe.de/kids2bis11/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.58,
    "kb": 277,
    "titel": "Tanzschule Familie Bothe - KIDS 2 bis 11",
    "desc": "",
@@ -2096,8 +2077,8 @@
   "https://www.tanzschule-bothe.de/blackdeals/": {
    "url": "https://www.tanzschule-bothe.de/blackdeals/",
    "code": "200",
-   "ttfb": 0.52,
-   "kb": 226,
+   "ttfb": 2.14,
+   "kb": 225,
    "titel": "Tanzschule Familie Bothe - Black Friday Gutscheine",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/blackdeals/",
@@ -2115,8 +2096,8 @@
   "https://www.tanzschule-bothe.de/": {
    "url": "https://www.tanzschule-bothe.de/",
    "code": "200",
-   "ttfb": 0.5,
-   "kb": 327,
+   "ttfb": 0.58,
+   "kb": 328,
    "titel": "Tanzschule Familie Bothe | Tanzen in Hannover",
    "desc": "Hannover tanzt! Als DIE Tanz- und Trendspezialisten in Hannover konnten wir unsere Leistungsfähigkeit seit Jahrzehnten unter Beweis stellen. Unser Team besteht aus absoluten Profis. Sie können sich also voll auf uns verlassen - wir machen Sie fit bis in die Fußspitzen. An sieben Tagen in der Woche bieten wir die unterschiedlichsten Tanzprogramme für die ganze Familie an. Vom Kindertanz über HipHop bis zu Schüler- und Erwachsenenkursen stehen Ihnen allein etwa 220 Tanzangebote in Hannover und Burgwedel zur Verfügung - alle mit ausreichend Parkplätzen vor der Tür. Und das Wichtigste kommt zum Schluss: Sie allein entscheiden bei unserem flexiblen Kurssytem mit Flatrate, wann Sie kommen und wie oft Sie bei uns tanzen möchten. Erleben Sie es!",
    "canonical": "https://www.tanzschule-bothe.de/",
@@ -2128,13 +2109,13 @@
    "img_gesamt": 15,
    "img_ohne_alt": 10,
    "h1_text": "Tanzen schenken &#8211; Tanzgutscheine hier!",
-   "woerter": 395,
-   "auszug": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance &..."
+   "woerter": 399,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 25.06.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie..."
   },
   "https://www.tanzschule-bothe.de/bwpaartanz/": {
    "url": "https://www.tanzschule-bothe.de/bwpaartanz/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 235,
    "titel": "Tanzschule Familie Bothe - Paartanz Burgwedel",
    "desc": "",
@@ -2153,7 +2134,7 @@
   "https://www.tanzschule-bothe.de/bwdanceandfitness/": {
    "url": "https://www.tanzschule-bothe.de/bwdanceandfitness/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 234,
    "titel": "Tanzschule Familie Bothe - BW Dance&Fitness",
    "desc": "",
@@ -2172,7 +2153,7 @@
   "https://www.tanzschule-bothe.de/_blog/": {
    "url": "https://www.tanzschule-bothe.de/_blog/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 346,
    "titel": "Tanzschule Familie Bothe | _blog",
    "desc": "",
@@ -2191,7 +2172,7 @@
   "https://www.tanzschule-bothe.de/_style/": {
    "url": "https://www.tanzschule-bothe.de/_style/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 269,
    "titel": "Tanzschule Familie Bothe | _style",
    "desc": "",
@@ -2210,7 +2191,7 @@
   "https://www.tanzschule-bothe.de/bwkids/": {
    "url": "https://www.tanzschule-bothe.de/bwkids/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 258,
    "titel": "Tanzschule Familie Bothe - Tanzangebot Erwachsene Paartanz",
    "desc": "",
@@ -2229,7 +2210,7 @@
   "https://www.tanzschule-bothe.de/firmenkurse/": {
    "url": "https://www.tanzschule-bothe.de/firmenkurse/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.56,
    "kb": 216,
    "titel": "Tanzschule Familie Bothe - Firmenkurse",
    "desc": "",
@@ -2248,7 +2229,7 @@
   "https://www.tanzschule-bothe.de/schuelertanzkurse4/": {
    "url": "https://www.tanzschule-bothe.de/schuelertanzkurse4/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 247,
    "titel": "Tanzschule Familie Bothe - SCHÜLERTANZKURSE",
    "desc": "",
@@ -2267,7 +2248,7 @@
   "https://www.tanzschule-bothe.de/_menufinder/": {
    "url": "https://www.tanzschule-bothe.de/_menufinder/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Tanzschule Familie Bothe | _menufinder",
    "desc": "",
@@ -2286,7 +2267,7 @@
   "https://www.tanzschule-bothe.de/privatstunden/": {
    "url": "https://www.tanzschule-bothe.de/privatstunden/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 219,
    "titel": "Tanzschule Familie Bothe - Privatstunden",
    "desc": "",
@@ -2305,7 +2286,7 @@
   "https://www.tanzschule-bothe.de/tanzfit/": {
    "url": "https://www.tanzschule-bothe.de/tanzfit/",
    "code": "200",
-   "ttfb": 0.65,
+   "ttfb": 0.58,
    "kb": 246,
    "titel": "Tanzschule Familie Bothe - TANZFIT 60+",
    "desc": "",
@@ -2324,7 +2305,7 @@
   "https://www.tanzschule-bothe.de/xxx_start2/": {
    "url": "https://www.tanzschule-bothe.de/xxx_start2/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.6,
    "kb": 283,
    "titel": "Tanzschule Familie Bothe | XXX_Start2",
    "desc": "",
@@ -2343,7 +2324,7 @@
   "https://www.tanzschule-bothe.de/_links/": {
    "url": "https://www.tanzschule-bothe.de/_links/",
    "code": "200",
-   "ttfb": 0.55,
+   "ttfb": 0.6,
    "kb": 160,
    "titel": "Tanzschule Familie Bothe | _links",
    "desc": "",
@@ -2362,7 +2343,7 @@
   "https://www.tanzschule-bothe.de/kindergartenprojekte/": {
    "url": "https://www.tanzschule-bothe.de/kindergartenprojekte/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 221,
    "titel": "Tanzschule Familie Bothe | Kindergartenprojekte",
    "desc": "",
@@ -2381,7 +2362,7 @@
   "https://www.tanzschule-bothe.de/dassindwir/": {
    "url": "https://www.tanzschule-bothe.de/dassindwir/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.6,
    "kb": 221,
    "titel": "Tanzschule Familie Bothe | das sind wir",
    "desc": "",
@@ -2400,7 +2381,7 @@
   "https://www.tanzschule-bothe.de/debuetanten/": {
    "url": "https://www.tanzschule-bothe.de/debuetanten/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 224,
    "titel": "Tanzschule Familie Bothe | Opernball Debütanten",
    "desc": "",
@@ -2419,7 +2400,7 @@
   "https://www.tanzschule-bothe.de/opernball/": {
    "url": "https://www.tanzschule-bothe.de/opernball/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 225,
    "titel": "Tanzschule Familie Bothe | Opernball",
    "desc": "",
@@ -2438,7 +2419,7 @@
   "https://www.tanzschule-bothe.de/coronahelden/": {
    "url": "https://www.tanzschule-bothe.de/coronahelden/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 226,
    "titel": "CORONAHELDEN - Wir sagen Danke",
    "desc": "",
@@ -2457,7 +2438,7 @@
   "https://www.tanzschule-bothe.de/juniorengalaball/": {
    "url": "https://www.tanzschule-bothe.de/juniorengalaball/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Tanzschule Familie Bothe | Junioren-Galaball",
    "desc": "",
@@ -2476,7 +2457,7 @@
   "https://www.tanzschule-bothe.de/funday/": {
    "url": "https://www.tanzschule-bothe.de/funday/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.57,
    "kb": 221,
    "titel": "Tanzschule Familie Bothe | FUNDAY",
    "desc": "",
@@ -2495,7 +2476,7 @@
   "https://www.tanzschule-bothe.de/umgangsformenseminar-teil-2/": {
    "url": "https://www.tanzschule-bothe.de/umgangsformenseminar-teil-2/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 220,
    "titel": "Tanzschule Familie Bothe | Umgangsformenseminar Teil 2",
    "desc": "",
@@ -2514,7 +2495,7 @@
   "https://www.tanzschule-bothe.de/tanzpartner/": {
    "url": "https://www.tanzschule-bothe.de/tanzpartner/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 229,
    "titel": "Tanzschule Familie Bothe | Tanzpartnerbörse",
    "desc": "",
@@ -2533,7 +2514,7 @@
   "https://www.tanzschule-bothe.de/fridaynight/": {
    "url": "https://www.tanzschule-bothe.de/fridaynight/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 311,
    "titel": "Tanzschule Familie Bothe | Friday Night Party",
    "desc": "",
@@ -2552,7 +2533,7 @@
   "https://www.tanzschule-bothe.de/__stickies/": {
    "url": "https://www.tanzschule-bothe.de/__stickies/",
    "code": "200",
-   "ttfb": 4.2,
+   "ttfb": 0.58,
    "kb": 412,
    "titel": "Tanzschule Familie Bothe | __stickies",
    "desc": "",
@@ -2571,8 +2552,8 @@
   "https://www.tanzschule-bothe.de/events_xxx/": {
    "url": "https://www.tanzschule-bothe.de/events_xxx/",
    "code": "200",
-   "ttfb": 2.23,
-   "kb": 202,
+   "ttfb": 0.59,
+   "kb": 203,
    "titel": "Tanzschule Familie Bothe | Events_xxx",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/events_xxx/",
@@ -2590,8 +2571,8 @@
   "https://www.tanzschule-bothe.de/events/": {
    "url": "https://www.tanzschule-bothe.de/events/",
    "code": "200",
-   "ttfb": 0.57,
-   "kb": 339,
+   "ttfb": 0.6,
+   "kb": 338,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
    "canonical": "https://www.tanzschule-bothe.de/events/",
@@ -2609,7 +2590,7 @@
   "https://www.tanzschule-bothe.de/schuelertanzkurse_a/": {
    "url": "https://www.tanzschule-bothe.de/schuelertanzkurse_a/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 252,
    "titel": "Tanzschule Familie Bothe | Schülertanzkurse ab 2022",
    "desc": "",
@@ -2628,7 +2609,7 @@
   "https://www.tanzschule-bothe.de/kalender/": {
    "url": "https://www.tanzschule-bothe.de/kalender/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 242,
    "titel": "Tanzschule Familie Bothe | Kalender",
    "desc": "",
@@ -2647,7 +2628,7 @@
   "https://www.tanzschule-bothe.de/bwschuelertanzkurse/": {
    "url": "https://www.tanzschule-bothe.de/bwschuelertanzkurse/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.57,
    "kb": 239,
    "titel": "Tanzschule Familie Bothe | BW Schülertanzkurse",
    "desc": "",
@@ -2666,7 +2647,7 @@
   "https://www.tanzschule-bothe.de/bothe-event/": {
    "url": "https://www.tanzschule-bothe.de/bothe-event/",
    "code": "200",
-   "ttfb": 2.05,
+   "ttfb": 0.58,
    "kb": 204,
    "titel": "Tanzschule Familie Bothe | Bothe-Event",
    "desc": "",
@@ -2685,7 +2666,7 @@
   "https://www.tanzschule-bothe.de/summercamp/": {
    "url": "https://www.tanzschule-bothe.de/summercamp/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.58,
    "kb": 233,
    "titel": "Tanzschule Familie Bothe | Summercamp",
    "desc": "",
@@ -2704,7 +2685,7 @@
   "https://www.tanzschule-bothe.de/kidsdiplom/": {
    "url": "https://www.tanzschule-bothe.de/kidsdiplom/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.57,
    "kb": 222,
    "titel": "Tanzschule Familie Bothe | Kidsdiplom",
    "desc": "",
@@ -2723,7 +2704,7 @@
   "https://www.tanzschule-bothe.de/vertragsbeendigung/": {
    "url": "https://www.tanzschule-bothe.de/vertragsbeendigung/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 221,
    "titel": "Tanzschule Familie Bothe | Vertragsbeendigung",
    "desc": "",
@@ -2742,7 +2723,7 @@
   "https://www.tanzschule-bothe.de/gwkidsteens/": {
    "url": "https://www.tanzschule-bothe.de/gwkidsteens/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 249,
    "titel": "Tanzschule Familie Bothe | Glückswoche Kids &#038; Teens",
    "desc": "",
@@ -2761,7 +2742,7 @@
   "https://www.tanzschule-bothe.de/heidepark/": {
    "url": "https://www.tanzschule-bothe.de/heidepark/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 220,
    "titel": "Tanzschule Familie Bothe | Bothe on Tour &#8211; Heidepark",
    "desc": "",
@@ -2780,7 +2761,7 @@
   "https://www.tanzschule-bothe.de/disco4kids/": {
    "url": "https://www.tanzschule-bothe.de/disco4kids/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 222,
    "titel": "Tanzschule Familie Bothe | Disco4Kids",
    "desc": "",
@@ -2799,7 +2780,7 @@
   "https://www.tanzschule-bothe.de/ausbildung/": {
    "url": "https://www.tanzschule-bothe.de/ausbildung/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.58,
    "kb": 294,
    "titel": "Tanzschule Familie Bothe | Deine Ausbildung",
    "desc": "",
@@ -2818,7 +2799,7 @@
   "https://www.tanzschule-bothe.de/ice-cream-challenge-2022-klon/": {
    "url": "https://www.tanzschule-bothe.de/ice-cream-challenge-2022-klon/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 232,
    "titel": "Tanzschule Familie Bothe | ICE CREAM CHALLENGE 2023",
    "desc": "",
@@ -2837,7 +2818,7 @@
   "https://www.tanzschule-bothe.de/umfrage/": {
    "url": "https://www.tanzschule-bothe.de/umfrage/",
    "code": "200",
-   "ttfb": 2.35,
+   "ttfb": 0.58,
    "kb": 223,
    "titel": "Tanzschule Familie Bothe | Umfrage",
    "desc": "",
@@ -2856,7 +2837,7 @@
   "https://www.tanzschule-bothe.de/odd/": {
    "url": "https://www.tanzschule-bothe.de/odd/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.58,
    "kb": 227,
    "titel": "Tanzschule Familie Bothe - Open Dance Day",
    "desc": "",
@@ -2875,7 +2856,7 @@
   "https://www.tanzschule-bothe.de/tdot/": {
    "url": "https://www.tanzschule-bothe.de/tdot/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 219,
    "titel": "Tanzschule Familie Bothe - Glückswoche",
    "desc": "",
@@ -2894,7 +2875,7 @@
   "https://www.tanzschule-bothe.de/glambeats/": {
    "url": "https://www.tanzschule-bothe.de/glambeats/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.56,
    "kb": 239,
    "titel": "Tanzschule Familie Bothe - GlamBeats",
    "desc": "",
@@ -2913,7 +2894,7 @@
   "https://www.tanzschule-bothe.de/testab12/": {
    "url": "https://www.tanzschule-bothe.de/testab12/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 245,
    "titel": "Tanzschule Familie Bothe - Tanzangebot Erwachsene Paartanz",
    "desc": "",
@@ -2932,7 +2913,7 @@
   "https://www.tanzschule-bothe.de/jetzt/": {
    "url": "https://www.tanzschule-bothe.de/jetzt/",
    "code": "200",
-   "ttfb": 2.51,
+   "ttfb": 0.57,
    "kb": 226,
    "titel": "Tanzschule Familie Bothe | Maschseefest",
    "desc": "",
@@ -2951,7 +2932,7 @@
   "https://www.tanzschule-bothe.de/nobilis/": {
    "url": "https://www.tanzschule-bothe.de/nobilis/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 226,
    "titel": "Tanzschule Familie Bothe | Tanzgutscheine Nobilis",
    "desc": "",
@@ -2970,7 +2951,7 @@
   "https://www.tanzschule-bothe.de/bwr2023/": {
    "url": "https://www.tanzschule-bothe.de/bwr2023/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 226,
    "titel": "Tanzschule Familie Bothe | BlackWeekend2023-Er",
    "desc": "",
@@ -2989,8 +2970,8 @@
   "https://www.tanzschule-bothe.de/bws2023/": {
    "url": "https://www.tanzschule-bothe.de/bws2023/",
    "code": "200",
-   "ttfb": 2.29,
-   "kb": 226,
+   "ttfb": 0.56,
+   "kb": 227,
    "titel": "Tanzschule Familie Bothe | BlackWeekend2023-Sie",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/bws2023/",
@@ -3008,7 +2989,7 @@
   "https://www.tanzschule-bothe.de/bwx2023/": {
    "url": "https://www.tanzschule-bothe.de/bwx2023/",
    "code": "200",
-   "ttfb": 2.15,
+   "ttfb": 0.58,
    "kb": 234,
    "titel": "Tanzschule Familie Bothe | BlackWeekend2023-Solo",
    "desc": "",
@@ -3027,7 +3008,7 @@
   "https://www.tanzschule-bothe.de/70jahre/": {
    "url": "https://www.tanzschule-bothe.de/70jahre/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.6,
    "kb": 242,
    "titel": "Tanzschule Familie Bothe | 70 Jahre Tanzschule Familie Bothe",
    "desc": "",
@@ -3046,7 +3027,7 @@
   "https://www.tanzschule-bothe.de/ice-cream-challenge-2023-klon/": {
    "url": "https://www.tanzschule-bothe.de/ice-cream-challenge-2023-klon/",
    "code": "200",
-   "ttfb": 1.98,
+   "ttfb": 0.57,
    "kb": 203,
    "titel": "Tanzschule Familie Bothe | ICE CREAM CHALLENGE 2024",
    "desc": "",
@@ -3065,7 +3046,7 @@
   "https://www.tanzschule-bothe.de/ferienzeiten/": {
    "url": "https://www.tanzschule-bothe.de/ferienzeiten/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.56,
    "kb": 218,
    "titel": "Tanzschule Familie Bothe | Ferienzeiten",
    "desc": "",
@@ -3084,7 +3065,7 @@
   "https://www.tanzschule-bothe.de/fitdankbaby/": {
    "url": "https://www.tanzschule-bothe.de/fitdankbaby/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 239,
    "titel": "Tanzschule Familie Bothe | fitdankbaby®",
    "desc": "",
@@ -3103,7 +3084,7 @@
   "https://www.tanzschule-bothe.de/agb/": {
    "url": "https://www.tanzschule-bothe.de/agb/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 329,
    "titel": "Tanzschule Familie Bothe | AGB",
    "desc": "",
@@ -3122,7 +3103,7 @@
   "https://www.tanzschule-bothe.de/schuelertanzkurse/": {
    "url": "https://www.tanzschule-bothe.de/schuelertanzkurse/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.61,
    "kb": 247,
    "titel": "Tanzschule Familie Bothe | Schülertanzkurse ab August 2025",
    "desc": "",
@@ -3141,7 +3122,7 @@
   "https://www.tanzschule-bothe.de/winfriedbothe/": {
    "url": "https://www.tanzschule-bothe.de/winfriedbothe/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 314,
    "titel": "Tanzschule Familie Bothe | Nachruf Winfried Bothe",
    "desc": "",
@@ -3160,7 +3141,7 @@
   "https://www.tanzschule-bothe.de/zukunftstag/": {
    "url": "https://www.tanzschule-bothe.de/zukunftstag/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 231,
    "titel": "Tanzschule Familie Bothe | Zukunftstag",
    "desc": "",
@@ -3179,7 +3160,7 @@
   "https://www.tanzschule-bothe.de/schuelertanzkurse2027/": {
    "url": "https://www.tanzschule-bothe.de/schuelertanzkurse2027/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.57,
    "kb": 240,
    "titel": "Tanzschule Familie Bothe | Schülertanzkurse ab Januar 2027",
    "desc": "",
@@ -3198,7 +3179,7 @@
   "https://www.tanzschule-bothe.de/widerruf/": {
    "url": "https://www.tanzschule-bothe.de/widerruf/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 215,
    "titel": "Tanzschule Familie Bothe | Vertragsbeendigung",
    "desc": "",
@@ -3217,7 +3198,7 @@
   "https://www.tanzschule-bothe.de/dc/": {
    "url": "https://www.tanzschule-bothe.de/dc/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 222,
    "titel": "Tanzschule Familie Bothe | Dance&#038;Connect",
    "desc": "",
@@ -3236,7 +3217,7 @@
   "https://www.tanzschule-bothe.de/botheconnect/": {
    "url": "https://www.tanzschule-bothe.de/botheconnect/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 234,
    "titel": "Tanzschule Familie Bothe | Friday Night Connect",
    "desc": "",
@@ -3255,7 +3236,7 @@
   "https://www.tanzschule-bothe.de/series/friday-night-party/": {
    "url": "https://www.tanzschule-bothe.de/series/friday-night-party/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 2.24,
    "kb": 275,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3268,13 +3249,13 @@
    "img_gesamt": 11,
    "img_ohne_alt": 9,
    "h1_text": "FRIDAY NIGHT PARTY",
-   "woerter": 254,
+   "woerter": 258,
    "auszug": "0 Veranstaltungen gefunden. Exportiere Outlook .ics Datei"
   },
   "https://www.tanzschule-bothe.de/series/schueler-disco/": {
    "url": "https://www.tanzschule-bothe.de/series/schueler-disco/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 2.72,
    "kb": 275,
    "titel": "Tanzschule Familie Bothe | Schüler-Disco",
    "desc": "",
@@ -3287,13 +3268,13 @@
    "img_gesamt": 11,
    "img_ohne_alt": 9,
    "h1_text": "Schüler-Disco",
-   "woerter": 250,
+   "woerter": 254,
    "auszug": "0 Veranstaltungen gefunden. Exportiere Outlook .ics Datei"
   },
   "https://www.tanzschule-bothe.de/series/friday-night-party-2/": {
    "url": "https://www.tanzschule-bothe.de/series/friday-night-party-2/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 2.31,
    "kb": 295,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3306,13 +3287,13 @@
    "img_gesamt": 11,
    "img_ohne_alt": 9,
    "h1_text": "FRIDAY NIGHT PARTY",
-   "woerter": 298,
+   "woerter": 302,
    "auszug": "6 Veranstaltungen gefunden."
   },
   "https://www.tanzschule-bothe.de/divi_mega_pro/schnellkontakt/": {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/schnellkontakt/",
    "code": "200",
-   "ttfb": 2.3,
+   "ttfb": 0.57,
    "kb": 243,
    "titel": "Tanzschule Familie Bothe | Schnellkontakt",
    "desc": "",
@@ -3331,7 +3312,7 @@
   "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-hannover/": {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-hannover/",
    "code": "200",
-   "ttfb": 2.18,
+   "ttfb": 0.58,
    "kb": 244,
    "titel": "Tanzschule Familie Bothe | Angebotsfinder Hannover",
    "desc": "",
@@ -3350,7 +3331,7 @@
   "https://www.tanzschule-bothe.de/divi_mega_pro/mega-menu/": {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/mega-menu/",
    "code": "200",
-   "ttfb": 1.97,
+   "ttfb": 0.57,
    "kb": 245,
    "titel": "Tanzschule Familie Bothe | MEGA-MENU",
    "desc": "",
@@ -3369,8 +3350,8 @@
   "https://www.tanzschule-bothe.de/divi_mega_pro/kat-erw-paare/": {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/kat-erw-paare/",
    "code": "200",
-   "ttfb": 2.0,
-   "kb": 243,
+   "ttfb": 0.58,
+   "kb": 244,
    "titel": "Tanzschule Familie Bothe | KAT-ERW-PAARE",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/divi_mega_pro/kat-erw-paare/",
@@ -3388,7 +3369,7 @@
   "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-burgwedel/": {
    "url": "https://www.tanzschule-bothe.de/divi_mega_pro/angebotsfinder-burgwedel/",
    "code": "200",
-   "ttfb": 2.32,
+   "ttfb": 0.58,
    "kb": 243,
    "titel": "Tanzschule Familie Bothe | Angebotsfinder Burgwedel",
    "desc": "",
@@ -3407,7 +3388,7 @@
   "https://www.tanzschule-bothe.de/3d-flip-book/hannover-tanzt/": {
    "url": "https://www.tanzschule-bothe.de/3d-flip-book/hannover-tanzt/",
    "code": "200",
-   "ttfb": 2.27,
+   "ttfb": 0.58,
    "kb": 237,
    "titel": "Tanzschule Familie Bothe | HIER TANZT HANNOVER TANZT",
    "desc": "",
@@ -3426,7 +3407,7 @@
   "https://www.tanzschule-bothe.de/3d-flip-book/70-jahre-70-fakten/": {
    "url": "https://www.tanzschule-bothe.de/3d-flip-book/70-jahre-70-fakten/",
    "code": "200",
-   "ttfb": 2.0,
+   "ttfb": 0.58,
    "kb": 237,
    "titel": "Tanzschule Familie Bothe | 70 Jahre &#8211; 70 Fakten",
    "desc": "",
@@ -3445,7 +3426,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.18,
    "kb": 278,
    "titel": "Tanzschule Familie Bothe | Kuppelsaal / HCC",
    "desc": "",
@@ -3464,7 +3445,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-hannover/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-hannover/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 317,
    "titel": "Tanzschule Familie Bothe | TANZHAUS HANNOVER",
    "desc": "",
@@ -3483,7 +3464,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 2.41,
    "kb": 287,
    "titel": "Tanzschule Familie Bothe | TANZVILLA WALDERSEE",
    "desc": "",
@@ -3502,7 +3483,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-burgwedel/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-burgwedel/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 2.45,
    "kb": 272,
    "titel": "Tanzschule Familie Bothe | TANZHAUS BURGWEDEL",
    "desc": "",
@@ -3521,7 +3502,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 2.31,
    "kb": 287,
    "titel": "Tanzschule Familie Bothe | Alle drei Tanzhäuser",
    "desc": "",
@@ -3540,7 +3521,7 @@
   "https://www.tanzschule-bothe.de/veranstaltungsort/meiers-lebenslust/": {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/meiers-lebenslust/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.24,
    "kb": 269,
    "titel": "Tanzschule Familie Bothe | Meiers Lebenslust",
    "desc": "",
@@ -3559,7 +3540,7 @@
   "https://www.tanzschule-bothe.de/veranstalter/ticketing/": {
    "url": "https://www.tanzschule-bothe.de/veranstalter/ticketing/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 2.3,
    "kb": 319,
    "titel": "Tanzschule Familie Bothe | Bothe Event GmbH",
    "desc": "",
@@ -3578,7 +3559,7 @@
   "https://www.tanzschule-bothe.de/event/welcome-party-august-saison-26-2/": {
    "url": "https://www.tanzschule-bothe.de/event/welcome-party-august-saison-26-2/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.57,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | WELCOME PARTY – August-Saison 26-2",
    "desc": "",
@@ -3597,7 +3578,7 @@
   "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/": {
    "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
    "code": "200",
-   "ttfb": 1.96,
+   "ttfb": 0.57,
    "kb": 326,
    "titel": "Tanzschule Familie Bothe | Saison-Start im Paartanz-Bereich",
    "desc": "",
@@ -3635,7 +3616,7 @@
   "https://www.tanzschule-bothe.de/event/junioren-galaball-13/": {
    "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
    "code": "200",
-   "ttfb": 1.45,
+   "ttfb": 0.58,
    "kb": 322,
    "titel": "Tanzschule Familie Bothe | Junioren-Galaball",
    "desc": "",
@@ -3654,7 +3635,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
    "code": "200",
-   "ttfb": 1.49,
+   "ttfb": 0.57,
    "kb": 324,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3673,7 +3654,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
    "code": "200",
-   "ttfb": 1.39,
+   "ttfb": 0.58,
    "kb": 324,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3692,7 +3673,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-25/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-25/",
    "code": "200",
-   "ttfb": 0.72,
+   "ttfb": 0.59,
    "kb": 324,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3711,7 +3692,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-10-09/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-10-09/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 284,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3730,7 +3711,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-06/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-06/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.57,
    "kb": 284,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3749,7 +3730,7 @@
   "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-20/": {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-20/",
    "code": "200",
-   "ttfb": 0.64,
+   "ttfb": 0.57,
    "kb": 284,
    "titel": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
    "desc": "",
@@ -3768,7 +3749,7 @@
   "https://www.tanzschule-bothe.de/event/ballpreview/": {
    "url": "https://www.tanzschule-bothe.de/event/ballpreview/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.57,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Ballpreview",
    "desc": "",
@@ -3787,7 +3768,7 @@
   "https://www.tanzschule-bothe.de/event/umgangsformenseminar-teil-1/": {
    "url": "https://www.tanzschule-bothe.de/event/umgangsformenseminar-teil-1/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Umgangsformenseminar Teil 1",
    "desc": "",
@@ -3806,8 +3787,8 @@
   "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/": {
    "url": "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/",
    "code": "200",
-   "ttfb": 0.6,
-   "kb": 284,
+   "ttfb": 0.59,
+   "kb": 283,
    "titel": "Tanzschule Familie Bothe | Familien-Vortanzen für 3- bis 5-Jährige",
    "desc": "",
    "canonical": "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/",
@@ -3825,7 +3806,7 @@
   "https://www.tanzschule-bothe.de/event/halloween-woche-fuer-kids/": {
    "url": "https://www.tanzschule-bothe.de/event/halloween-woche-fuer-kids/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.57,
    "kb": 283,
    "titel": "Tanzschule Familie Bothe | Halloween-Woche für Kids",
    "desc": "",
@@ -3844,7 +3825,7 @@
   "https://www.tanzschule-bothe.de/event/christmas4kids/": {
    "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 2.95,
    "kb": 324,
    "titel": "Tanzschule Familie Bothe | Christmas4Kids",
    "desc": "",
@@ -3863,7 +3844,7 @@
   "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-22/": {
    "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-22/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.57,
    "kb": 326,
    "titel": "Tanzschule Familie Bothe | Saison-Start im Paartanz-Bereich",
    "desc": "",
@@ -3882,7 +3863,7 @@
   "https://www.tanzschule-bothe.de/event/vip-gruenkohl-essen-fuer-paare/": {
    "url": "https://www.tanzschule-bothe.de/event/vip-gruenkohl-essen-fuer-paare/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 280,
    "titel": "Tanzschule Familie Bothe | VIP-Grünkohl-Essen für Paare",
    "desc": "",
@@ -3901,7 +3882,7 @@
   "https://www.tanzschule-bothe.de/event/winter-galaball-2026/": {
    "url": "https://www.tanzschule-bothe.de/event/winter-galaball-2026/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 281,
    "titel": "Tanzschule Familie Bothe | Winter-Galaball 2026",
    "desc": "",
@@ -3920,7 +3901,7 @@
   "https://www.tanzschule-bothe.de/event/community-day-ab-12-jahren/": {
    "url": "https://www.tanzschule-bothe.de/event/community-day-ab-12-jahren/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Community Day ab 12 Jahren",
    "desc": "",
@@ -3939,7 +3920,7 @@
   "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/": {
    "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.71,
    "kb": 326,
    "titel": "Tanzschule Familie Bothe | Dance&#038;Connect 8-15 Jahre",
    "desc": "",
@@ -3958,7 +3939,7 @@
   "https://www.tanzschule-bothe.de/event/tanz-in-den-advent-2/": {
    "url": "https://www.tanzschule-bothe.de/event/tanz-in-den-advent-2/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.58,
    "kb": 278,
    "titel": "Tanzschule Familie Bothe | Tanz in den Advent",
    "desc": "",
@@ -3977,7 +3958,7 @@
   "https://www.tanzschule-bothe.de/event/hawaii-schueler-disco/": {
    "url": "https://www.tanzschule-bothe.de/event/hawaii-schueler-disco/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.58,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Hawaii Schüler-Disco",
    "desc": "",
@@ -3996,7 +3977,7 @@
   "https://www.tanzschule-bothe.de/event/schueler-disco-23/": {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 2.95,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Schüler-Disco",
    "desc": "",
@@ -4015,7 +3996,7 @@
   "https://www.tanzschule-bothe.de/event/schueler-disco-24/": {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-24/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 325,
    "titel": "Tanzschule Familie Bothe | Schüler-Disco",
    "desc": "",
@@ -4034,8 +4015,8 @@
   "https://www.tanzschule-bothe.de/category/news/": {
    "url": "https://www.tanzschule-bothe.de/category/news/",
    "code": "200",
-   "ttfb": 0.51,
-   "kb": 318,
+   "ttfb": 2.61,
+   "kb": 317,
    "titel": "News | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;News&lt;/span&gt;",
    "canonical": null,
@@ -4047,14 +4028,14 @@
    "img_gesamt": 21,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 554,
-   "auszug": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance & Connect Event am Sa., 29.08."
+   "woerter": 568,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 25.06.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop..."
   },
   "https://www.tanzschule-bothe.de/category/news/tanzen/": {
    "url": "https://www.tanzschule-bothe.de/category/news/tanzen/",
    "code": "200",
-   "ttfb": 0.5,
-   "kb": 317,
+   "ttfb": 2.59,
+   "kb": 316,
    "titel": "Tanzen | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Tanzen&lt;/span&gt;",
    "canonical": null,
@@ -4066,14 +4047,14 @@
    "img_gesamt": 19,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 526,
-   "auszug": "07.06.2026 Freunde werben Freunde 50,00 EUR Gutschrift auf Dein Kundenkonto - werbe Freunde, die noch nie bei uns angemeldet waren - mehrere Freunde möglich - Solotanz (Hip Hop, Dance&Fitness, Kindertanz,..."
+   "woerter": 531,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 25.06.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop..."
   },
   "https://www.tanzschule-bothe.de/category/news/events/": {
    "url": "https://www.tanzschule-bothe.de/category/news/events/",
    "code": "200",
-   "ttfb": 0.61,
-   "kb": 316,
+   "ttfb": 2.67,
+   "kb": 315,
    "titel": "Events | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Events&lt;/span&gt;",
    "canonical": null,
@@ -4085,14 +4066,14 @@
    "img_gesamt": 20,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 471,
+   "woerter": 475,
    "auszug": "17.08.2025 Maschseefest 2025 - und wir waren mit dabei! In diesem Jahr waren wir gemeinsam mit Tanzschule Susanne Bothe ein Teil des NP-Sommerfestivals auf dem Maschseefest in Hannover."
   },
   "https://www.tanzschule-bothe.de/category/news/aktionen/": {
    "url": "https://www.tanzschule-bothe.de/category/news/aktionen/",
    "code": "200",
-   "ttfb": 0.52,
-   "kb": 313,
+   "ttfb": 2.39,
+   "kb": 312,
    "titel": "Aktionen | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Aktionen&lt;/span&gt;",
    "canonical": null,
@@ -4104,14 +4085,14 @@
    "img_gesamt": 17,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 445,
+   "woerter": 449,
    "auszug": "07.06.2026 Freunde werben Freunde 50,00 EUR Gutschrift auf Dein Kundenkonto - werbe Freunde, die noch nie bei uns angemeldet waren - mehrere Freunde möglich - Solotanz (Hip Hop, Dance&Fitness, Kindertanz,..."
   },
   "https://www.tanzschule-bothe.de/category/locations/": {
    "url": "https://www.tanzschule-bothe.de/category/locations/",
    "code": "200",
-   "ttfb": 0.9,
-   "kb": 305,
+   "ttfb": 2.41,
+   "kb": 304,
    "titel": "Locations | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Locations&lt;/span&gt;",
    "canonical": null,
@@ -4123,13 +4104,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 229,
+   "woerter": 233,
    "auszug": "360° Tour durch das TANZHAUS HANNOVER 30.01.2020 Ein neuer Einblick ins TANZHAUS HANNOVER: hier geht es zum virtuellen Rundgang durch die Loungebereiche und den Tanzsälen."
   },
   "https://www.tanzschule-bothe.de/category/bilder-galerie/": {
    "url": "https://www.tanzschule-bothe.de/category/bilder-galerie/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 312,
    "titel": "Bilder-Galerie | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Bilder-Galerie&lt;/span&gt;",
@@ -4167,8 +4148,8 @@
   "https://www.tanzschule-bothe.de/category/slider/": {
    "url": "https://www.tanzschule-bothe.de/category/slider/",
    "code": "200",
-   "ttfb": 0.61,
-   "kb": 308,
+   "ttfb": 2.27,
+   "kb": 307,
    "titel": "Slider | Tanzschule Familie Bothe",
    "desc": "Kategorie: &lt;span&gt;Slider&lt;/span&gt;",
    "canonical": null,
@@ -4180,13 +4161,13 @@
    "img_gesamt": 14,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 298,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 04.05.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop..."
+   "woerter": 303,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 25.06.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop..."
   },
   "https://www.tanzschule-bothe.de/tag/opernball/": {
    "url": "https://www.tanzschule-bothe.de/tag/opernball/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Opernball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Opernball&lt;/span&gt;",
@@ -4205,7 +4186,7 @@
   "https://www.tanzschule-bothe.de/tag/hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/hannover/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 309,
    "titel": "Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hannover&lt;/span&gt;",
@@ -4224,7 +4205,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschule-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschule-bothe/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 2.42,
    "kb": 311,
    "titel": "Tanzschule Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschule Bothe&lt;/span&gt;",
@@ -4237,13 +4218,13 @@
    "img_gesamt": 16,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 881,
-   "auszug": "Kostenlose Glückswoche 2026 Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa/Bachata & Tango Argentino Contemporary, SalsaFit (Beginner), LadyStyle, Zumba, Pepzu, Body Movement, Dance4Fun, Strength & Conditioning, Mobility, Yoga, Faszientraining, Hip Hop/Choreo Adults 25+ sowie Linedance in Burgwedel TanzFit 60+, SenYoga 60+, LineDance 60+ Hier geht’s zur Anmeldung!"
+   "woerter": 886,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/debuetanten/": {
    "url": "https://www.tanzschule-bothe.de/tag/debuetanten/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 305,
    "titel": "Debütanten | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Debütanten&lt;/span&gt;",
@@ -4262,7 +4243,7 @@
   "https://www.tanzschule-bothe.de/tag/schuelertanzkurs/": {
    "url": "https://www.tanzschule-bothe.de/tag/schuelertanzkurs/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.6,
    "kb": 302,
    "titel": "Schülertanzkurs | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Schülertanzkurs&lt;/span&gt;",
@@ -4300,7 +4281,7 @@
   "https://www.tanzschule-bothe.de/tag/hcc/": {
    "url": "https://www.tanzschule-bothe.de/tag/hcc/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 309,
    "titel": "HCC | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;HCC&lt;/span&gt;",
@@ -4319,7 +4300,7 @@
   "https://www.tanzschule-bothe.de/tag/kuppelsaal/": {
    "url": "https://www.tanzschule-bothe.de/tag/kuppelsaal/",
    "code": "200",
-   "ttfb": 0.65,
+   "ttfb": 0.58,
    "kb": 314,
    "titel": "Kuppelsaal | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Kuppelsaal&lt;/span&gt;",
@@ -4338,7 +4319,7 @@
   "https://www.tanzschule-bothe.de/tag/ball/": {
    "url": "https://www.tanzschule-bothe.de/tag/ball/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 312,
    "titel": "Ball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Ball&lt;/span&gt;",
@@ -4357,7 +4338,7 @@
   "https://www.tanzschule-bothe.de/tag/kindertanz/": {
    "url": "https://www.tanzschule-bothe.de/tag/kindertanz/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 306,
    "titel": "kindertanz | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;kindertanz&lt;/span&gt;",
@@ -4376,7 +4357,7 @@
   "https://www.tanzschule-bothe.de/tag/bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/bothe/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 2.38,
    "kb": 311,
    "titel": "Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Bothe&lt;/span&gt;",
@@ -4389,13 +4370,13 @@
    "img_gesamt": 16,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 924,
-   "auszug": "Kostenlose Glückswoche 2026 Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa/Bachata & Tango Argentino Contemporary, SalsaFit (Beginner), LadyStyle, Zumba, Pepzu, Body Movement, Dance4Fun, Strength & Conditioning, Mobility, Yoga, Faszientraining, Hip Hop/Choreo Adults 25+ sowie Linedance in Burgwedel TanzFit 60+, SenYoga 60+, LineDance 60+ Hier geht’s zur Anmeldung!"
+   "woerter": 929,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/junioren-galaball/": {
    "url": "https://www.tanzschule-bothe.de/tag/junioren-galaball/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 321,
    "titel": "Junioren Galaball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Junioren Galaball&lt;/span&gt;",
@@ -4433,7 +4414,7 @@
   "https://www.tanzschule-bothe.de/tag/bothe-tanzt/": {
    "url": "https://www.tanzschule-bothe.de/tag/bothe-tanzt/",
    "code": "200",
-   "ttfb": 0.74,
+   "ttfb": 0.53,
    "kb": 314,
    "titel": "Bothe Tanzt | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Bothe Tanzt&lt;/span&gt;",
@@ -4452,7 +4433,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzhaus-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzhaus-hannover/",
    "code": "200",
-   "ttfb": 0.63,
+   "ttfb": 0.59,
    "kb": 350,
    "titel": "Tanzhaus Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzhaus Hannover&lt;/span&gt;",
@@ -4471,7 +4452,7 @@
   "https://www.tanzschule-bothe.de/tag/hannover-tanzt/": {
    "url": "https://www.tanzschule-bothe.de/tag/hannover-tanzt/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 344,
    "titel": "Hannover tanzt | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hannover tanzt&lt;/span&gt;",
@@ -4490,7 +4471,7 @@
   "https://www.tanzschule-bothe.de/tag/specials/": {
    "url": "https://www.tanzschule-bothe.de/tag/specials/",
    "code": "200",
-   "ttfb": 0.69,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Specials | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Specials&lt;/span&gt;",
@@ -4509,7 +4490,7 @@
   "https://www.tanzschule-bothe.de/tag/hiphop/": {
    "url": "https://www.tanzschule-bothe.de/tag/hiphop/",
    "code": "200",
-   "ttfb": 0.67,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "HipHop | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;HipHop&lt;/span&gt;",
@@ -4528,7 +4509,7 @@
   "https://www.tanzschule-bothe.de/tag/hip-hop/": {
    "url": "https://www.tanzschule-bothe.de/tag/hip-hop/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 310,
    "titel": "Hip Hop | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hip Hop&lt;/span&gt;",
@@ -4547,7 +4528,7 @@
   "https://www.tanzschule-bothe.de/tag/workshops/": {
    "url": "https://www.tanzschule-bothe.de/tag/workshops/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "workshops | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;workshops&lt;/span&gt;",
@@ -4566,7 +4547,7 @@
   "https://www.tanzschule-bothe.de/tag/opernball-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/opernball-hannover/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.59,
    "kb": 304,
    "titel": "Opernball Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Opernball Hannover&lt;/span&gt;",
@@ -4585,7 +4566,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschule/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschule/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.6,
    "kb": 305,
    "titel": "Tanzschule | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschule&lt;/span&gt;",
@@ -4604,7 +4585,7 @@
   "https://www.tanzschule-bothe.de/tag/burgwedel/": {
    "url": "https://www.tanzschule-bothe.de/tag/burgwedel/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Burgwedel | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Burgwedel&lt;/span&gt;",
@@ -4623,7 +4604,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzparty/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzparty/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.57,
    "kb": 342,
    "titel": "Tanzparty | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzparty&lt;/span&gt;",
@@ -4642,7 +4623,7 @@
   "https://www.tanzschule-bothe.de/tag/hausparty/": {
    "url": "https://www.tanzschule-bothe.de/tag/hausparty/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 342,
    "titel": "Hausparty | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hausparty&lt;/span&gt;",
@@ -4661,7 +4642,7 @@
   "https://www.tanzschule-bothe.de/tag/contemporary/": {
    "url": "https://www.tanzschule-bothe.de/tag/contemporary/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Contemporary | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Contemporary&lt;/span&gt;",
@@ -4680,7 +4661,7 @@
   "https://www.tanzschule-bothe.de/tag/challenge/": {
    "url": "https://www.tanzschule-bothe.de/tag/challenge/",
    "code": "200",
-   "ttfb": 0.63,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Challenge | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Challenge&lt;/span&gt;",
@@ -4699,7 +4680,7 @@
   "https://www.tanzschule-bothe.de/tag/ice-cream-challenge/": {
    "url": "https://www.tanzschule-bothe.de/tag/ice-cream-challenge/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Ice Cream Challenge | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Ice Cream Challenge&lt;/span&gt;",
@@ -4718,7 +4699,7 @@
   "https://www.tanzschule-bothe.de/tag/magazin/": {
    "url": "https://www.tanzschule-bothe.de/tag/magazin/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Magazin | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Magazin&lt;/span&gt;",
@@ -4737,7 +4718,7 @@
   "https://www.tanzschule-bothe.de/tag/paare/": {
    "url": "https://www.tanzschule-bothe.de/tag/paare/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 300,
    "titel": "Paare | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Paare&lt;/span&gt;",
@@ -4756,7 +4737,7 @@
   "https://www.tanzschule-bothe.de/tag/geburtstage/": {
    "url": "https://www.tanzschule-bothe.de/tag/geburtstage/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Geburtstage | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Geburtstage&lt;/span&gt;",
@@ -4775,7 +4756,7 @@
   "https://www.tanzschule-bothe.de/tag/dance-for-kids/": {
    "url": "https://www.tanzschule-bothe.de/tag/dance-for-kids/",
    "code": "200",
-   "ttfb": 0.89,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Dance for Kids | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Dance for Kids&lt;/span&gt;",
@@ -4794,7 +4775,7 @@
   "https://www.tanzschule-bothe.de/tag/gala-night/": {
    "url": "https://www.tanzschule-bothe.de/tag/gala-night/",
    "code": "200",
-   "ttfb": 0.8,
+   "ttfb": 0.63,
    "kb": 302,
    "titel": "GALA NIGHT | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;GALA NIGHT&lt;/span&gt;",
@@ -4813,7 +4794,7 @@
   "https://www.tanzschule-bothe.de/tag/fitness/": {
    "url": "https://www.tanzschule-bothe.de/tag/fitness/",
    "code": "200",
-   "ttfb": 0.72,
+   "ttfb": 0.55,
    "kb": 301,
    "titel": "Fitness | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Fitness&lt;/span&gt;",
@@ -4832,7 +4813,7 @@
   "https://www.tanzschule-bothe.de/tag/glueckswoche/": {
    "url": "https://www.tanzschule-bothe.de/tag/glueckswoche/",
    "code": "200",
-   "ttfb": 1.28,
+   "ttfb": 0.56,
    "kb": 304,
    "titel": "Glückswoche | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Glückswoche&lt;/span&gt;",
@@ -4851,7 +4832,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzhaus/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzhaus/",
    "code": "200",
-   "ttfb": 1.36,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Tanzhaus | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzhaus&lt;/span&gt;",
@@ -4870,7 +4851,7 @@
   "https://www.tanzschule-bothe.de/tag/party/": {
    "url": "https://www.tanzschule-bothe.de/tag/party/",
    "code": "200",
-   "ttfb": 1.17,
+   "ttfb": 0.57,
    "kb": 342,
    "titel": "Party | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Party&lt;/span&gt;",
@@ -4889,7 +4870,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzhaus-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzhaus-bothe/",
    "code": "200",
-   "ttfb": 1.16,
+   "ttfb": 0.57,
    "kb": 342,
    "titel": "Tanzhaus Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzhaus Bothe&lt;/span&gt;",
@@ -4908,7 +4889,7 @@
   "https://www.tanzschule-bothe.de/tag/galaball/": {
    "url": "https://www.tanzschule-bothe.de/tag/galaball/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 307,
    "titel": "Galaball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Galaball&lt;/span&gt;",
@@ -4927,7 +4908,7 @@
   "https://www.tanzschule-bothe.de/tag/disco/": {
    "url": "https://www.tanzschule-bothe.de/tag/disco/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.57,
    "kb": 344,
    "titel": "Disco | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Disco&lt;/span&gt;",
@@ -4946,7 +4927,7 @@
   "https://www.tanzschule-bothe.de/tag/kostenlos/": {
    "url": "https://www.tanzschule-bothe.de/tag/kostenlos/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 2.34,
    "kb": 301,
    "titel": "kostenlos | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;kostenlos&lt;/span&gt;",
@@ -4959,13 +4940,13 @@
    "img_gesamt": 12,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 286,
+   "woerter": 290,
    "auszug": "Kostenlose Glückswoche 2026 Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa/Bachata & Tango Argentino Contemporary, SalsaFit (Beginner), LadyStyle, Zumba, Pepzu, Body Movement, Dance4Fun, Strength & Conditioning, Mobility, Yoga, Faszientraining, Hip Hop/Choreo Adults 25+ sowie Linedance in Burgwedel TanzFit 60+, SenYoga 60+, LineDance 60+ Hier geht’s zur Anmeldung!"
   },
   "https://www.tanzschule-bothe.de/tag/hannover-tanzt-am-see/": {
    "url": "https://www.tanzschule-bothe.de/tag/hannover-tanzt-am-see/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "hannover tanzt am See | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;hannover tanzt am See&lt;/span&gt;",
@@ -4984,7 +4965,7 @@
   "https://www.tanzschule-bothe.de/tag/gala-night-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/gala-night-hannover/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 305,
    "titel": "GALA NIGHT HANNOVER | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;GALA NIGHT HANNOVER&lt;/span&gt;",
@@ -5003,7 +4984,7 @@
   "https://www.tanzschule-bothe.de/tag/tag-der-offenen-tuer/": {
    "url": "https://www.tanzschule-bothe.de/tag/tag-der-offenen-tuer/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Tag der offenen Tür | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tag der offenen Tür&lt;/span&gt;",
@@ -5022,7 +5003,7 @@
   "https://www.tanzschule-bothe.de/tag/lets-dance/": {
    "url": "https://www.tanzschule-bothe.de/tag/lets-dance/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.57,
    "kb": 305,
    "titel": "lets dance | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;lets dance&lt;/span&gt;",
@@ -5041,7 +5022,7 @@
   "https://www.tanzschule-bothe.de/tag/360-grad-tour/": {
    "url": "https://www.tanzschule-bothe.de/tag/360-grad-tour/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "360 Grad Tour | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;360 Grad Tour&lt;/span&gt;",
@@ -5060,7 +5041,7 @@
   "https://www.tanzschule-bothe.de/tag/virtueller-rundgang/": {
    "url": "https://www.tanzschule-bothe.de/tag/virtueller-rundgang/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "virtueller Rundgang | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;virtueller Rundgang&lt;/span&gt;",
@@ -5098,8 +5079,8 @@
   "https://www.tanzschule-bothe.de/tag/noltemeyerbruecke/": {
    "url": "https://www.tanzschule-bothe.de/tag/noltemeyerbruecke/",
    "code": "200",
-   "ttfb": 0.62,
-   "kb": 302,
+   "ttfb": 2.12,
+   "kb": 301,
    "titel": "Noltemeyerbrücke | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Noltemeyerbrücke&lt;/span&gt;",
    "canonical": null,
@@ -5111,7 +5092,7 @@
    "img_gesamt": 13,
    "img_ohne_alt": 10,
    "h1_text": "",
-   "woerter": 225,
+   "woerter": 229,
    "auszug": "360° Tour durch das TANZHAUS HANNOVER Ein neuer Einblick ins TANZHAUS HANNOVER: hier geht es zum virtuellen Rundgang durch die Loungebereiche und den Tanzsälen."
   },
   "https://www.tanzschule-bothe.de/tag/rundgang/": {
@@ -5136,7 +5117,7 @@
   "https://www.tanzschule-bothe.de/tag/feiern-in-der-tanzschule/": {
    "url": "https://www.tanzschule-bothe.de/tag/feiern-in-der-tanzschule/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Feiern in der Tanzschule | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Feiern in der Tanzschule&lt;/span&gt;",
@@ -5155,7 +5136,7 @@
   "https://www.tanzschule-bothe.de/tag/feier/": {
    "url": "https://www.tanzschule-bothe.de/tag/feier/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Feier | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Feier&lt;/span&gt;",
@@ -5174,7 +5155,7 @@
   "https://www.tanzschule-bothe.de/tag/jubilaeum/": {
    "url": "https://www.tanzschule-bothe.de/tag/jubilaeum/",
    "code": "200",
-   "ttfb": 0.73,
+   "ttfb": 0.58,
    "kb": 308,
    "titel": "Jubiläum | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Jubiläum&lt;/span&gt;",
@@ -5193,7 +5174,7 @@
   "https://www.tanzschule-bothe.de/tag/hochzeit/": {
    "url": "https://www.tanzschule-bothe.de/tag/hochzeit/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Hochzeit | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hochzeit&lt;/span&gt;",
@@ -5212,7 +5193,7 @@
   "https://www.tanzschule-bothe.de/tag/mieten-sie-das-tanzhaus/": {
    "url": "https://www.tanzschule-bothe.de/tag/mieten-sie-das-tanzhaus/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Mieten sie das Tanzhaus | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Mieten sie das Tanzhaus&lt;/span&gt;",
@@ -5231,7 +5212,7 @@
   "https://www.tanzschule-bothe.de/tag/raeumlichkeit/": {
    "url": "https://www.tanzschule-bothe.de/tag/raeumlichkeit/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Räumlichkeit | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Räumlichkeit&lt;/span&gt;",
@@ -5250,7 +5231,7 @@
   "https://www.tanzschule-bothe.de/tag/abiball/": {
    "url": "https://www.tanzschule-bothe.de/tag/abiball/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Abiball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Abiball&lt;/span&gt;",
@@ -5269,7 +5250,7 @@
   "https://www.tanzschule-bothe.de/tag/eventloctaion/": {
    "url": "https://www.tanzschule-bothe.de/tag/eventloctaion/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Eventloctaion | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Eventloctaion&lt;/span&gt;",
@@ -5288,7 +5269,7 @@
   "https://www.tanzschule-bothe.de/tag/event/": {
    "url": "https://www.tanzschule-bothe.de/tag/event/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Event | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Event&lt;/span&gt;",
@@ -5307,7 +5288,7 @@
   "https://www.tanzschule-bothe.de/tag/hannover-feiert/": {
    "url": "https://www.tanzschule-bothe.de/tag/hannover-feiert/",
    "code": "200",
-   "ttfb": 0.64,
+   "ttfb": 0.58,
    "kb": 303,
    "titel": "Hannover feiert | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hannover feiert&lt;/span&gt;",
@@ -5326,7 +5307,7 @@
   "https://www.tanzschule-bothe.de/tag/finals/": {
    "url": "https://www.tanzschule-bothe.de/tag/finals/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 305,
    "titel": "finals | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;finals&lt;/span&gt;",
@@ -5345,7 +5326,7 @@
   "https://www.tanzschule-bothe.de/tag/paartanz/": {
    "url": "https://www.tanzschule-bothe.de/tag/paartanz/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 303,
    "titel": "Paartanz | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Paartanz&lt;/span&gt;",
@@ -5364,7 +5345,7 @@
   "https://www.tanzschule-bothe.de/tag/app/": {
    "url": "https://www.tanzschule-bothe.de/tag/app/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "App | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;App&lt;/span&gt;",
@@ -5383,7 +5364,7 @@
   "https://www.tanzschule-bothe.de/tag/bothe-app/": {
    "url": "https://www.tanzschule-bothe.de/tag/bothe-app/",
    "code": "200",
-   "ttfb": 0.53,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "Bothe App | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Bothe App&lt;/span&gt;",
@@ -5402,7 +5383,7 @@
   "https://www.tanzschule-bothe.de/tag/probestunde/": {
    "url": "https://www.tanzschule-bothe.de/tag/probestunde/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.59,
    "kb": 304,
    "titel": "Probestunde | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Probestunde&lt;/span&gt;",
@@ -5421,7 +5402,7 @@
   "https://www.tanzschule-bothe.de/tag/neue-presse/": {
    "url": "https://www.tanzschule-bothe.de/tag/neue-presse/",
    "code": "200",
-   "ttfb": 0.87,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Neue Presse | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Neue Presse&lt;/span&gt;",
@@ -5440,7 +5421,7 @@
   "https://www.tanzschule-bothe.de/tag/galanight-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/galanight-hannover/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 320,
    "titel": "Galanight Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Galanight Hannover&lt;/span&gt;",
@@ -5459,7 +5440,7 @@
   "https://www.tanzschule-bothe.de/tag/schueler/": {
    "url": "https://www.tanzschule-bothe.de/tag/schueler/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 305,
    "titel": "Schüler | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Schüler&lt;/span&gt;",
@@ -5478,7 +5459,7 @@
   "https://www.tanzschule-bothe.de/tag/jugendliche/": {
    "url": "https://www.tanzschule-bothe.de/tag/jugendliche/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 307,
    "titel": "Jugendliche | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Jugendliche&lt;/span&gt;",
@@ -5497,7 +5478,7 @@
   "https://www.tanzschule-bothe.de/tag/community/": {
    "url": "https://www.tanzschule-bothe.de/tag/community/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 303,
    "titel": "Community | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Community&lt;/span&gt;",
@@ -5516,7 +5497,7 @@
   "https://www.tanzschule-bothe.de/tag/maschsee/": {
    "url": "https://www.tanzschule-bothe.de/tag/maschsee/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "maschsee | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;maschsee&lt;/span&gt;",
@@ -5535,7 +5516,7 @@
   "https://www.tanzschule-bothe.de/tag/jetzt-tanzen/": {
    "url": "https://www.tanzschule-bothe.de/tag/jetzt-tanzen/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "jetzt Tanzen | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;jetzt Tanzen&lt;/span&gt;",
@@ -5554,7 +5535,7 @@
   "https://www.tanzschule-bothe.de/tag/galanight/": {
    "url": "https://www.tanzschule-bothe.de/tag/galanight/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.61,
    "kb": 314,
    "titel": "galanight | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;galanight&lt;/span&gt;",
@@ -5573,7 +5554,7 @@
   "https://www.tanzschule-bothe.de/tag/parkett/": {
    "url": "https://www.tanzschule-bothe.de/tag/parkett/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "parkett | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;parkett&lt;/span&gt;",
@@ -5592,7 +5573,7 @@
   "https://www.tanzschule-bothe.de/tag/weltmeister/": {
    "url": "https://www.tanzschule-bothe.de/tag/weltmeister/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Weltmeister | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Weltmeister&lt;/span&gt;",
@@ -5611,7 +5592,7 @@
   "https://www.tanzschule-bothe.de/tag/renata-lusin/": {
    "url": "https://www.tanzschule-bothe.de/tag/renata-lusin/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Renata Lusin | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Renata Lusin&lt;/span&gt;",
@@ -5630,7 +5611,7 @@
   "https://www.tanzschule-bothe.de/tag/valentin-lusin/": {
    "url": "https://www.tanzschule-bothe.de/tag/valentin-lusin/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Valentin Lusin | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Valentin Lusin&lt;/span&gt;",
@@ -5649,7 +5630,7 @@
   "https://www.tanzschule-bothe.de/tag/die-lusins/": {
    "url": "https://www.tanzschule-bothe.de/tag/die-lusins/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "die Lusins | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;die Lusins&lt;/span&gt;",
@@ -5668,7 +5649,7 @@
   "https://www.tanzschule-bothe.de/tag/interlude/": {
    "url": "https://www.tanzschule-bothe.de/tag/interlude/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Interlude | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Interlude&lt;/span&gt;",
@@ -5687,7 +5668,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzveranstaltung/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzveranstaltung/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Tanzveranstaltung | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzveranstaltung&lt;/span&gt;",
@@ -5706,7 +5687,7 @@
   "https://www.tanzschule-bothe.de/tag/dance-community/": {
    "url": "https://www.tanzschule-bothe.de/tag/dance-community/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "Dance community | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Dance community&lt;/span&gt;",
@@ -5725,7 +5706,7 @@
   "https://www.tanzschule-bothe.de/tag/einloggen/": {
    "url": "https://www.tanzschule-bothe.de/tag/einloggen/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "einloggen | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;einloggen&lt;/span&gt;",
@@ -5744,7 +5725,7 @@
   "https://www.tanzschule-bothe.de/tag/wiesn/": {
    "url": "https://www.tanzschule-bothe.de/tag/wiesn/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "wiesn | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;wiesn&lt;/span&gt;",
@@ -5763,7 +5744,7 @@
   "https://www.tanzschule-bothe.de/tag/wintergalaball/": {
    "url": "https://www.tanzschule-bothe.de/tag/wintergalaball/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 307,
    "titel": "Wintergalaball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Wintergalaball&lt;/span&gt;",
@@ -5782,7 +5763,7 @@
   "https://www.tanzschule-bothe.de/tag/winterball/": {
    "url": "https://www.tanzschule-bothe.de/tag/winterball/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 309,
    "titel": "Winterball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Winterball&lt;/span&gt;",
@@ -5801,7 +5782,7 @@
   "https://www.tanzschule-bothe.de/tag/hannovertanzt/": {
    "url": "https://www.tanzschule-bothe.de/tag/hannovertanzt/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.58,
    "kb": 307,
    "titel": "hannovertanzt | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;hannovertanzt&lt;/span&gt;",
@@ -5820,7 +5801,7 @@
   "https://www.tanzschule-bothe.de/tag/bothetanzt/": {
    "url": "https://www.tanzschule-bothe.de/tag/bothetanzt/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.1,
    "kb": 312,
    "titel": "bothetanzt | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;bothetanzt&lt;/span&gt;",
@@ -5833,8 +5814,8 @@
    "img_gesamt": 16,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 1037,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 1042,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/odd/": {
    "url": "https://www.tanzschule-bothe.de/tag/odd/",
@@ -5858,7 +5839,7 @@
   "https://www.tanzschule-bothe.de/tag/opendanceday/": {
    "url": "https://www.tanzschule-bothe.de/tag/opendanceday/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "OpenDanceDay | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;OpenDanceDay&lt;/span&gt;",
@@ -5877,7 +5858,7 @@
   "https://www.tanzschule-bothe.de/tag/open-dance-day/": {
    "url": "https://www.tanzschule-bothe.de/tag/open-dance-day/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.55,
    "kb": 303,
    "titel": "Open Dance Day | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Open Dance Day&lt;/span&gt;",
@@ -5896,7 +5877,7 @@
   "https://www.tanzschule-bothe.de/tag/dancefitness/": {
    "url": "https://www.tanzschule-bothe.de/tag/dancefitness/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.57,
    "kb": 303,
    "titel": "Dance&amp;Fitness | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Dance&amp;Fitness&lt;/span&gt;",
@@ -5915,7 +5896,7 @@
   "https://www.tanzschule-bothe.de/tag/gastherr/": {
    "url": "https://www.tanzschule-bothe.de/tag/gastherr/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.56,
    "kb": 302,
    "titel": "Gastherr | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Gastherr&lt;/span&gt;",
@@ -5934,7 +5915,7 @@
   "https://www.tanzschule-bothe.de/tag/gastherren/": {
    "url": "https://www.tanzschule-bothe.de/tag/gastherren/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "Gastherren | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Gastherren&lt;/span&gt;",
@@ -5953,7 +5934,7 @@
   "https://www.tanzschule-bothe.de/tag/jugendtanzkurs/": {
    "url": "https://www.tanzschule-bothe.de/tag/jugendtanzkurs/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Jugendtanzkurs | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Jugendtanzkurs&lt;/span&gt;",
@@ -5972,7 +5953,7 @@
   "https://www.tanzschule-bothe.de/tag/let-the-sunshine-in/": {
    "url": "https://www.tanzschule-bothe.de/tag/let-the-sunshine-in/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Let the sunshine in | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Let the sunshine in&lt;/span&gt;",
@@ -5991,7 +5972,7 @@
   "https://www.tanzschule-bothe.de/tag/opernball-2024/": {
    "url": "https://www.tanzschule-bothe.de/tag/opernball-2024/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.6,
    "kb": 304,
    "titel": "Opernball 2024 | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Opernball 2024&lt;/span&gt;",
@@ -6010,7 +5991,7 @@
   "https://www.tanzschule-bothe.de/tag/staatsoper-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/staatsoper-hannover/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Staatsoper Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Staatsoper Hannover&lt;/span&gt;",
@@ -6029,7 +6010,7 @@
   "https://www.tanzschule-bothe.de/tag/opernballtanzstunde/": {
    "url": "https://www.tanzschule-bothe.de/tag/opernballtanzstunde/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Opernballtanzstunde | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Opernballtanzstunde&lt;/span&gt;",
@@ -6048,7 +6029,7 @@
   "https://www.tanzschule-bothe.de/tag/schuelerkurse/": {
    "url": "https://www.tanzschule-bothe.de/tag/schuelerkurse/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Schülerkurse | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Schülerkurse&lt;/span&gt;",
@@ -6067,7 +6048,7 @@
   "https://www.tanzschule-bothe.de/tag/wd1/": {
    "url": "https://www.tanzschule-bothe.de/tag/wd1/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "WD1 | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;WD1&lt;/span&gt;",
@@ -6086,7 +6067,7 @@
   "https://www.tanzschule-bothe.de/tag/wd2/": {
    "url": "https://www.tanzschule-bothe.de/tag/wd2/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "WD2 | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;WD2&lt;/span&gt;",
@@ -6105,7 +6086,7 @@
   "https://www.tanzschule-bothe.de/tag/jugendkurse/": {
    "url": "https://www.tanzschule-bothe.de/tag/jugendkurse/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Jugendkurse | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Jugendkurse&lt;/span&gt;",
@@ -6124,7 +6105,7 @@
   "https://www.tanzschule-bothe.de/tag/partner/": {
    "url": "https://www.tanzschule-bothe.de/tag/partner/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "Partner | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Partner&lt;/span&gt;",
@@ -6143,7 +6124,7 @@
   "https://www.tanzschule-bothe.de/tag/hier-tanzt-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/hier-tanzt-hannover/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 304,
    "titel": "Hier tanzt Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Hier tanzt Hannover&lt;/span&gt;",
@@ -6162,7 +6143,7 @@
   "https://www.tanzschule-bothe.de/tag/schueler-disco/": {
    "url": "https://www.tanzschule-bothe.de/tag/schueler-disco/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.61,
    "kb": 303,
    "titel": "Schüler-Disco | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Schüler-Disco&lt;/span&gt;",
@@ -6181,7 +6162,7 @@
   "https://www.tanzschule-bothe.de/tag/schueler-party/": {
    "url": "https://www.tanzschule-bothe.de/tag/schueler-party/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Schüler-Party | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Schüler-Party&lt;/span&gt;",
@@ -6200,7 +6181,7 @@
   "https://www.tanzschule-bothe.de/tag/dj-battle/": {
    "url": "https://www.tanzschule-bothe.de/tag/dj-battle/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "DJ Battle | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;DJ Battle&lt;/span&gt;",
@@ -6219,7 +6200,7 @@
   "https://www.tanzschule-bothe.de/tag/boclub/": {
    "url": "https://www.tanzschule-bothe.de/tag/boclub/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "BoClub | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;BoClub&lt;/span&gt;",
@@ -6257,7 +6238,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschuleferien/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschuleferien/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 300,
    "titel": "Tanzschuleferien | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschuleferien&lt;/span&gt;",
@@ -6276,7 +6257,7 @@
   "https://www.tanzschule-bothe.de/tag/kids/": {
    "url": "https://www.tanzschule-bothe.de/tag/kids/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.61,
    "kb": 302,
    "titel": "Kids | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Kids&lt;/span&gt;",
@@ -6295,7 +6276,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzfreie-tage/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzfreie-tage/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.58,
    "kb": 300,
    "titel": "Tanzfreie Tage | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzfreie Tage&lt;/span&gt;",
@@ -6314,7 +6295,7 @@
   "https://www.tanzschule-bothe.de/tag/summerdancefestival/": {
    "url": "https://www.tanzschule-bothe.de/tag/summerdancefestival/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "SummerDanceFestival | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;SummerDanceFestival&lt;/span&gt;",
@@ -6333,7 +6314,7 @@
   "https://www.tanzschule-bothe.de/tag/bothe-bothetanzt-70-jahre-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/bothe-bothetanzt-70-jahre-bothe/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Bothe. bothetanzt. 70 Jahre Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Bothe. bothetanzt. 70 Jahre Bothe&lt;/span&gt;",
@@ -6352,7 +6333,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 2.14,
    "kb": 312,
    "titel": "Tanzschulen Familie Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschulen Familie Bothe&lt;/span&gt;",
@@ -6365,13 +6346,13 @@
    "img_gesamt": 16,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 1012,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 1017,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/white-night-birthday-party-tanzparty-erwachsene/": {
    "url": "https://www.tanzschule-bothe.de/tag/white-night-birthday-party-tanzparty-erwachsene/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.59,
    "kb": 302,
    "titel": "White Night Birthday Party. Tanzparty Erwachsene | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;White Night Birthday Party. Tanzparty Erwachsene&lt;/span&gt;",
@@ -6390,7 +6371,7 @@
   "https://www.tanzschule-bothe.de/tag/international-dance-competition/": {
    "url": "https://www.tanzschule-bothe.de/tag/international-dance-competition/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 302,
    "titel": "International Dance Competition | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;International Dance Competition&lt;/span&gt;",
@@ -6428,7 +6409,7 @@
   "https://www.tanzschule-bothe.de/tag/motionsquad/": {
    "url": "https://www.tanzschule-bothe.de/tag/motionsquad/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.57,
    "kb": 305,
    "titel": "MotionSquad | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;MotionSquad&lt;/span&gt;",
@@ -6447,7 +6428,7 @@
   "https://www.tanzschule-bothe.de/tag/motionyoungsters/": {
    "url": "https://www.tanzschule-bothe.de/tag/motionyoungsters/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 305,
    "titel": "MotionYoungsters | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;MotionYoungsters&lt;/span&gt;",
@@ -6466,7 +6447,7 @@
   "https://www.tanzschule-bothe.de/tag/t-u-d/": {
    "url": "https://www.tanzschule-bothe.de/tag/t-u-d/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "T.U.D. | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;T.U.D.&lt;/span&gt;",
@@ -6485,7 +6466,7 @@
   "https://www.tanzschule-bothe.de/tag/the-prospect/": {
    "url": "https://www.tanzschule-bothe.de/tag/the-prospect/",
    "code": "200",
-   "ttfb": 2.75,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "The Prospect | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;The Prospect&lt;/span&gt;",
@@ -6504,7 +6485,7 @@
   "https://www.tanzschule-bothe.de/tag/whocares/": {
    "url": "https://www.tanzschule-bothe.de/tag/whocares/",
    "code": "200",
-   "ttfb": 0.48,
+   "ttfb": 0.58,
    "kb": 302,
    "titel": "WhoCares | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;WhoCares&lt;/span&gt;",
@@ -6523,7 +6504,7 @@
   "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/": {
    "url": "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 2.14,
    "kb": 305,
    "titel": "Saisonstart. Paartanz | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Saisonstart. Paartanz&lt;/span&gt;",
@@ -6536,13 +6517,13 @@
    "img_gesamt": 13,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 727,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 732,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 2.05,
    "kb": 305,
    "titel": "Tanzkurs Erwachsene | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzkurs Erwachsene&lt;/span&gt;",
@@ -6555,13 +6536,13 @@
    "img_gesamt": 13,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 727,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 732,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/paartanzkurs-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/paartanzkurs-hannover/",
    "code": "200",
-   "ttfb": 0.73,
+   "ttfb": 2.48,
    "kb": 305,
    "titel": "Paartanzkurs Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Paartanzkurs Hannover&lt;/span&gt;",
@@ -6574,13 +6555,13 @@
    "img_gesamt": 13,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 727,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 732,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/tanzen-hannover/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-hannover/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 2.24,
    "kb": 305,
    "titel": "Tanzen Hannover | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzen Hannover&lt;/span&gt;",
@@ -6593,13 +6574,13 @@
    "img_gesamt": 13,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 727,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 732,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/tanzen-burgwedel/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-burgwedel/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 2.01,
    "kb": 305,
    "titel": "Tanzen Burgwedel | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzen Burgwedel&lt;/span&gt;",
@@ -6612,13 +6593,13 @@
    "img_gesamt": 13,
    "img_ohne_alt": 9,
    "h1_text": "",
-   "woerter": 727,
-   "auszug": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für Paare "
+   "woerter": 732,
+   "auszug": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Boogie, LindyHop und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlights wie unser jährlicher Winter-Galaball im Kuppelsaal/HCC, unsere Sommer- und Oktoberfeste, Grillpartys und vieles mehr werden euch sicherlich in Erinnerung bleiben. Vergesst den Alltag und genießt bei uns eure Zeit zu zweit! In unseren 5 Levels für"
   },
   "https://www.tanzschule-bothe.de/tag/formation/": {
    "url": "https://www.tanzschule-bothe.de/tag/formation/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Formation | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Formation&lt;/span&gt;",
@@ -6637,7 +6618,7 @@
   "https://www.tanzschule-bothe.de/tag/turnier/": {
    "url": "https://www.tanzschule-bothe.de/tag/turnier/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Turnier | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Turnier&lt;/span&gt;",
@@ -6656,7 +6637,7 @@
   "https://www.tanzschule-bothe.de/tag/osnabrueck/": {
    "url": "https://www.tanzschule-bothe.de/tag/osnabrueck/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Osnabrück | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Osnabrück&lt;/span&gt;",
@@ -6675,7 +6656,7 @@
   "https://www.tanzschule-bothe.de/tag/bunited/": {
    "url": "https://www.tanzschule-bothe.de/tag/bunited/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.56,
    "kb": 301,
    "titel": "Bunited | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Bunited&lt;/span&gt;",
@@ -6694,7 +6675,7 @@
   "https://www.tanzschule-bothe.de/tag/verbothen/": {
    "url": "https://www.tanzschule-bothe.de/tag/verbothen/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Verbothen | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Verbothen&lt;/span&gt;",
@@ -6713,7 +6694,7 @@
   "https://www.tanzschule-bothe.de/tag/friday-night-party/": {
    "url": "https://www.tanzschule-bothe.de/tag/friday-night-party/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "Friday Night Party | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Friday Night Party&lt;/span&gt;",
@@ -6732,7 +6713,7 @@
   "https://www.tanzschule-bothe.de/tag/friday-night-dancing/": {
    "url": "https://www.tanzschule-bothe.de/tag/friday-night-dancing/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Friday Night Dancing | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Friday Night Dancing&lt;/span&gt;",
@@ -6751,7 +6732,7 @@
   "https://www.tanzschule-bothe.de/tag/nordufer/": {
    "url": "https://www.tanzschule-bothe.de/tag/nordufer/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Nordufer | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Nordufer&lt;/span&gt;",
@@ -6770,7 +6751,7 @@
   "https://www.tanzschule-bothe.de/tag/winter-galaball/": {
    "url": "https://www.tanzschule-bothe.de/tag/winter-galaball/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 304,
    "titel": "Winter-Galaball | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Winter-Galaball&lt;/span&gt;",
@@ -6789,7 +6770,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschule-susanne-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschule-susanne-bothe/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.57,
    "kb": 305,
    "titel": "Tanzschule Susanne Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschule Susanne Bothe&lt;/span&gt;",
@@ -6808,7 +6789,7 @@
   "https://www.tanzschule-bothe.de/tag/showcase/": {
    "url": "https://www.tanzschule-bothe.de/tag/showcase/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 303,
    "titel": "Showcase | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Showcase&lt;/span&gt;",
@@ -6827,7 +6808,7 @@
   "https://www.tanzschule-bothe.de/tag/showcase4kids/": {
    "url": "https://www.tanzschule-bothe.de/tag/showcase4kids/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Showcase4Kids | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Showcase4Kids&lt;/span&gt;",
@@ -6846,7 +6827,7 @@
   "https://www.tanzschule-bothe.de/tag/freunde-werben/": {
    "url": "https://www.tanzschule-bothe.de/tag/freunde-werben/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Freunde werben | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Freunde werben&lt;/span&gt;",
@@ -6865,7 +6846,7 @@
   "https://www.tanzschule-bothe.de/tag/sparen/": {
    "url": "https://www.tanzschule-bothe.de/tag/sparen/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "sparen | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;sparen&lt;/span&gt;",
@@ -6884,7 +6865,7 @@
   "https://www.tanzschule-bothe.de/tag/gemeinsam/": {
    "url": "https://www.tanzschule-bothe.de/tag/gemeinsam/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.59,
    "kb": 301,
    "titel": "gemeinsam | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;gemeinsam&lt;/span&gt;",
@@ -6903,7 +6884,7 @@
   "https://www.tanzschule-bothe.de/tag/einladen/": {
    "url": "https://www.tanzschule-bothe.de/tag/einladen/",
    "code": "200",
-   "ttfb": 0.54,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "einladen | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;einladen&lt;/span&gt;",
@@ -6922,7 +6903,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzidplom/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzidplom/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.57,
    "kb": 280,
    "titel": "Tanzidplom | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzidplom&lt;/span&gt;",
@@ -6941,7 +6922,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzschule-familie-bothe/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschule-familie-bothe/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Tanzschule Familie Bothe | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzschule Familie Bothe&lt;/span&gt;",
@@ -6960,7 +6941,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzen-kinder/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-kinder/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Tanzen Kinder | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzen Kinder&lt;/span&gt;",
@@ -6979,7 +6960,7 @@
   "https://www.tanzschule-bothe.de/tag/theprospect/": {
    "url": "https://www.tanzschule-bothe.de/tag/theprospect/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.56,
    "kb": 302,
    "titel": "TheProspect | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;TheProspect&lt;/span&gt;",
@@ -6998,7 +6979,7 @@
   "https://www.tanzschule-bothe.de/tag/paartanz-erwachsene/": {
    "url": "https://www.tanzschule-bothe.de/tag/paartanz-erwachsene/",
    "code": "200",
-   "ttfb": 0.59,
+   "ttfb": 0.56,
    "kb": 301,
    "titel": "Paartanz Erwachsene | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Paartanz Erwachsene&lt;/span&gt;",
@@ -7017,7 +6998,7 @@
   "https://www.tanzschule-bothe.de/tag/friday-night/": {
    "url": "https://www.tanzschule-bothe.de/tag/friday-night/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Friday Night | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Friday Night&lt;/span&gt;",
@@ -7036,7 +7017,7 @@
   "https://www.tanzschule-bothe.de/tag/neon-party/": {
    "url": "https://www.tanzschule-bothe.de/tag/neon-party/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "Neon Party | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Neon Party&lt;/span&gt;",
@@ -7055,7 +7036,7 @@
   "https://www.tanzschule-bothe.de/tag/white-meets-neon/": {
    "url": "https://www.tanzschule-bothe.de/tag/white-meets-neon/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "White meets Neon | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;White meets Neon&lt;/span&gt;",
@@ -7074,7 +7055,7 @@
   "https://www.tanzschule-bothe.de/tag/tanzen-mit-mehrwert/": {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-mit-mehrwert/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.6,
    "kb": 301,
    "titel": "Tanzen mit Mehrwert | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Tanzen mit Mehrwert&lt;/span&gt;",
@@ -7093,7 +7074,7 @@
   "https://www.tanzschule-bothe.de/tag/radius30/": {
    "url": "https://www.tanzschule-bothe.de/tag/radius30/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.57,
    "kb": 301,
    "titel": "radius30 | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;radius30&lt;/span&gt;",
@@ -7112,7 +7093,7 @@
   "https://www.tanzschule-bothe.de/tag/solotanz/": {
    "url": "https://www.tanzschule-bothe.de/tag/solotanz/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 301,
    "titel": "Solotanz | Tanzschule Familie Bothe",
    "desc": "Schlagwort: &lt;span&gt;Solotanz&lt;/span&gt;",
@@ -7131,7 +7112,7 @@
   "https://www.tanzschule-bothe.de/type/gallery/": {
    "url": "https://www.tanzschule-bothe.de/type/gallery/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.59,
    "kb": 304,
    "titel": "Galerie | Tanzschule Familie Bothe",
    "desc": "Galerien",
@@ -7169,8 +7150,8 @@
   "https://www.tanzschule-bothe.de/events/kategorie/workshop/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/workshop/",
    "code": "200",
-   "ttfb": 0.51,
-   "kb": 319,
+   "ttfb": 2.33,
+   "kb": 318,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Workshop &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
    "canonical": "https://www.tanzschule-bothe.de/events/kategorie/workshop/",
@@ -7188,7 +7169,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/kurse/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/kurse/",
    "code": "200",
-   "ttfb": 0.58,
+   "ttfb": 0.57,
    "kb": 342,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Kurse &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7207,7 +7188,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/party/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.58,
    "kb": 369,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Party &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7226,7 +7207,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.6,
    "kb": 322,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Schülerevents ab 14 Jahre &#8250; Junioren-Galaball &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7245,7 +7226,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/ball/gala-night/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/ball/gala-night/",
    "code": "200",
-   "ttfb": 0.64,
+   "ttfb": 0.59,
    "kb": 322,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Ball &#8250; Gala Night &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7264,7 +7245,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler-party/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler-party/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 336,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Schülerevents ab 14 Jahre &#8250; Schüler-Party ab 14 Jahre &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7283,7 +7264,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/party/erwachsene/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/erwachsene/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 366,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Party &#8250; Erwachsene &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7302,7 +7283,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/party/kids/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/kids/",
    "code": "200",
-   "ttfb": 0.62,
+   "ttfb": 0.59,
    "kb": 319,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Party &#8250; Kids &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7321,7 +7302,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schuelerkurse/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schuelerkurse/",
    "code": "200",
-   "ttfb": 0.49,
+   "ttfb": 0.58,
    "kb": 319,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Schülerevents ab 14 Jahre &#8250; Schülerkurse &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7340,7 +7321,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/kurse/paarkurse/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/kurse/paarkurse/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.6,
    "kb": 325,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Kurse &#8250; Paarkurse &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7359,7 +7340,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/umgangsformenseminar/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/umgangsformenseminar/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.58,
    "kb": 322,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Schülerevents ab 14 Jahre &#8250; Umgangsformenseminar &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7378,7 +7359,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/hip-hop/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/hip-hop/",
    "code": "200",
-   "ttfb": 0.5,
+   "ttfb": 0.58,
    "kb": 319,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Hip Hop &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7397,7 +7378,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/kids-2/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/kids-2/",
    "code": "200",
-   "ttfb": 0.61,
+   "ttfb": 0.81,
    "kb": 329,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Kids &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7416,7 +7397,7 @@
   "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/": {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/",
    "code": "200",
-   "ttfb": 0.52,
+   "ttfb": 0.59,
    "kb": 348,
    "titel": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Schülerevents ab 14 Jahre &#8250; &#8211; Tanzschule Familie Bothe",
    "desc": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
@@ -7435,7 +7416,7 @@
   "https://www.tanzschule-bothe.de/author/derfelix/": {
    "url": "https://www.tanzschule-bothe.de/author/derfelix/",
    "code": "200",
-   "ttfb": 0.73,
+   "ttfb": 0.65,
    "kb": 139,
    "titel": "Felix Liesen | Tanzschule Familie Bothe",
    "desc": "Autor: &lt;span&gt;Felix Liesen&lt;/span&gt;",
@@ -7454,8 +7435,8 @@
   "https://www.tanzschule-bothe.de/author/derjasper/": {
    "url": "https://www.tanzschule-bothe.de/author/derjasper/",
    "code": "200",
-   "ttfb": 0.6,
-   "kb": 309,
+   "ttfb": 2.53,
+   "kb": 308,
    "titel": "Jasper Kormann | Tanzschule Familie Bothe",
    "desc": "Autor: &lt;span&gt;Jasper Kormann&lt;/span&gt;",
    "canonical": null,
@@ -7467,13 +7448,13 @@
    "img_gesamt": 15,
    "img_ohne_alt": 10,
    "h1_text": "",
-   "woerter": 424,
+   "woerter": 428,
    "auszug": "50,00 EUR Gutschrift auf Dein Kundenkonto – werbe Freunde, die noch nie bei uns angemeldet waren – Solotanz (Hip Hop, Dance&Fitness, Kindertanz, etc.): € 50,00 Gutschrift pro geworbener Person – Paartanzangebot: € 50,00 Gutschrift pro geworbenem Paar (Einzelanmeldungen werden nicht berücksichtigt) – gilt nur bei Abo-Buchungen (Laufzeiten) – nicht rückwirkend möglich – keine Auszahlung oder Verrechnung mit Getränken möglich – die Aktion gilt nicht innerhalb der Familie – Die Gutschrift auf deinem Kundenkonto erfolgt nach Ablauf der Widerrufsfrist der geworbenen Person Bei der Online-Anmeldung der Freunde im Feld „Sonstiges“ den Namen und die Kundennummer der werbenden Person eintragen. Gilt n"
   },
   "https://www.tanzschule-bothe.de/author/dieisabel/": {
    "url": "https://www.tanzschule-bothe.de/author/dieisabel/",
    "code": "200",
-   "ttfb": 0.6,
+   "ttfb": 0.78,
    "kb": 312,
    "titel": "Isabel Ritter | Tanzschule Familie Bothe",
    "desc": "Autor: &lt;span&gt;Isabel Ritter&lt;/span&gt;",
@@ -7492,7 +7473,7 @@
   "https://www.tanzschule-bothe.de/author/dielara/": {
    "url": "https://www.tanzschule-bothe.de/author/dielara/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.77,
    "kb": 139,
    "titel": "Lara Bothe | Tanzschule Familie Bothe",
    "desc": "Autor: &lt;span&gt;Lara Bothe&lt;/span&gt;",
@@ -7511,7 +7492,7 @@
   "https://www.tanzschule-bothe.de/author/ellibloch/": {
    "url": "https://www.tanzschule-bothe.de/author/ellibloch/",
    "code": "200",
-   "ttfb": 0.51,
+   "ttfb": 0.64,
    "kb": 314,
    "titel": "Elli Bloch | Tanzschule Familie Bothe",
    "desc": "Autor: &lt;span&gt;Elli Bloch&lt;/span&gt;",
