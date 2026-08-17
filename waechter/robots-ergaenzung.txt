@@ -1,0 +1,23 @@
+# Ergänzung für robots.txt
+# Hinweis: robots.txt verhindert das CRAWLEN, nicht das Indexieren.
+# Eine bereits indexierte Seite verschwindet dadurch NICHT — dafür
+# braucht es 410 oder noindex. Diese Zeilen sind nur die Ergänzung,
+# damit Crawl-Budget nicht weiter verschwendet wird.
+
+User-agent: *
+Disallow: /test/
+Disallow: /testseite/
+Disallow: /xxx_start2/
+Disallow: /slider/
+Disallow: /voting/
+Disallow: /_blog/
+Disallow: /_style/
+Disallow: /_links/
+Disallow: /_menufinder/
+Disallow: /dd/
+Disallow: /gw/
+Disallow: /coronahelden/
+Disallow: /funday/
+
+# Aktuell stehen in der robots.txt zwei getrennte 'User-agent: *'-Blöcke.
+# Beim Aufräumen zu einem zusammenfassen.

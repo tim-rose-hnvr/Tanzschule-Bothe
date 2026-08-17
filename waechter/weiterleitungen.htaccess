@@ -1,0 +1,43 @@
+# Weiterleitungen Tanzschulen Familie Bothe
+# Erzeugt von waechter/weiterleitungen.py — vor dem Einspielen prüfen.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+  # Vier Adressen für dasselbe Angebot in Hannover. Vor dem Umlegen prüfen, ob auf den Altseiten Inhalte stehen, die auf die Zielseite gehören.
+  # ACHTUNG: /bwschuelertanzkurse/ NICHT hierher umlegen — die bewirbt Burgwedel und bleibt eigenständig.
+  RewriteRule ^schuelertanzkurse4/?$ /schuelertanzkurse/ [R=301,L]
+  RewriteRule ^schuelertanzkurse_a/?$ /schuelertanzkurse/ [R=301,L]
+  RewriteRule ^schuelertanzkurse2027/?$ /schuelertanzkurse/ [R=301,L]
+
+  # Alte Burgwedeler Schülerkursseite. Gehört auf die aktuelle Burgwedel-Seite, nicht auf die Hannoveraner.
+  RewriteRule ^bwschuelerkursealt/?$ /bwschuelertanzkurse/ [R=301,L]
+
+  # Beide Seiten beschreiben das Tanzprojekt für Kindergärten.
+  RewriteRule ^kita/?$ /kindergartenprojekte/ [R=301,L]
+
+  # /summerdance/ trägt noch die Termine von 2019. Wenn das Ferienprogramm weiterläuft, stattdessen aktualisieren.
+  # ACHTUNG: Nur umlegen, wenn kein eigenes Kinder-Ferienprogramm mehr beworben wird — sonst braucht es zwei gepflegte Seiten.
+  RewriteRule ^summerdance/?$ /summerdance-erwachsene/ [R=301,L]
+
+</IfModule>
+
+# Endgültig entfernt — 410 sagt deutlicher als 404, dass das Absicht ist.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+  RewriteRule ^test/?$ - [G,L]
+  RewriteRule ^testseite/?$ - [G,L]
+  RewriteRule ^xxx_start2/?$ - [G,L]
+  RewriteRule ^slider/?$ - [G,L]
+  RewriteRule ^voting/?$ - [G,L]
+  RewriteRule ^_blog/?$ - [G,L]
+  RewriteRule ^_style/?$ - [G,L]
+  RewriteRule ^_links/?$ - [G,L]
+  RewriteRule ^_menufinder/?$ - [G,L]
+  RewriteRule ^dd/?$ - [G,L]
+  RewriteRule ^gw/?$ - [G,L]
+  RewriteRule ^coronahelden/?$ - [G,L]
+  RewriteRule ^funday/?$ - [G,L]
+
+</IfModule>

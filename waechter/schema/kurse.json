@@ -1,0 +1,442 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Paartanz für Erwachsene",
+  "description": "Standard, Latein, Discofox, Salsa und Hochzeitstanz in drei Häusern. Erste Stunde kostenlos, danach eine Flatrate für alle Kurse deines Levels.",
+  "url": "https://www.tanzschule-bothe.de/paartanz/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Erwachsene"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Paartanz Burgwedel",
+  "description": "Standard, Latein und Discofox im Tanzhaus Burgwedel. Erste Stunde kostenlos, danach eine Flatrate für alle drei Häuser.",
+  "url": "https://www.tanzschule-bothe.de/bwpaartanz/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Erwachsene"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Kindertanz 2 bis 11 Jahre",
+  "description": "Von Windelhoppern ab 2 über Kindertanz und Ballett bis Dance4Kids. Kleine Gruppen nach Alter, eigene Auftritte, erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/kids2bis11/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Kinder"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Kindertanz Burgwedel",
+  "description": "Kindertanz, Ballett und Teenkurse im Tanzhaus Burgwedel — nach Alter getrennt, mit eigenen Auftritten. Erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/bwkids/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Kinder"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Hip Hop und Contemporary ab 12",
+  "description": "Studio B: Hip Hop, Contemporary und Breakdance für Juniors ab 12 und Adults ab 16. Von Old School bis New Style, erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/hiphopundco/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Jugendliche"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Schülertanzkurse",
+  "description": "30 Unterrichtseinheiten über zehn Monate: Standard, Latein und Discofox, dazu Schülerpartys, Diplomprüfung und Junioren-Galaball.",
+  "url": "https://www.tanzschule-bothe.de/schuelertanzkurse/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Jugendliche"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Schülertanzkurse Burgwedel",
+  "description": "Standard, Latein und Discofox für Jugendliche im Tanzhaus Burgwedel, mit Schülerpartys und Diplomprüfung zum Abschluss.",
+  "url": "https://www.tanzschule-bothe.de/bwschuelertanzkurse/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Jugendliche"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Dance und Fitness ab 18",
+  "description": "Strength & Conditioning, Zumba und Solotanz für Erwachsene in drei Häusern. Ohne Partner, ohne Vorkenntnisse, erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/danceandfitness/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Erwachsene"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Linedance und Fitness Burgwedel",
+  "description": "Linedance und Solotanz für Erwachsene im Tanzhaus Burgwedel — ohne Partner, ohne Vorkenntnisse, erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/bwdanceandfitness/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Erwachsene"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "TANZFIT ab 60",
+  "description": "Beweglichkeit, Rhythmus und Geselligkeit in der eigenen Altersgruppe. Ruhiges Tempo, feste Gruppen, erste Stunde kostenlos.",
+  "url": "https://www.tanzschule-bothe.de/tanzfit/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "Erwachsene ab 60"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Privatstunden",
+  "description": "Einzelunterricht nach Terminabsprache — für Hochzeitspaare, Auffrischer und alle, die schneller vorankommen wollen. In allen drei Häusern.",
+  "url": "https://www.tanzschule-bothe.de/privatstunden/",
+  "provider": {
+   "@type": "DanceSchool",
+   "@id": "https://www.tanzschule-bothe.de/#organisation",
+   "name": "Tanzschulen Familie Bothe"
+  },
+  "audience": {
+   "@type": "EducationalAudience",
+   "audienceType": "alle Altersgruppen"
+  },
+  "offers": {
+   "@type": "Offer",
+   "price": "61",
+   "priceCurrency": "EUR",
+   "category": "Monatsbeitrag Worlddancing Complete"
+  },
+  "hasCourseInstance": {
+   "@type": "CourseInstance",
+   "courseMode": "onsite",
+   "location": [
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Hannover"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzvilla Waldersee"
+    },
+    {
+     "@type": "Place",
+     "name": "Tanzhaus Burgwedel"
+    }
+   ]
+  }
+ }
+]

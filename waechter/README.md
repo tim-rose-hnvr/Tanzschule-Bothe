@@ -95,6 +95,52 @@ sich nicht durch einen besseren Titel lösen, sondern nur durch eine
 Entscheidung: eine behalten, die übrigen per 301 darauf weiterleiten.
 `arbeitsliste.py` gibt sie am Ende aus.
 
+## Strukturierte Daten erzeugen
+
+```
+python3 schema_bauen.py            # alles nach schema/ schreiben
+python3 weiterleitungen.py --dateien
+```
+
+`schema_bauen.py` holt die 24 Termine über die Schnittstelle des
+Veranstaltungskalenders (`/wp-json/tribe/events/v1/events`) und baut daraus
+fertige JSON-LD-Blöcke — dazu die Organisation mit allen drei Standorten und
+Course-Markup für elf Kursseiten. Ergebnis liegt in `schema/je-seite/` als
+fertige `<script>`-Blöcke zum Einsetzen in den `<head>`.
+
+**Warum das der lohnendste Einzelschritt ist:** In der Erhebung über 16 Anbieter
+in Hannover nutzt Event-Markup **niemand**. Termine mit Datum und Ort direkt im
+Suchergebnis wären kein Aufholen, sondern ein Vorsprung.
+
+Der Lauf meldet nebenbei zwei Pflegelücken im Kalender: ein Termin ohne
+hinterlegten Veranstaltungsort und **alle 24 ohne Preisangabe**. Ohne Preis wird
+bewusst kein Angebots-Markup erzeugt — ein falscher Preis im Suchergebnis
+schadet mehr, als er nützt.
+
+Sonderfälle, die der Generator kennt: Termine „in allen drei Häusern“ bekommen
+eine Ortsliste statt eines Ortes, und der Kuppelsaal im HCC ist mit Adresse
+hinterlegt, weil sie im Kalender fehlt.
+
+## Weiterleitungen für Dubletten und Index-Müll
+
+`weiterleitungen.py` erzeugt drei Vorlagen: `weiterleitungen.htaccess` für
+Apache, `weiterleitungen.csv` zum Import ins Redirection-Plugin und
+`robots-ergaenzung.txt`.
+
+- **4 Umleitungen (301)** legen die Schülertanzkurs-Dubletten zusammen, plus
+  Kita und Summerdance
+- **13 Sperrungen (410)** schalten Test- und Altseiten ab. 410 statt 301, weil
+  eine Weiterleitung auf die Startseite Google eher verwirrt
+- **1 offene Entscheidung**: /schulprojekte/ und /schulkooperation/ sind
+  inhaltlich verschieden — das muss ein Mensch klären
+
+Die robots-Ergänzung enthält ausdrücklich den Hinweis, dass robots.txt nur das
+**Crawlen** verhindert, nicht das **Indexieren**: Eine bereits indexierte Seite
+verschwindet dadurch nicht. Dafür braucht es 410 oder noindex.
+
+Nichts davon wird automatisch scharf geschaltet — eine Weiterleitung ist eine
+dauerhafte Entscheidung.
+
 ## Search Console — was Google zurückmeldet
 
 ```

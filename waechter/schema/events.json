@@ -1,0 +1,818 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "WELCOME PARTY – August-Saison 26-2",
+  "startDate": "2026-08-22T19:00:00",
+  "endDate": "2026-08-22T22:00:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/welcome-party-august-saison-26-2/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzvilla Waldersee",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Walderseestraße 20",
+    "postalCode": "30177",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Wir freuen uns, unsere neuen Bothe-Schüler mit der Welcome Party willkommen zu heißen! Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Bothe-Schüler dürfen gerne beliebig viele externe Personen ab 14 Jahren zur Schüler-Disco mitbringen. Bitte achtet auf ein gepflegtes Outfit – Sport- und Jogginghosen sind bei den Schüler-Disco nicht erwünscht.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerparty_2022-1.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-08-28T20:15:00",
+  "endDate": "2026-08-28T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Dance&Connect 8-15 Jahre",
+  "startDate": "2026-08-29T00:00:00",
+  "endDate": "2026-08-29T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "DANCE&CONNECT – Workshops und neue Moves Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance & Connect Event ! ✨ Lerne neue Styles kennen ✨ Verbessere deine Skills ✨ Triff andere Tänzerinnen und Tänzer ✨ Sammle neue Inspiration ✨ Verbringe einen unvergesslichen Tag voller Musik, Bewegung und guter Vibes Egal ob Hip Hop/Choreography, Contemporary oder C",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/DanceConnect_2026_News.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Saison-Start im Paartanz-Bereich",
+  "startDate": "2026-08-30T00:00:00",
+  "endDate": "2026-08-30T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
+  "location": [
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Hannover",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Podbielskistraße 299B",
+     "postalCode": "30655",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzvilla Waldersee",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Walderseestraße 20",
+     "postalCode": "30177",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Burgwedel",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kokenhorststraße 15",
+     "postalCode": "30938",
+     "addressLocality": "Burgwedel",
+     "addressCountry": "DE"
+    }
+   }
+  ],
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Swing und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlig",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/paareevent_2022.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Glückswoche für Erwachsene",
+  "startDate": "2026-08-30T00:00:00",
+  "endDate": "2026-09-04T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/glueckswoche-fuer-erwachsene/",
+  "location": [
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Hannover",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Podbielskistraße 299B",
+     "postalCode": "30655",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzvilla Waldersee",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Walderseestraße 20",
+     "postalCode": "30177",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Burgwedel",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kokenhorststraße 15",
+     "postalCode": "30938",
+     "addressLocality": "Burgwedel",
+     "addressCountry": "DE"
+    }
+   }
+  ],
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Von Sonntag, 30.08., bis Freitag, 04.09.2026, bieten wir wieder eine kostenlose Woche der offenen Tür in folgenden Bereichen an: Paartanz für Erwachsene: Einsteiger (Level1), Fortgeschrittene (Level 2), Bronze (Level 3), Silber (Level 4), Gold (Level 5) Special-Grundlagenkurse für Erwachsene: Discofox, Salsa, Bachata & Tango Argentino Dance & Fitness: Contemporary, SalsaFit (Beginner), LadyStyle, ",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/Glueckswoche2026_News.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Junioren-Galaball",
+  "startDate": "2026-09-05T20:00:00",
+  "endDate": "2026-09-05T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
+  "location": {
+   "@type": "Place",
+   "name": "Kuppelsaal im HCC Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Theodor-Heuss-Platz 1-3",
+    "postalCode": "30175",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Feierlicher Junioren Galaball für unsere Schülerinnen und Schüler der Januar-Saison 2026. Highlight der Einsteigerstufe ist der legendäre Junioren-Galaball im wunderschönen Ambiente des Kuppelsaals/HCC. Hier sind die Schüler die Stars eines glamourösen Abends: Zeigt euren Eltern, Freunden und Bekannten, was ihr gelernt habt und erlebt eine tolle Zeit mit euren Tanzkursfreunden. Treffen der Schüler",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/juniorengalaball.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-09-11T20:15:00",
+  "endDate": "2026-09-11T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Hawaii Schüler-Disco",
+  "startDate": "2026-09-12T19:00:00",
+  "endDate": "2026-09-12T22:00:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/hawaii-schueler-disco/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzvilla Waldersee",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Walderseestraße 20",
+    "postalCode": "30177",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Bothe-Schüler dürfen gerne beliebig viele externe Personen ab 14 Jahren zur Schüler-Disco mitbringen. Eintritt: Für Bothe-Member und Freunde € 5,00 Eintritt!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerparty_2022-1.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-09-25T20:15:00",
+  "endDate": "2026-09-25T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-25/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Schüler-Disco",
+  "startDate": "2026-10-03T19:00:00",
+  "endDate": "2026-10-03T22:00:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/schueler-disco-24/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzvilla Waldersee",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Walderseestraße 20",
+    "postalCode": "30177",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Bothe-Schüler dürfen gerne beliebig viele externe Personen ab 14 Jahren zur Schüler-Disco mitbringen. Eintritt: Für Bothe-Member und Freunde € 5,00 Eintritt!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerparty_2022-1.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Familien-Vortanzen für 3- bis 5-Jährige",
+  "startDate": "2026-10-05T00:00:00",
+  "endDate": "2026-10-09T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/",
+  "location": [
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Hannover",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Podbielskistraße 299B",
+     "postalCode": "30655",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzvilla Waldersee",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Walderseestraße 20",
+     "postalCode": "30177",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Burgwedel",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kokenhorststraße 15",
+     "postalCode": "30938",
+     "addressLocality": "Burgwedel",
+     "addressCountry": "DE"
+    }
+   }
+  ],
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Weitere Informationen erhalten die Kids per Flyer im Tanzunterricht!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/kinderevent_2022-2.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-10-09T20:15:00",
+  "endDate": "2026-10-09T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-10-09/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Halloween-Woche für Kids",
+  "startDate": "2026-10-26T00:00:00",
+  "endDate": "2026-10-30T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/halloween-woche-fuer-kids/",
+  "location": [
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Hannover",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Podbielskistraße 299B",
+     "postalCode": "30655",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzvilla Waldersee",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Walderseestraße 20",
+     "postalCode": "30177",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Burgwedel",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kokenhorststraße 15",
+     "postalCode": "30938",
+     "addressLocality": "Burgwedel",
+     "addressCountry": "DE"
+    }
+   }
+  ],
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/kinderevent_2022-2.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-11-06T20:15:00",
+  "endDate": "2026-11-06T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-06/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Community Day ab 12 Jahren",
+  "startDate": "2026-11-07T00:00:00",
+  "endDate": "2026-11-07T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/community-day-ab-12-jahren/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/SAVE-THE-DATE.png"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Schüler-Disco",
+  "startDate": "2026-11-07T19:00:00",
+  "endDate": "2026-11-07T19:00:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzvilla Waldersee",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Walderseestraße 20",
+    "postalCode": "30177",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Bothe-Schüler dürfen gerne beliebig viele externe Personen ab 14 Jahren zur Schüler-Disco mitbringen. Eintritt: Für Bothe-Member und Freunde € 5,00 Eintritt!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerparty_2022-1.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Saison-Start im Paartanz-Bereich",
+  "startDate": "2026-11-08T00:00:00",
+  "endDate": "2026-11-08T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-22/",
+  "location": [
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Hannover",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Podbielskistraße 299B",
+     "postalCode": "30655",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzvilla Waldersee",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Walderseestraße 20",
+     "postalCode": "30177",
+     "addressLocality": "Hannover",
+     "addressCountry": "DE"
+    }
+   },
+   {
+    "@type": "Place",
+    "name": "Tanzhaus Burgwedel",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kokenhorststraße 15",
+     "postalCode": "30938",
+     "addressLocality": "Burgwedel",
+     "addressCountry": "DE"
+    }
+   }
+  ],
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie Discofox, Tango Argentino, Salsa, Swing und Bachata bis zu unserem Hochzeitsexpress. Lernt mit unserem professionellen ADTV-Tanzlehrerteam die ganze Welt des Tanzens kennen. In den Pausen laden unsere Loungebereiche zum Entspannen ein. Exklusive Highlig",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/paareevent_2022.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "VIP-Grünkohl-Essen für Paare",
+  "startDate": "2026-11-14T00:00:00",
+  "endDate": "2026-11-14T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/vip-gruenkohl-essen-fuer-paare/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzschulen Familie Bothe",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "postalCode": "",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/paareevent_2022.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FRIDAY NIGHT PARTY",
+  "startDate": "2026-11-20T20:15:00",
+  "endDate": "2026-11-20T23:59:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-20/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei.",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/fridaynightparty.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Ballpreview",
+  "startDate": "2026-11-21T00:00:00",
+  "endDate": "2026-11-21T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/ballpreview/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Ballvorbereitungstunde für unsere Schülerinnnen und Schüler! Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerevent_neu_2022.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Umgangsformenseminar Teil 1",
+  "startDate": "2026-11-21T00:00:00",
+  "endDate": "2026-11-21T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/umgangsformenseminar-teil-1/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Freu dich auf ein aufschlussreiches Seminar für aktuelle Etikette & Umgangsformen mit den entsprechenden „NO GO´s“ unseres Anti-Blamierprogramms. Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/schuelerevent_neu_2022.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Tanz in den Advent",
+  "startDate": "2026-11-28T00:00:00",
+  "endDate": "2026-11-28T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/tanz-in-den-advent-2/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Burgwedel",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kokenhorststraße 15",
+    "postalCode": "30938",
+    "addressLocality": "Burgwedel",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Unser legendärer Tanz in den Advent im TANZHAUS BURGWEDEL. Mehr Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/Tanz-in-den-Advent-News-Events-1.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Winter-Galaball 2026",
+  "startDate": "2026-12-05T20:00:00",
+  "endDate": "2026-12-05T20:00:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/winter-galaball-2026/",
+  "location": {
+   "@type": "Place",
+   "name": "Kuppelsaal im HCC Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Theodor-Heuss-Platz 1-3",
+    "postalCode": "30175",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Wir sind glücklich, mit Ihnen am 05. Dezember 2026 den WINTER-GALABALL 2026 im Kuppelsaal des HCC zu feiern. Es erwartet Sie eine glamouröse Mischung aus Tanz und Show, beginnend mit einer Opening-Performance mit vielen kleinen und großen Akteuren. Freuen Sie sich auf weitere Highlights und Showacts im Laufe des Ballabends. Das Björn Vüllgraf-Orchestra sorgt im Ballsaal für musikalischen Hochgenus",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/galanighthannover_event.jpg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Christmas4Kids",
+  "startDate": "2026-12-12T00:00:00",
+  "endDate": "2026-12-12T23:59:59",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
+  "location": {
+   "@type": "Place",
+   "name": "Tanzhaus Hannover",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Podbielskistraße 299B",
+    "postalCode": "30655",
+    "addressLocality": "Hannover",
+    "addressCountry": "DE"
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Tanzschulen Familie Bothe",
+   "url": "https://www.tanzschule-bothe.de/",
+   "telephone": "+49-511-663766"
+  },
+  "description": "Weitere Informationen folgen!",
+  "image": "https://www.tanzschule-bothe.de/wp-content/uploads/kinderevent_2022-2.jpg"
+ }
+]
