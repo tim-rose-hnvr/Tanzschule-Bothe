@@ -16,10 +16,12 @@ import html, json, pathlib, re, shutil, sys
 from collections import Counter
 
 HIER = pathlib.Path(__file__).parent
-SP = pathlib.Path("/tmp/claude-0/-home-user-Tanzschule-Bothe/76620a5d-636d-5dae-843e-8166f0dd9d56/scratchpad")
-sys.path.insert(0, str(SP))
+QUELLEN = HIER / "quellen"
 sys.path.insert(0, str(HIER / "analyse"))
-from markt_daten import ANBIETER, SICHTBARKEIT, PORTALE
+try:
+    from markt_daten import ANBIETER, SICHTBARKEIT, PORTALE
+except ImportError:
+    sys.exit("analyse/markt_daten.py fehlt — bitte das vollständige Repository verwenden.")
 
 ZIEL = HIER / "site"
 E = lambda s: html.escape(str(s), quote=True)
@@ -840,8 +842,18 @@ def main():
     if ZIEL.exists():
         shutil.rmtree(ZIEL)
     (ZIEL / "assets").mkdir(parents=True)
-    shutil.copy(SP / "fonts-neutral.css", ZIEL / "assets" / "fonts.css")
     (ZIEL / "assets" / "stil.css").write_text(STIL, encoding="utf-8")
+
+    # Die eingebetteten Schriften sind hübsch, aber nicht notwendig. Fehlen sie,
+    # greift der Systemschrift-Rückfall aus stil.css — die Seiten bleiben lesbar.
+    schrift = QUELLEN / "fonts.css"
+    if schrift.exists():
+        shutil.copy(schrift, ZIEL / "assets" / "fonts.css")
+    else:
+        (ZIEL / "assets" / "fonts.css").write_text(
+            "/* quellen/fonts.css nicht gefunden — Systemschriften werden verwendet. */\n",
+            encoding="utf-8")
+        print("Hinweis: quellen/fonts.css fehlt, Seiten laufen mit Systemschriften.")
 
     bau_index(); bau_markt(); bau_angebot(); bau_preise()
     bau_nachfrage(); bau_position(); bau_relaunch(); bau_anbieter(); bau_methodik()

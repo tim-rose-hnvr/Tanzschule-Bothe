@@ -6,10 +6,15 @@
 
 ## Starten
 
+Windows: Doppelklick auf `start.cmd`. macOS/Linux: `./start.sh`.
+Oder direkt:
+
 ```
 python3 serve.py          # http://localhost:8000
 python3 serve.py 8080     # anderer Port
 ```
+
+Hilfe bei Problemen: `START-HIER.md` im Hauptverzeichnis.
 
 Der Server ist rein lesend und nur auf der eigenen Maschine erreichbar
 (127.0.0.1). Ist `site/` noch nicht vorhanden, wird es automatisch erzeugt.
