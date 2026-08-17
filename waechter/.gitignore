@@ -2,3 +2,6 @@
 # sie sind der Verlauf, ohne den Stufe 2 nichts vergleichen kann.
 pruefbericht.txt
 __pycache__/
+
+# Zugangsdaten gehoeren nie ins Repository.
+dienstkonto.json

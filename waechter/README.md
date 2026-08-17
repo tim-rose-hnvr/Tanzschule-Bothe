@@ -54,6 +54,72 @@ vorhandenen Seitentext auf Satzgrenze gekürzt, Kennzeichnung der Test- und
 Altseiten, die aus dem Index gehören. Ergebnis ist `vorschlaege.json` mit
 Vorher/Nachher je Adresse.
 
+## Arbeitsliste — aus 727 Vorschlägen wird eine Reihenfolge
+
+```
+python3 arbeitsliste.py            # Übersicht
+python3 arbeitsliste.py --stufe 1  # nur die Geldseiten
+python3 arbeitsliste.py --csv      # arbeitsliste.csv für Excel
+```
+
+730 Korrekturen sind keine Arbeitsliste, sondern ein Haufen. `arbeitsliste.py`
+sortiert nach dem einzigen Kriterium, das zählt — ob die Seite Anmeldungen
+bringt:
+
+| Stufe | Was | Umfang |
+|---|---|---|
+| 1 | Kurs- und Angebotsseiten | 33 Seiten |
+| 2 | Standort, Kontakt, Service | 15 Seiten |
+| 3 | kommende Veranstaltungen | |
+| 4 | sonstige Seiten | |
+| 5 | Archiv, Galerien, alte Beiträge | |
+
+**Stufe 1 und 2 zusammen sind 48 Seiten mit 94 Korrekturen.** Das ist der Teil,
+der sich an einem Tag erledigen lässt und den Unterschied macht. Der Rest darf
+warten.
+
+### Handvorgaben schlagen den Automaten
+
+Für die Kernseiten stehen Titel und Beschreibung von Hand in `vorgaben.py` und
+haben Vorrang. Grund: Auf diesen Seiten ist die Hauptüberschrift oft ein
+Werbeslogan — „Wir bringen Bewegung in euer Leben“ — und daraus wird kein guter
+Titel. In der Ausgabe sind Handvorgaben mit `✎` markiert, in der CSV steht die
+Spalte *Quelle*.
+
+### Dubletten
+
+Beim Durchsehen sind vier Gruppen aufgefallen, die dasselbe Thema doppelt
+belegen — am auffälligsten **fünf Adressen für Schülertanzkurse**. Solche
+Seiten konkurrieren in der Suche gegeneinander, und keine gewinnt. Das lässt
+sich nicht durch einen besseren Titel lösen, sondern nur durch eine
+Entscheidung: eine behalten, die übrigen per 301 darauf weiterleiten.
+`arbeitsliste.py` gibt sie am Ende aus.
+
+## Search Console — was Google zurückmeldet
+
+```
+python3 searchconsole.py abrufen     # letzte 28 Tage holen
+python3 searchconsole.py vergleich   # Positionsverluste seit dem letzten Abruf
+python3 searchconsole.py chancen     # Suchbegriffe auf Seite 2
+```
+
+`chancen` ist der praktisch nützlichste Befehl: Er zeigt Suchbegriffe auf den
+Positionen 11 bis 20. Die werden bereits gefunden, nur zu weit hinten — von dort
+ist der Weg auf Seite 1 am kürzesten. Dazu listet er Seiten mit vielen
+Impressionen und schwacher Klickrate; das ist fast immer ein Titel- oder
+Beschreibungsproblem, kein Ranking-Problem.
+
+**Noch nicht gegen ein echtes Konto gelaufen.** Für die Erhebung im August 2026
+lag kein Search-Console-Zugang vor. Die Datei ist geschrieben, scheitert ohne
+Zugangsdaten mit einer verständlichen Meldung und folgt der dokumentierten
+Schnittstelle — beim ersten echten Lauf sind trotzdem Kleinigkeiten zu erwarten
+(Berechtigung des Dienstkontos, exakte Schreibweise der Property).
+
+Die Einrichtung steht im Kopf von `searchconsole.py`. Kurzfassung: Projekt in
+der Google Cloud Console, Search Console API aktivieren, Dienstkonto anlegen,
+JSON-Schlüssel als `dienstkonto.json` ablegen (steht in `.gitignore`), das
+Dienstkonto in der Search Console als Leser eintragen.
+
 ## Regelwerk
 
 Definiert in `regeln.py`, nach Schwere getrennt:

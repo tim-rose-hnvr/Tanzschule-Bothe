@@ -1,0 +1,4 @@
+# Nur fuer searchconsole.py noetig. Der Waechter selbst laeuft ohne
+# Fremdbibliotheken — er braucht bloss curl und Python 3.
+google-api-python-client>=2.120
+google-auth>=2.29

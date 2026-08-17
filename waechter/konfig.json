@@ -1,5 +1,7 @@
 {
   "basis": "https://www.tanzschule-bothe.de",
   "max_seiten": 400,
-  "parallel": 4
+  "parallel": 4,
+  "gsc_property": "https://www.tanzschule-bothe.de/",
+  "gsc_tage": 28
 }
