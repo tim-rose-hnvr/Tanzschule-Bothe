@@ -2,3 +2,6 @@
 uebergabe/
 marktanalyse-hannover.zip
 __pycache__/
+
+# Einzeldatei zur Weitergabe (erzeugt mit `python3 einzelseite.py`)
+Marktanalyse-Tanzschulen-Hannover.html
