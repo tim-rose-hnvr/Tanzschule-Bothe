@@ -1,23 +1,24 @@
-# SEO-Wächter — Stand 2026-08-17
+# SEO-Wächter — Stand 2026-08-28
 
-Insgesamt **3067 Befunde**.
+Insgesamt **3225 Befunde**.
 
 | Schwere | Regel | Anzahl |
 |---|---|---|
-| mittel | Bilder ohne Alt-Text | 396 |
-| mittel | Seite zu schwer | 393 |
-| mittel | Kein Open Graph | 382 |
-| hoch | Ort fehlt im Titel | 347 |
-| hoch | Kein Schema | 340 |
-| hoch | Marke steht vorn | 205 |
-| kritisch | Beschreibung fehlt | 197 |
-| mittel | Beschreibung zu kurz | 183 |
-| mittel | Kein Canonical | 169 |
-| hoch | H1 fehlt | 161 |
-| mittel | H2-Ebene fehlt | 122 |
-| hoch | Mehrere H1 | 88 |
-| mittel | Titel zu lang | 42 |
+| mittel | Bilder ohne Alt-Text | 382 |
+| mittel | Seite zu schwer | 379 |
+| mittel | Kein Open Graph | 368 |
+| hoch | Ort fehlt im Titel | 336 |
+| hoch | Kein Schema | 320 |
+| hoch | Langsame Antwort | 246 |
+| hoch | Marke steht vorn | 202 |
+| kritisch | Beschreibung fehlt | 195 |
+| mittel | Beschreibung zu kurz | 171 |
+| mittel | Kein Canonical | 157 |
+| hoch | H1 fehlt | 150 |
+| mittel | H2-Ebene fehlt | 116 |
+| hoch | Mehrere H1 | 92 |
+| mittel | Titel zu lang | 41 |
+| mittel | Langsame Antwort | 37 |
+| kritisch | nicht erreichbar | 18 |
 | kritisch | Index-Müll | 14 |
-| hoch | Langsame Antwort | 14 |
-| mittel | Langsame Antwort | 13 |
 | hoch | Beschreibung zu lang | 1 |
