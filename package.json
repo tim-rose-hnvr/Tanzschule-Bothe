@@ -10,7 +10,8 @@
     "build": "node tools/build-einzeldatei.mjs",
     "shots": "node tools/screenshot.mjs",
     "look": "node tools/look.mjs",
-    "check": "node tools/debug.mjs"
+    "check": "node tools/pruefe-daten.mjs && node tools/debug.mjs",
+    "pruefe": "node tools/pruefe-daten.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.28.0",

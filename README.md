@@ -121,6 +121,13 @@ vendor/three-addons/       Sky, EffectComposer, GTAO (three.js-Beispiele, MIT)
 tools/                     Build- und Testskripte
 ```
 
+`tools/pruefe-daten.mjs` prüft das Datenmodell gegen sich selbst: überlappende
+Räume, Öffnungen ohne zugehörige Wandkante, Möbel außerhalb ihres Raums,
+unbekannte Foto- oder Tour-Verweise, Kameraziele die nicht auf ihren Raum
+zeigen, und Obergeschossflächen ohne Auflager im Erdgeschoss. Das ist kein
+Luxus: der Generator wirft bei einem Zahlendreher keinen Fehler, sondern
+baut still eine falsche Wand.
+
 Die Wandgeometrie wird nicht von Hand modelliert, sondern aus den
 Raum-Rechtecken abgeleitet: gemeinsame Kanten zweier Räume werden zu einer
 Innenwand, Kanten zum Freien zu einer Außenwand, und die in `OEFFNUNGEN`
@@ -223,6 +230,7 @@ so dokumentiert und nicht stillschweigend angeglichen.
 
 ```bash
 npm start                      # lokaler Server + Browser
+npm run pruefe                 # Datenmodell auf Widersprüche prüfen
 node tools/screenshot.mjs      # Screenshots aller Ansichten nach .shots/
 node tools/look.mjs            # feste Kamerastandpunkte nach .look/ (Bildkontrolle)
 node tools/debug.mjs           # Funktionstest der Zustandslogik
