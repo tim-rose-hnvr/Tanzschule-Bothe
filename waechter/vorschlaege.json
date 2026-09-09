@@ -1,6 +1,13 @@
 {
- "stand": "2026-08-17",
+ "stand": "2026-09-09",
  "vorschlaege": [
+  {
+   "url": "https://www.tanzschule-bothe.de/bildergalerie-01/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 153 Zeichen",
+   "vorher": "",
+   "nachher": "AfterShow Party im TANZHAUS HANNOVER AfterShow Party im TANZHAUS HANNOVER AfterShow Party im TANZHAUS HANNOVER Kostenlose Glückswoche 2026 Friday Night …"
+  },
   {
    "url": "https://www.tanzschule-bothe.de/bildergalerie-01/",
    "art": "Titel",
@@ -10,10 +17,24 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/bildergalerie-zwei/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 102 Zeichen",
+   "vorher": "",
+   "nachher": "Kostenlose Glückswoche 2026 Friday Night meets Karibische Tänze Neue Paartanzkurse ab Ende August 2026"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/bildergalerie-zwei/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Tanzschule Familie Bothe | Hauspartys im TANZHAUS HANNOVER",
    "nachher": "Hauspartys im TANZHAUS HANNOVER in Hannover | Tanzschule Bot"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/neueroeffnung-tanzhaus-hannover-09-02-2019/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 102 Zeichen",
+   "vorher": "",
+   "nachher": "Kostenlose Glückswoche 2026 Friday Night meets Karibische Tänze Neue Paartanzkurse ab Ende August 2026"
   },
   {
    "url": "https://www.tanzschule-bothe.de/neueroeffnung-tanzhaus-hannover-09-02-2019/",
@@ -112,6 +133,13 @@
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Januar 2025",
    "nachher": "Neue Paartanzkurse ab Januar 2025 in Hannover | Tanzschule B"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/hanoover-tanzt-das-magazin-der-tanzschule/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 102 Zeichen",
+   "vorher": "",
+   "nachher": "Kostenlose Glückswoche 2026 Friday Night meets Karibische Tänze Neue Paartanzkurse ab Ende August 2026"
   },
   {
    "url": "https://www.tanzschule-bothe.de/hanoover-tanzt-das-magazin-der-tanzschule/",
@@ -663,8 +691,8 @@
    "url": "https://www.tanzschule-bothe.de/neue-paartanzkurse-ab-august-2025/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Juni 2026",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 in Hannover | Tanzschule Bot"
+   "vorher": "Tanzschule Familie Bothe | Neue Paartanzkurse ab Ende August 2026",
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 in Hannover | Tanzsch"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-und-sommerferienprogramm-2025/",
@@ -739,9 +767,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tanzen-mit-mehrwert-in-hannover/",
    "art": "Beschreibung",
-   "hinweis": "0 → 145 Zeichen",
+   "hinweis": "0 → 85 Zeichen",
    "vorher": "",
-   "nachher": "Jetzt reinschauen (ab Seite 38) und entdecken, was hinter Tanzen mit Mehrwert steckt. Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "nachher": "Jetzt reinschauen (ab Seite 38) und entdecken, was hinter Tanzen mit Mehrwert steckt."
   },
   {
    "url": "https://www.tanzschule-bothe.de/tanzen-mit-mehrwert-in-hannover/",
@@ -809,9 +837,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-weihnachten-2025/",
    "art": "Beschreibung",
-   "hinweis": "0 → 151 Zeichen",
+   "hinweis": "0 → 156 Zeichen",
    "vorher": "",
-   "nachher": "auch wir gehen in die Weihnachtsferien. Tanzpause für Paare, Dance&Fitness, Kids, Schüler und HipHop & Co.: Kostenlose Glückswoche 2026 Erfolgreiches …"
+   "nachher": "auch wir gehen in die Weihnachtsferien. Tanzpause für Paare, Dance&Fitness, Kids, Schüler und HipHop & Co.: Kostenlose Glückswoche 2026 Friday Night meets …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tanzschulferien-weihnachten-2025/",
@@ -954,20 +982,6 @@
    "nachher": "Kostenlose Glückswoche 2026 in Hannover | Tanzschule Bothe"
   },
   {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 150 Zeichen",
-   "vorher": "",
-   "nachher": "Die Sommerferien stehen vor der Tür. Hier findet ihr alle wichtigen Termine und die Sommer-Ferienprogramme auf einen Blick: Paartanz & Dance&Fitness …"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/sommerferien-2026/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Sommerferien 2026",
-   "nachher": "Sommerferien 2026 in Hannover | Tanzschule Bothe"
-  },
-  {
    "url": "https://www.tanzschule-bothe.de/erfolgreiches-hiphop-wochenende/",
    "art": "Beschreibung",
    "hinweis": "0 → 148 Zeichen",
@@ -982,18 +996,46 @@
    "nachher": "Erfolgreiches HipHop-Wochenende in Hannover | Tanzschule Bot"
   },
   {
-   "url": "https://www.tanzschule-bothe.de/danceconnect-2026/",
+   "url": "https://www.tanzschule-bothe.de/bothe-connect/",
    "art": "Beschreibung",
-   "hinweis": "0 → 106 Zeichen",
+   "hinweis": "0 → 146 Zeichen",
    "vorher": "",
-   "nachher": "Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action?"
+   "nachher": "Bei Bothe Connect lernst du ganz entspannt neue Leute kennen – und dank unserer Tanzpartner-Rotation tanzt du dich durch verschiedene Begegnungen."
   },
   {
-   "url": "https://www.tanzschule-bothe.de/danceconnect-2026/",
+   "url": "https://www.tanzschule-bothe.de/bothe-connect/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Dance&#038;Connect 2026",
-   "nachher": "Dance&#038;Connect 2026 in Hannover | Tanzschule Bothe"
+   "vorher": "Tanzschule Familie Bothe | Bothe Connect",
+   "nachher": "Bothe Connect in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/friday-night-meets-karibische-taenze/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 132 Zeichen",
+   "vorher": "",
+   "nachher": "Friday Night meets Karibische Tänze! Salsa, Merengue, Bachata & Kizomba – mit Tino holen wir karibisches Feeling auf die Tanzfläche!"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/friday-night-meets-karibische-taenze/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Friday Night meets Karibische Tänze",
+   "nachher": "Friday Night meets Karibische Tänze in Hannover | Tanzschule"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/glueckswoche-kidsteens/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 152 Zeichen",
+   "vorher": "",
+   "nachher": "Kostenlose Glückswoche für Kids & Teens von Montag, 28.09. Alle Kids und Teens, die noch nicht bei uns tanzen, haben eine Woche lang die Chance, unser …"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/glueckswoche-kidsteens/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Glückswoche Kids&#038;Teens",
+   "nachher": "Glückswoche Kids&#038;Teens in Hannover | Tanzschule Bothe"
   },
   {
    "url": "https://www.tanzschule-bothe.de/slider/",
@@ -1019,9 +1061,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/news/",
    "art": "Beschreibung",
-   "hinweis": "0 → 155 Zeichen",
+   "hinweis": "0 → 154 Zeichen",
    "vorher": "",
-   "nachher": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance &..."
+   "nachher": "27.08.2026 Kostenlose Glückswoche für Kids & Teens von Montag, 28.09. bis Freitag, 02.10.2026 Alle Kids und Teens, die noch nicht bei uns tanzen, haben..."
   },
   {
    "url": "https://www.tanzschule-bothe.de/news/",
@@ -1033,9 +1075,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/news-burgwedel/",
    "art": "Beschreibung",
-   "hinweis": "0 → 155 Zeichen",
+   "hinweis": "0 → 154 Zeichen",
    "vorher": "",
-   "nachher": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance &..."
+   "nachher": "27.08.2026 Kostenlose Glückswoche für Kids & Teens von Montag, 28.09. bis Freitag, 02.10.2026 Alle Kids und Teens, die noch nicht bei uns tanzen, haben..."
   },
   {
    "url": "https://www.tanzschule-bothe.de/news-burgwedel/",
@@ -1169,13 +1211,6 @@
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Tanzschule Familie Bothe - Schulkooperationen",
    "nachher": "Schulprojekte in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/dd/",
-   "art": "aus dem Index nehmen",
-   "hinweis": "Test- oder Altseite",
-   "vorher": "Tanzschule Familie Bothe | Dongsineu",
-   "nachher": "Status 410 oder <meta name=\"robots\" content=\"noindex\">"
   },
   {
    "url": "https://www.tanzschule-bothe.de/gutschein/",
@@ -1453,9 +1488,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/",
    "art": "Beschreibung",
-   "hinweis": "747 → 155 Zeichen",
+   "hinweis": "747 → 154 Zeichen",
    "vorher": "Hannover tanzt! Als DIE Tanz- und Trendspezialisten in Hannover konnten wir unsere Leistungsfähigkeit seit Jah",
-   "nachher": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action? Dann sei dabei bei unserem Dance &..."
+   "nachher": "27.08.2026 Kostenlose Glückswoche für Kids & Teens von Montag, 28.09. bis Freitag, 02.10.2026 Alle Kids und Teens, die noch nicht bei uns tanzen, haben..."
   },
   {
    "url": "https://www.tanzschule-bothe.de/",
@@ -1490,7 +1525,7 @@
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Tanzschule Familie Bothe - BW Dance&Fitness",
-   "nachher": "Linedance in Burgwedel | Tanzschule Bothe"
+   "nachher": "LINEDANCE und TANZFIT 60+ in Burgwedel | Tanzschule Bothe"
   },
   {
    "url": "https://www.tanzschule-bothe.de/_blog/",
@@ -1747,9 +1782,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/",
    "art": "Beschreibung",
-   "hinweis": "48 → 154 Zeichen",
+   "hinweis": "48 → 98 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "August 2026 WELCOME PARTY – August-Saison 26-2 WELCOME PARTY – August-Saison 26-2 22.08.2026 TANZVILLA WALDERSEE Schüler-Party ab 14 Jahre Schülerevents …"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 TANZHAUS HANNOVER Erwachsene Party"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/",
@@ -1847,7 +1882,7 @@
    "art": "Beschreibung",
    "hinweis": "0 → 76 Zeichen",
    "vorher": "",
-   "nachher": "GLÜCKSWOCHE FÜR KIDS & TEENS Glückswoche für Kids & Teens von Montag, 01.09."
+   "nachher": "GLÜCKSWOCHE FÜR KIDS & TEENS Glückswoche für Kids & Teens von Montag, 28.09."
   },
   {
    "url": "https://www.tanzschule-bothe.de/gwkidsteens/",
@@ -2162,7 +2197,7 @@
    "art": "Beschreibung",
    "hinweis": "0 → 154 Zeichen",
    "vorher": "",
-   "nachher": "Workshops und Come-together für die Altersgruppe 8-15 Jahre DANCE&CONNECT – Workshops und neue Moves Lust auf neue Moves, coole Workshops und jede Menge …"
+   "nachher": "Workshops und Come-together für die Altersgruppe 8-17 Jahre DANCE&CONNECT – Workshops und neue Moves Lust auf neue Moves, coole Workshops und jede Menge …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/dc/",
@@ -2173,10 +2208,17 @@
   },
   {
    "url": "https://www.tanzschule-bothe.de/botheconnect/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 152 Zeichen",
+   "vorher": "",
+   "nachher": "Nicht durch Swipen – sondern auf der Tanzfläche. Jeden Monat starten wir mit einem lockeren 60-minütigen Workshop, in dem du gemeinsam mit anderen die …"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/botheconnect/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Tanzschule Familie Bothe | Friday Night Connect",
-   "nachher": "Friday Night Connect in Hannover | Tanzschule Bothe"
+   "nachher": "Bothe Connect in Hannover | Tanzschule Bothe"
   },
   {
    "url": "https://www.tanzschule-bothe.de/series/friday-night-party/",
@@ -2279,9 +2321,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/",
    "art": "Beschreibung",
-   "hinweis": "0 → 89 Zeichen",
+   "hinweis": "0 → 108 Zeichen",
    "vorher": "",
-   "nachher": "Feierlicher Junioren Galaball für unsere Schülerinnen und Schüler der Januar-Saison 2026."
+   "nachher": "Wir sind glücklich, mit Ihnen am 05. Dezember 2026 den WINTER-GALABALL 2026 im Kuppelsaal des HCC zu feiern."
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/kuppelsaal-hcc-hannover/",
@@ -2293,9 +2335,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-hannover/",
    "art": "Beschreibung",
-   "hinweis": "0 → 79 Zeichen",
+   "hinweis": "0 → 132 Zeichen",
    "vorher": "",
-   "nachher": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei."
+   "nachher": "Friday Night meets Karibische Tänze! Salsa, Merengue, Bachata & Kizomba - mit Tino holen wir karibisches Feeling auf die Tanzfläche!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzhaus-hannover/",
@@ -2307,9 +2349,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/",
    "art": "Beschreibung",
-   "hinweis": "0 → 86 Zeichen",
+   "hinweis": "0 → 135 Zeichen",
    "vorher": "",
-   "nachher": "Wir freuen uns, unsere neuen Bothe-Schüler mit der Welcome Party willkommen zu heißen!"
+   "nachher": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Eintritt: Für Bothe-Member € 5,00 Eintritt!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/tanzvilla-waldersee/",
@@ -2335,9 +2377,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/",
    "art": "Beschreibung",
-   "hinweis": "0 → 148 Zeichen",
+   "hinweis": "0 → 151 Zeichen",
    "vorher": "",
-   "nachher": "Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie …"
+   "nachher": "Glückswoche für Kids & Teens von Montag, 28.09. bis Freitag, 02.10.2026 Alle Kids und Teens, die noch nicht bei uns tanzen, haben eine Woche lang die …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstaltungsort/alle-drei-tanzhaeuser/",
@@ -2363,9 +2405,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/veranstalter/ticketing/",
    "art": "Beschreibung",
-   "hinweis": "0 → 86 Zeichen",
+   "hinweis": "0 → 132 Zeichen",
    "vorher": "",
-   "nachher": "Wir freuen uns, unsere neuen Bothe-Schüler mit der Welcome Party willkommen zu heißen!"
+   "nachher": "Friday Night meets Karibische Tänze! Salsa, Merengue, Bachata & Kizomba - mit Tino holen wir karibisches Feeling auf die Tanzfläche!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/veranstalter/ticketing/",
@@ -2375,81 +2417,11 @@
    "nachher": "Bothe Event GmbH in Hannover | Tanzschule Bothe"
   },
   {
-   "url": "https://www.tanzschule-bothe.de/event/welcome-party-august-saison-26-2/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 77 Zeichen",
-   "vorher": "",
-   "nachher": "September 2026 Hawaii Schüler-Disco Hawaii Schüler-Disco 12.09.2026 Mehr Info"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/welcome-party-august-saison-26-2/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | WELCOME PARTY – August-Saison 26-2",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
-   "vorher": "",
-   "nachher": "August 2026 Glückswoche für Erwachsene Glückswoche für Erwachsene Aug."
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-21/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Saison-Start im Paartanz-Bereich",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/glueckswoche-fuer-erwachsene/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 98 Zeichen",
-   "vorher": "",
-   "nachher": "August 2026 Saison-Start im Paartanz-Bereich Saison-Start im Paartanz-Bereich 30.08.2026 Mehr Info"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/glueckswoche-fuer-erwachsene/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Glückswoche für Erwachsene",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 76 Zeichen",
-   "vorher": "",
-   "nachher": "Dezember 2026 Winter-Galaball 2026 Winter-Galaball 2026 05.12.2026 Mehr Info"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-13/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Junioren-Galaball",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 82 Zeichen",
-   "vorher": "",
-   "nachher": "August 2026 Dance&Connect 8-15 Jahre Dance&Connect 8-15 Jahre 29.08.2026 Mehr Info"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-08-28/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | FRIDAY NIGHT PARTY",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 107 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 Friday Night meets Karibische Tänze Friday Night meets Karibische Tänze 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-11/",
@@ -2461,9 +2433,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-25/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-09-25/",
@@ -2475,9 +2447,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-10-09/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-10-09/",
@@ -2489,9 +2461,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-06/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-06/",
@@ -2503,9 +2475,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-20/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/friday-night-party-52/2026-11-20/",
@@ -2517,9 +2489,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/ballpreview/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/ballpreview/",
@@ -2531,9 +2503,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/umgangsformenseminar-teil-1/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/umgangsformenseminar-teil-1/",
@@ -2545,9 +2517,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/",
    "art": "Beschreibung",
-   "hinweis": "0 → 98 Zeichen",
+   "hinweis": "0 → 65 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 Saison-Start im Paartanz-Bereich Saison-Start im Paartanz-Bereich 30.08.2026 Mehr Info"
+   "nachher": "September 2026 Glückswoche Kids&Teens Glückswoche Kids&Teens Sep."
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/familien-vortanzen-fuer-3-bis-5-jaehrige-4/",
@@ -2559,9 +2531,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/halloween-woche-fuer-kids/",
    "art": "Beschreibung",
-   "hinweis": "0 → 98 Zeichen",
+   "hinweis": "0 → 65 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 Saison-Start im Paartanz-Bereich Saison-Start im Paartanz-Bereich 30.08.2026 Mehr Info"
+   "nachher": "September 2026 Glückswoche Kids&Teens Glückswoche Kids&Teens Sep."
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/halloween-woche-fuer-kids/",
@@ -2573,9 +2545,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/christmas4kids/",
@@ -2587,9 +2559,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-22/",
    "art": "Beschreibung",
-   "hinweis": "0 → 98 Zeichen",
+   "hinweis": "0 → 65 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 Saison-Start im Paartanz-Bereich Saison-Start im Paartanz-Bereich 30.08.2026 Mehr Info"
+   "nachher": "September 2026 Glückswoche Kids&Teens Glückswoche Kids&Teens Sep."
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/saison-start-im-paartanz-bereich-22/",
@@ -2601,9 +2573,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/vip-gruenkohl-essen-fuer-paare/",
    "art": "Beschreibung",
-   "hinweis": "0 → 102 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 WELCOME PARTY – August-Saison 26-2 WELCOME PARTY – August-Saison 26-2 22.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/vip-gruenkohl-essen-fuer-paare/",
@@ -2615,9 +2587,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/winter-galaball-2026/",
    "art": "Beschreibung",
-   "hinweis": "0 → 71 Zeichen",
+   "hinweis": "0 → 66 Zeichen",
    "vorher": "",
-   "nachher": "September 2026 Junioren-Galaball Junioren-Galaball 05.09.2026 Mehr Info"
+   "nachher": "März 2027 Junioren-Galaball Junioren-Galaball 12.03.2027 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/winter-galaball-2026/",
@@ -2629,29 +2601,15 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/community-day-ab-12-jahren/",
    "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
+   "hinweis": "0 → 73 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/community-day-ab-12-jahren/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Community Day ab 12 Jahren",
-   "nachher": "Event in Hannover | Tanzschule Bothe"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
-   "art": "Beschreibung",
-   "hinweis": "0 → 70 Zeichen",
-   "vorher": "",
-   "nachher": "August 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 28.08.2026 Mehr Info"
-  },
-  {
-   "url": "https://www.tanzschule-bothe.de/event/danceconnect-8-15-jahre/",
-   "art": "Titel",
-   "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Dance&#038;Connect 8-15 Jahre",
+   "vorher": "Tanzschule Familie Bothe | Dance &#038; Connect | StudioB",
    "nachher": "Event in Hannover | Tanzschule Bothe"
   },
   {
@@ -2671,9 +2629,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/hawaii-schueler-disco/",
    "art": "Beschreibung",
-   "hinweis": "0 → 102 Zeichen",
+   "hinweis": "0 → 75 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 WELCOME PARTY – August-Saison 26-2 WELCOME PARTY – August-Saison 26-2 22.08.2026 Mehr Info"
+   "nachher": "Oktober 2026 TikTok Schüler-Disco TikTok Schüler-Disco 03.10.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/hawaii-schueler-disco/",
@@ -2685,9 +2643,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
    "art": "Beschreibung",
-   "hinweis": "0 → 102 Zeichen",
+   "hinweis": "0 → 77 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 WELCOME PARTY – August-Saison 26-2 WELCOME PARTY – August-Saison 26-2 22.08.2026 Mehr Info"
+   "nachher": "September 2026 Hawaii Schüler-Disco Hawaii Schüler-Disco 12.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-23/",
@@ -2699,23 +2657,107 @@
   {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-24/",
    "art": "Beschreibung",
-   "hinweis": "0 → 102 Zeichen",
+   "hinweis": "0 → 77 Zeichen",
    "vorher": "",
-   "nachher": "August 2026 WELCOME PARTY – August-Saison 26-2 WELCOME PARTY – August-Saison 26-2 22.08.2026 Mehr Info"
+   "nachher": "September 2026 Hawaii Schüler-Disco Hawaii Schüler-Disco 12.09.2026 Mehr Info"
   },
   {
    "url": "https://www.tanzschule-bothe.de/event/schueler-disco-24/",
    "art": "Titel",
    "hinweis": "Suchbegriff zuerst, Ort dazu",
-   "vorher": "Tanzschule Familie Bothe | Schüler-Disco",
+   "vorher": "Tanzschule Familie Bothe | TikTok Schüler-Disco",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/christmas-showcase4kids/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 73 Zeichen",
+   "vorher": "",
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/christmas-showcase4kids/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Christmas Showcase4Kids",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/bothe-connect/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 73 Zeichen",
+   "vorher": "",
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/bothe-connect/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Bothe Connect",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/friday-night-meets-karibische-taenze/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 73 Zeichen",
+   "vorher": "",
+   "nachher": "September 2026 FRIDAY NIGHT PARTY FRIDAY NIGHT PARTY 11.09.2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/friday-night-meets-karibische-taenze/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Friday Night meets Karibische Tänze",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-14/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 76 Zeichen",
+   "vorher": "",
+   "nachher": "Dezember 2026 Winter-Galaball 2026 Winter-Galaball 2026 05.12.2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-14/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Junioren-Galaball",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-15/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 76 Zeichen",
+   "vorher": "",
+   "nachher": "Dezember 2026 Winter-Galaball 2026 Winter-Galaball 2026 05.12.2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/junioren-galaball-15/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Junioren-Galaball",
+   "nachher": "Event in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/glueckswoche-kidsteens/",
+   "art": "Beschreibung",
+   "hinweis": "0 → 119 Zeichen",
+   "vorher": "",
+   "nachher": "Oktober 2026 Familien-Vortanzen für 3- bis 5-Jährige Familien-Vortanzen für 3- bis 5-Jährige Okt. 5 - 9, 2026 Mehr Info"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/event/glueckswoche-kidsteens/",
+   "art": "Titel",
+   "hinweis": "Suchbegriff zuerst, Ort dazu",
+   "vorher": "Tanzschule Familie Bothe | Glückswoche Kids&#038;Teens",
    "nachher": "Event in Hannover | Tanzschule Bothe"
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/",
    "art": "Beschreibung",
-   "hinweis": "40 → 117 Zeichen",
+   "hinweis": "40 → 69 Zeichen",
    "vorher": "Kategorie: &lt;span&gt;News&lt;/span&gt;",
-   "nachher": "23.06.2026 Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action?"
+   "nachher": "27.08.2026 Kostenlose Glückswoche für Kids & Teens von Montag, 28.09."
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/",
@@ -2729,7 +2771,7 @@
    "art": "Beschreibung",
    "hinweis": "42 → 150 Zeichen",
    "vorher": "Kategorie: &lt;span&gt;Tanzen&lt;/span&gt;",
-   "nachher": "07.06.2026 Freunde werben Freunde 50,00 EUR Gutschrift auf Dein Kundenkonto - werbe Freunde, die noch nie bei uns angemeldet waren - mehrere Freunde …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 25.06.2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/tanzen/",
@@ -2757,7 +2799,7 @@
    "art": "Beschreibung",
    "hinweis": "44 → 150 Zeichen",
    "vorher": "Kategorie: &lt;span&gt;Aktionen&lt;/span&gt;",
-   "nachher": "07.06.2026 Freunde werben Freunde 50,00 EUR Gutschrift auf Dein Kundenkonto - werbe Freunde, die noch nie bei uns angemeldet waren - mehrere Freunde …"
+   "nachher": "16.06.2026 Freunde werben Freunde 50,00 EUR Gutschrift auf Dein Kundenkonto - werbe Freunde, die noch nie bei uns angemeldet waren - mehrere Freunde …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/category/news/aktionen/",
@@ -3917,9 +3959,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tag/bothetanzt/",
    "art": "Beschreibung",
-   "hinweis": "47 → 152 Zeichen",
+   "hinweis": "47 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;bothetanzt&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/bothetanzt/",
@@ -4281,9 +4323,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/",
    "art": "Beschreibung",
-   "hinweis": "62 → 152 Zeichen",
+   "hinweis": "62 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Tanzschulen Familie Bothe&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzschulen-familie-bothe/",
@@ -4400,9 +4442,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/",
    "art": "Beschreibung",
-   "hinweis": "58 → 152 Zeichen",
+   "hinweis": "58 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Saisonstart. Paartanz&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/saisonstart-paartanz/",
@@ -4414,9 +4456,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/",
    "art": "Beschreibung",
-   "hinweis": "56 → 152 Zeichen",
+   "hinweis": "56 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Tanzkurs Erwachsene&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzkurs-erwachsene/",
@@ -4428,23 +4470,23 @@
   {
    "url": "https://www.tanzschule-bothe.de/tag/paartanzkurs-hannover/",
    "art": "Beschreibung",
-   "hinweis": "58 → 152 Zeichen",
+   "hinweis": "58 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Paartanzkurs Hannover&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-hannover/",
    "art": "Beschreibung",
-   "hinweis": "52 → 152 Zeichen",
+   "hinweis": "52 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Tanzen Hannover&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/tanzen-burgwedel/",
    "art": "Beschreibung",
-   "hinweis": "53 → 152 Zeichen",
+   "hinweis": "53 → 154 Zeichen",
    "vorher": "Schlagwort: &lt;span&gt;Tanzen Burgwedel&lt;/span&gt;",
-   "nachher": "Neue Paartanzkurse ab Juni 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über …"
+   "nachher": "Neue Paartanzkurse ab Ende August 2026 Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/tag/formation/",
@@ -4862,9 +4904,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/kurse/",
    "art": "Beschreibung",
-   "hinweis": "48 → 148 Zeichen",
+   "hinweis": "48 → 68 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Unser vielfältiges Tanzprogramm für Paare bietet für jeden das passende Angebot: vom Standard- und Latein-Bereich über Specials und Trendtänze wie …"
+   "nachher": "Weitere Informationen erhalten die Kids per Flyer im Tanzunterricht!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/kurse/",
@@ -4876,9 +4918,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/",
    "art": "Beschreibung",
-   "hinweis": "48 → 79 Zeichen",
+   "hinweis": "48 → 132 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei."
+   "nachher": "Friday Night meets Karibische Tänze! Salsa, Merengue, Bachata & Kizomba - mit Tino holen wir karibisches Feeling auf die Tanzfläche!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/",
@@ -4892,7 +4934,7 @@
    "art": "Beschreibung",
    "hinweis": "48 → 89 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Feierlicher Junioren Galaball für unsere Schülerinnen und Schüler der Januar-Saison 2026."
+   "nachher": "Feierlicher Junioren Galaball für unsere Schülerinnen und Schüler der August-Saison 2026."
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler/",
@@ -4918,9 +4960,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler-party/",
    "art": "Beschreibung",
-   "hinweis": "48 → 86 Zeichen",
+   "hinweis": "48 → 135 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Wir freuen uns, unsere neuen Bothe-Schüler mit der Welcome Party willkommen zu heißen!"
+   "nachher": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Eintritt: Für Bothe-Member € 5,00 Eintritt!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/schueler-party/",
@@ -4932,9 +4974,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/erwachsene/",
    "art": "Beschreibung",
-   "hinweis": "48 → 79 Zeichen",
+   "hinweis": "48 → 132 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Unsere FRIDAY NIGHT PARTY im TANZHAUS HANNOVER! Eintritt für Bothe-Member frei."
+   "nachher": "Friday Night meets Karibische Tänze! Salsa, Merengue, Bachata & Kizomba - mit Tino holen wir karibisches Feeling auf die Tanzfläche!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/erwachsene/",
@@ -4942,6 +4984,13 @@
    "hinweis": "Suchbegriff zuerst, Ort dazu",
    "vorher": "Veranstaltungen von 12.02.2022 &#8211; 15.05.2022 &#8250; Party &#8250; Erwachsene &#8250; &#8211; Tanzschule Familie Bothe",
    "nachher": "Erwachsene in Hannover | Tanzschule Bothe"
+  },
+  {
+   "url": "https://www.tanzschule-bothe.de/events/kategorie/party/kids/",
+   "art": "Beschreibung",
+   "hinweis": "48 → 151 Zeichen",
+   "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
+   "nachher": "Glückswoche für Kids & Teens von Montag, 28.09. bis Freitag, 02.10.2026 Alle Kids und Teens, die noch nicht bei uns tanzen, haben eine Woche lang die …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/party/kids/",
@@ -5009,9 +5058,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/",
    "art": "Beschreibung",
-   "hinweis": "48 → 86 Zeichen",
+   "hinweis": "48 → 135 Zeichen",
    "vorher": "Archiv: &lt;span&gt;Veranstaltungen&lt;/span&gt;",
-   "nachher": "Wir freuen uns, unsere neuen Bothe-Schüler mit der Welcome Party willkommen zu heißen!"
+   "nachher": "Einlass zu unseren Schüler-Discos ab 14 Jahren ist nur mit einem Ausweis mit Foto zulässig. Eintritt: Für Bothe-Member € 5,00 Eintritt!"
   },
   {
    "url": "https://www.tanzschule-bothe.de/events/kategorie/schuelerevents/",
@@ -5023,9 +5072,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/author/derfelix/",
    "art": "Beschreibung",
-   "hinweis": "44 → 110 Zeichen",
+   "hinweis": "44 → 153 Zeichen",
    "vorher": "Autor: &lt;span&gt;Felix Liesen&lt;/span&gt;",
-   "nachher": "Die angefragte Seite konnte nicht gefunden werden. Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "nachher": "Die angefragte Seite konnte nicht gefunden werden. Kostenlose Glückswoche 2026 Friday Night meets Karibische Tänze Neue Paartanzkurse ab Ende August 2026"
   },
   {
    "url": "https://www.tanzschule-bothe.de/author/derfelix/",
@@ -5051,9 +5100,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/author/dieisabel/",
    "art": "Beschreibung",
-   "hinweis": "45 → 106 Zeichen",
+   "hinweis": "45 → 152 Zeichen",
    "vorher": "Autor: &lt;span&gt;Isabel Ritter&lt;/span&gt;",
-   "nachher": "Du bist zwischen 8 und 15 Jahre alt, hast Lust auf neue Moves, coole Workshops und jede Menge Tanz-Action?"
+   "nachher": "Kostenlose Glückswoche für Kids & Teens von Montag, 28.09. Alle Kids und Teens, die noch nicht bei uns tanzen, haben eine Woche lang die Chance, unser …"
   },
   {
    "url": "https://www.tanzschule-bothe.de/author/dieisabel/",
@@ -5065,9 +5114,9 @@
   {
    "url": "https://www.tanzschule-bothe.de/author/dielara/",
    "art": "Beschreibung",
-   "hinweis": "42 → 110 Zeichen",
+   "hinweis": "42 → 153 Zeichen",
    "vorher": "Autor: &lt;span&gt;Lara Bothe&lt;/span&gt;",
-   "nachher": "Die angefragte Seite konnte nicht gefunden werden. Kostenlose Glückswoche 2026 Erfolgreiches HipHop-Wochenende"
+   "nachher": "Die angefragte Seite konnte nicht gefunden werden. Kostenlose Glückswoche 2026 Friday Night meets Karibische Tänze Neue Paartanzkurse ab Ende August 2026"
   },
   {
    "url": "https://www.tanzschule-bothe.de/author/dielara/",
